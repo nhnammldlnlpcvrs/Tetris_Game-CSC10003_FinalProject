@@ -1,0 +1,5 @@
+﻿  source.cpp
+D:\Documents\My Project\CSC10003_FinalProject\source\source\source.cpp(152,29): error C2661: 'sf::Rect<int>::Rect': no overloaded function takes 4 arguments
+      D:\Documents\My Project\CSC10003_FinalProject\source\source\source.cpp(152,29):
+      while trying to match the argument list '(int, int, int, int)'
+  
