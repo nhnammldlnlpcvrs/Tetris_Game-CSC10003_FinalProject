@@ -18,7 +18,7 @@ bool EventTriggered(double interval)
 
 int main()
 {
-    InitWindow(500, 620, "raylib Tetris");
+    InitWindow(720, 1080, "Tetris Game (OOP)");
     SetTargetFPS(60);
 
     Font font = LoadFontEx("Font/monogram.ttf", 64, 0, 0);
@@ -42,14 +42,14 @@ int main()
         {
             DrawTextEx(font, "GAME OVER", { 320, 450 }, 38, 2, WHITE);
         }
-        DrawRectangleRounded({ 320, 55, 170, 60 }, 0.3, 6, lightBlue);
+        DrawRectangleRounded({ 320.0f, 55.0f, 170.0f, 60.0f }, 0.3f, 6, lightBlue);
 
         char scoreText[10];
-        sprintf(scoreText, "%d", game.score);
+        sprintf_s(scoreText, sizeof(scoreText), "%d", game.score);
         Vector2 textSize = MeasureTextEx(font, scoreText, 38, 2);
 
         DrawTextEx(font, scoreText, { 320 + (170 - textSize.x) / 2, 65 }, 38, 2, WHITE);
-        DrawRectangleRounded({ 320, 215, 170, 180 }, 0.3, 6, lightBlue);
+        DrawRectangleRounded({ 320.0f, 215.0f, 170.0f, 180.0f }, 0.3f, 6, lightBlue);
         game.Draw();
         EndDrawing();
     }
