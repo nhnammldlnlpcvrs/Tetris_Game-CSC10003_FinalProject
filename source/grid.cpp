@@ -1,54 +1,112 @@
 #include "grid.h"
 #include <iostream>
+#include "colors.h"
 
-
-Grid::Grid() {
-	_numRows = 20;
-	_numCols = 10;
-	_cellSize = 30;
-	Initialize();
-	_colors = _GetCellColors(); // Initialize the colors vector with cell colors
+Grid::Grid()
+{
+    numRows = 20;
+    numCols = 10;
+    cellSize = 30;
+    Initialize();
+    colors = GetCellColors();
 }
 
-void Grid::Initialize() {
-	for (int _row = 0; _row < _numRows; _row++) {
-		for (int _col = 0; _col < _numCols; _col++) {
-			grid[_row][_col] = 0; // Initialize all cells to 0
-		}
-	}
+void Grid::Initialize()
+{
+    for (int row = 0; row < numRows; row++)
+    {
+        for (int column = 0; column < numCols; column++)
+        {
+            grid[row][column] = 0;
+        }
+    }
 }
 
-void Grid::Print() {
-	for (int _row = 0; _row < _numRows; _row++) {
-		for (int _col = 0; _col < _numCols; _col++) {
-			// Print the value of each cell in the grid
-			std::cout << grid[_row][_col] << " ";
-		}
-		std::cout << std::endl; // New line after each row
-	}
+void Grid::Print()
+{
+    for (int row = 0; row < numRows; row++)
+    {
+        for (int column = 0; column < numCols; column++)
+        {
+            std::cout << grid[row][column] << " ";
+        }
+        std::cout << std::endl;
+    }
 }
 
-void Grid::Draw() {
-	for (int _row = 0; _row < _numRows; _row++) {
-		for (int _col = 0; _col < _numCols; _col++) {
-			int cellValue = grid[_row][_col];
-			Color cellColor = _colors[cellValue]; // Get the color for the current cell
-			DrawRectangle(_col * _cellSize+1, _row * _cellSize+1, _cellSize-1, _cellSize-1, _colors[cellValue]);
-		}
-	}
+void Grid::Draw()
+{
+    for (int row = 0; row < numRows; row++)
+    {
+        for (int column = 0; column < numCols; column++)
+        {
+            int cellValue = grid[row][column];
+            DrawRectangle(column * cellSize + 11, row * cellSize + 11, cellSize - 1, cellSize - 1, colors[cellValue]);
+        }
+    }
 }
 
-std::vector<Color> Grid::_GetCellColors() {
-	Color darkGrey = { 26, 31, 40, 255 };
-	Color green = { 47, 230, 23, 255 };
-	Color red = { 232, 18, 18, 255 };
-	Color orange = { 226, 116, 17, 255};
-	Color yellow = { 237, 234, 4, 255 };
-	Color purple = { 166, 0, 247, 255 };
-	Color cyan = { 21, 204, 209, 255 };
-	Color blue = { 13, 64, 216, 255 };
+bool Grid::IsCellOutside(int row, int column)
+{
+    if (row >= 0 && row < numRows && column >= 0 && column < numCols)
+    {
+        return false;
+    }
+    return true;
+}
 
-	return {
-		darkGrey, green, red, orange, yellow, purple, cyan, blue
-	};
+bool Grid::IsCellEmpty(int row, int column)
+{
+    if (grid[row][column] == 0)
+    {
+        return true;
+    }
+    return false;
+}
+
+int Grid::ClearFullRows()
+{
+    int completed = 0;
+    for (int row = numRows - 1; row >= 0; row--)
+    {
+        if (IsRowFull(row))
+        {
+            ClearRow(row);
+            completed++;
+        }
+        else if (completed > 0)
+        {
+            MoveRowDown(row, completed);
+        }
+    }
+    return completed;
+}
+
+bool Grid::IsRowFull(int row)
+{
+    for (int column = 0; column < numCols; column++)
+    {
+        if (grid[row][column] == 0)
+        {
+            return false;
+        }
+    }
+    return true;
+}
+
+void Grid::ClearRow(int row)
+{
+    for (int column = 0; column < numCols; column++)
+    {
+        grid[row][column] = 0;
+    }
+}
+
+void Grid::MoveRowDown(int row, int numRows)
+{
+    for (int column = 0; column < numCols; column++)
+    {
+        grid[row + numRows][column] = grid[row][column];
+        grid[row][column] = 0;
+    }
 }
