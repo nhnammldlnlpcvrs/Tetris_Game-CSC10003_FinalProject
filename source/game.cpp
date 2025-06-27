@@ -10,7 +10,7 @@ Game::Game()
     gameOver = false;
     score = 0;
     InitAudioDevice();
-    music = LoadMusicStream("sounds/holdontightaespa.mp3");
+    music = LoadMusicStream("sounds/hold_on_tight_aespa.mp3");
     PlayMusicStream(music);
     rotateSound = LoadSound("sounds/rotate.mp3");
     clearSound = LoadSound("sounds/clear.mp3");
