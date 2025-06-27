@@ -21,7 +21,7 @@ int main()
     InitWindow(720, 1080, "Tetris Game (OOP)");
     SetTargetFPS(60);
 
-    Font font = LoadFontEx("font/monogram.ttf", 64, 0, 0);
+    Font font = LoadFontEx("font/PressStart2P-Regular.ttf", 64, 0, 0);
 
     Game game = Game();
 
