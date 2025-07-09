@@ -11,13 +11,13 @@ In this project, my team will apply **Object-oriented Programming** concepts to 
 
 - Rule of commit message: 
 
-        git commit -m "<type> [file that you change] file"
+        git commit -m "<type>: [file that you change] - your massage"
         
     For example: 
     
     if you change file "grid.cpp/grid.h", then your commit command should be:
 
-        git commit -m "Add grid file"
+        git commit -m "add: grid file - ... "
 
 
 
