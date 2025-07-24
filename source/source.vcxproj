@@ -142,20 +142,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="block.cpp" />
-    <ClCompile Include="blocks.cpp" />
-    <ClCompile Include="colors.cpp" />
-    <ClCompile Include="game.cpp" />
-    <ClCompile Include="grid.cpp" />
-    <ClCompile Include="position.cpp" />
+    <ClCompile Include="core\grid.cpp" />
+    <ClCompile Include="core\position.cpp" />
+    <ClCompile Include="data\block.cpp" />
+    <ClCompile Include="data\blocks.cpp" />
+    <ClCompile Include="data\colors.cpp" />
+    <ClCompile Include="game\game.cpp" />
     <ClCompile Include="source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="block.h" />
-    <ClInclude Include="colors.h" />
-    <ClInclude Include="game.h" />
-    <ClInclude Include="grid.h" />
-    <ClInclude Include="position.h" />
+    <ClInclude Include="core\grid.h" />
+    <ClInclude Include="core\position.h" />
+    <ClInclude Include="data\block.h" />
+    <ClInclude Include="data\colors.h" />
+    <ClInclude Include="game\game.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
