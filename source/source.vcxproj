@@ -142,15 +142,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="audio\audio_service.cpp" />
+    <ClCompile Include="blocks\I_block.cpp" />
+    <ClCompile Include="blocks\J_block.cpp" />
+    <ClCompile Include="blocks\L_block.cpp" />
+    <ClCompile Include="blocks\O_block.cpp" />
+    <ClCompile Include="blocks\S_block.cpp" />
+    <ClCompile Include="blocks\T_block.cpp" />
+    <ClCompile Include="blocks\Z_block.cpp" />
     <ClCompile Include="core\grid.cpp" />
     <ClCompile Include="core\position.cpp" />
     <ClCompile Include="data\block.cpp" />
-    <ClCompile Include="data\blocks.cpp" />
     <ClCompile Include="data\colors.cpp" />
     <ClCompile Include="game\game.cpp" />
     <ClCompile Include="source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="audio\audio_service.h" />
+    <ClInclude Include="blocks\I_block.h" />
+    <ClInclude Include="blocks\J_block.h" />
+    <ClInclude Include="blocks\L_block.h" />
+    <ClInclude Include="blocks\O_block.h" />
+    <ClInclude Include="blocks\S_block.h" />
+    <ClInclude Include="blocks\T_block.h" />
+    <ClInclude Include="blocks\Z_block.h" />
     <ClInclude Include="core\grid.h" />
     <ClInclude Include="core\position.h" />
     <ClInclude Include="data\block.h" />
