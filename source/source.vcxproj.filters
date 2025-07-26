@@ -57,6 +57,9 @@
     <ClCompile Include="audio\audio_service.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="guide\guide.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="core\grid.h">
@@ -96,6 +99,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="audio\audio_service.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="guide\guide.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

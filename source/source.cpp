@@ -2,8 +2,12 @@
 #include "game/game.h"
 #include "data/block.h"
 #include "audio/audio_service.h"
+#include "guide/guide.h"
 #include <iostream>
 #include <memory>
+
+const float panelX = 630.0f;       // Tọa độ X gốc của các khối bên phải
+const float panelWidth = 170.0f;   // Chiều rộng khối
 
 double lastUpdateTime = 0;
 
@@ -20,7 +24,7 @@ bool EventTriggered(double interval)
 
 int main()
 {
-    InitWindow(720, 1080, "Tetris Game (OOP)");
+    InitWindow(960, 1080, "Tetris Game (OOP)");
     SetTargetFPS(60);
 
     Font font = LoadFontEx("assets/font/PressStart2P-Regular.ttf", 64, 0, 0);
@@ -29,12 +33,11 @@ int main()
 
     game->GetAudioService()->PlayMusic();
 
-    while (WindowShouldClose() == false)
+    while (!WindowShouldClose())
     {
-        
         UpdateMusicStream(game->GetAudioService()->GetMusic());
         game->HandleInput();
-        
+
         if (EventTriggered(0.2))
         {
             game->MoveBlockDown();
@@ -42,21 +45,49 @@ int main()
 
         BeginDrawing();
         ClearBackground(darkBlue);
-        DrawTextEx(font, "Score", { 365, 15 }, 38, 2, WHITE);
-        DrawTextEx(font, "Next", { 370, 175 }, 38, 2, WHITE);
-        if (game->gameOver)
-        {
-            DrawTextEx(font, "GAME OVER", { 320, 450 }, 38, 2, WHITE);
-        }
-        DrawRectangleRounded({ 320.0f, 55.0f, 170.0f, 60.0f }, 0.3f, 6, lightBlue);
+
+        // BEST SCORE
+        DrawTextEx(font, "BEST", 
+            {panelX + (panelWidth - MeasureTextEx(font, "BEST", 28, 2).x) / 2, 30}, 28, 2, 
+            GOLD);
+        DrawTextEx(font, "SCORE", 
+            {panelX + (panelWidth - MeasureTextEx(font, "SCORE", 28, 2).x) / 2, 60}, 28, 2, 
+            GOLD);
+
+        DrawRectangleRounded({panelX, 90, panelWidth, 60}, 0.3f, 6, lightBlue);
+
+        char bestScoreText[10];
+        sprintf_s(bestScoreText, sizeof(bestScoreText), "%d", game->bestScore);
+        Vector2 bestScoreSize = MeasureTextEx(font, bestScoreText, 38, 2);
+        DrawTextEx(font, bestScoreText, {panelX + (panelWidth - bestScoreSize.x) / 2, 100}, 38, 2, WHITE);
+
+        // CURRENT SCORE
+        DrawTextEx(font, "SCORE", 
+            {panelX + (panelWidth - MeasureTextEx(font, "SCORE", 28, 2).x) / 2, 170}, 28, 2, 
+            WHITE);
+        DrawRectangleRounded({panelX, 200, panelWidth, 60}, 0.3f, 6, lightBlue);
 
         char scoreText[10];
         sprintf_s(scoreText, sizeof(scoreText), "%d", game->score);
-        Vector2 textSize = MeasureTextEx(font, scoreText, 38, 2);
+        Vector2 scoreSize = MeasureTextEx(font, scoreText, 38, 2);
+        DrawTextEx(font, scoreText, 
+            {panelX + (panelWidth - scoreSize.x) / 2, 210}, 38, 2, WHITE);
 
-        DrawTextEx(font, scoreText, { 320 + (170 - textSize.x) / 2, 65 }, 38, 2, WHITE);
-        DrawRectangleRounded({ 320.0f, 215.0f, 170.0f, 180.0f }, 0.3f, 6, lightBlue);
+        // NEXT BLOCK
+        DrawTextEx(font, "NEXT", 
+            {panelX + (panelWidth - MeasureTextEx(font, "NEXT", 28, 2).x) / 2, 280}, 28, 2, 
+            WHITE);
+        DrawRectangleRounded({panelX, 310, panelWidth, 180}, 0.3f, 6, lightBlue);
+
+        // GAME OVER
+        if (game->gameOver)
+        {
+            DrawTextEx(font, "GAME OVER", {400, 600}, 38, 2, WHITE);
+            game->SaveBestScore();
+        }
+
         game->Draw();
+        DrawGuide(font);
         EndDrawing();
     }
 

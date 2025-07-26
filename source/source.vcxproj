@@ -155,6 +155,7 @@
     <ClCompile Include="data\block.cpp" />
     <ClCompile Include="data\colors.cpp" />
     <ClCompile Include="game\game.cpp" />
+    <ClCompile Include="guide\guide.cpp" />
     <ClCompile Include="source.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -171,6 +172,7 @@
     <ClInclude Include="data\block.h" />
     <ClInclude Include="data\colors.h" />
     <ClInclude Include="game\game.h" />
+    <ClInclude Include="guide\guide.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
