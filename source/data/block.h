@@ -15,7 +15,7 @@ public:
     void UndoRotation();
     int id;
     std::map<int, std::vector<Position>> cells;
-
+    std::pair<int, int> GetSize();
 private:
     int cellSize;
     int rotationState;

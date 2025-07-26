@@ -53,3 +53,22 @@ void Block::UndoRotation()
         rotationState = static_cast<int>(cells.size()) - 1;
     }
 }
+
+std::pair<int, int> Block::GetSize()
+{
+    std::vector<Position> tiles = cells[rotationState];
+    int minRow = INT_MAX, maxRow = INT_MIN;
+    int minCol = INT_MAX, maxCol = INT_MIN;
+
+    for (const Position& p : tiles)
+    {
+        if (p.row < minRow) minRow = p.row;
+        if (p.row > maxRow) maxRow = p.row;
+        if (p.column < minCol) minCol = p.column;
+        if (p.column > maxCol) maxCol = p.column;
+    }
+
+    int height = maxRow - minRow + 1;
+    int width = maxCol - minCol + 1;
+    return { width, height };
+}
