@@ -142,6 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="app\app.cpp" />
     <ClCompile Include="audio\audio_service.cpp" />
     <ClCompile Include="blocks\I_block.cpp" />
     <ClCompile Include="blocks\J_block.cpp" />
@@ -159,6 +160,7 @@
     <ClCompile Include="source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="app\app.h" />
     <ClInclude Include="audio\audio_service.h" />
     <ClInclude Include="blocks\I_block.h" />
     <ClInclude Include="blocks\J_block.h" />
