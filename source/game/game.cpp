@@ -1,5 +1,33 @@
 ﻿#include "game.h"
+#include <fstream>
+#include <iostream>
+#include <filesystem>
 #include <random>
+
+const std::string BEST_SCORE_FILE = "../assets/best_score.txt";
+
+void Game::LoadBestScore() {
+    std::ifstream file(BEST_SCORE_FILE);
+    if (file.is_open()) {
+        file >> bestScore;
+        file.close();
+    } else {
+        bestScore = 0;
+    }
+}
+
+void Game::SaveBestScore() {
+    if (score > bestScore) {
+        bestScore = score;
+        std::ofstream file(BEST_SCORE_FILE);
+        if (file.is_open()) {
+            file << bestScore;
+            file.close();
+        } else {
+            std::cerr << "Error: Can't save best score .\n";
+        }
+    }
+}
 
 Game::Game()
 {
@@ -10,6 +38,8 @@ Game::Game()
     gameOver = false;
     score = 0;
     audioService = std::make_shared<AudioService>();
+
+    LoadBestScore();
 }
 
 std::shared_ptr<AudioService> Game::GetAudioService()
@@ -48,19 +78,26 @@ void Game::Draw()
 {
     grid.Draw();
     currentBlock->Draw(11, 11);
-    switch (nextBlock->id)
-    {
-    case 3:
-        nextBlock->Draw(255, 290);
-        break;
-    case 4:
-        nextBlock->Draw(255, 280);
-        break;
-    default:
-        nextBlock->Draw(270, 270);
-        break;
+
+    int boxX = 630;
+    int boxY = 310;
+    int boxWidth = 170;
+    int boxHeight = 180;
+
+    auto size = nextBlock->GetSize();
+    int blockPixelWidth = size.first * 30;
+    int blockPixelHeight = size.second * 30;
+
+    int offsetX = boxX + (boxWidth - blockPixelWidth) / 2 - 90;
+    int offsetY = boxY + (boxHeight - blockPixelHeight) / 2;
+
+    if (nextBlock->id == 4) {
+        offsetX -= 27; // Adjust for OBlock offset
     }
+    nextBlock->Draw(offsetX, offsetY);
 }
+
+
 
 void Game::HandleInput()
 {   
@@ -84,6 +121,9 @@ void Game::HandleInput()
         break;
     case KEY_UP:
         RotateBlock();
+        break;
+    case KEY_SPACE:
+        HardDrop();
         break;
     }
 }
@@ -123,6 +163,24 @@ void Game::MoveBlockDown()
             LockBlock();
         }
     }
+}
+
+void Game::HardDrop()
+{
+    if (!gameOver)
+    {
+        while (true)
+        {
+            currentBlock->Move(1, 0);
+            if (IsBlockOutside() || BlockFits() == false)
+            {
+                currentBlock->Move(-1, 0);
+                LockBlock();
+                break;
+            }
+        }
+    }
+    audioService->PlayRotateSound();
 }
 
 bool Game::IsBlockOutside()
