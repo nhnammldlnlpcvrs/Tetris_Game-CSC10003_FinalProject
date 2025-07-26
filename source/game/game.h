@@ -21,13 +21,19 @@ public:
     void HandleInput();
     void MoveBlockDown();
     bool gameOver;
+
     int score;
+    int bestScore = 0;
+    void LoadBestScore();
+    void SaveBestScore();
+
     std::shared_ptr<AudioService> audioService;
     std::shared_ptr<AudioService> GetAudioService();
 
 private:
     void MoveBlockLeft();
     void MoveBlockRight();
+    void HardDrop();
     std::unique_ptr<Block> GetRandomBlock();
     std::vector<std::unique_ptr<Block>> GetAllBlocks();
     bool IsBlockOutside();
