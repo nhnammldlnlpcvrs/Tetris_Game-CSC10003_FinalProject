@@ -1,5 +1,18 @@
+/**
+ * @file block.cpp
+ * @brief Triển khai lớp Block, đại diện cho một khối trong trò chơi Tetris.
+ * 
+ * File này định nghĩa cách vẽ khối, di chuyển, xoay, và tính toán vị trí của các ô (cell) trong khối.
+ */
+
 #include "block.h"
 
+/**
+ * @brief Khởi tạo một khối Block với giá trị mặc định.
+ * 
+ * Thiết lập kích thước ô, trạng thái xoay ban đầu, danh sách màu sắc, 
+ * và vị trí offset hàng và cột cho khối.
+ */
 Block::Block()
 {
     cellSize = 30;
@@ -9,6 +22,12 @@ Block::Block()
     columnOffset = 0;
 }
 
+/**
+ * @brief Vẽ khối Block lên màn hình.
+ * 
+ * @param offsetX Vị trí dịch chuyển theo trục X (pixel).
+ * @param offsetY Vị trí dịch chuyển theo trục Y (pixel).
+ */
 void Block::Draw(int offsetX, int offsetY)
 {
     std::vector<Position> tiles = GetCellPositions();
@@ -18,12 +37,23 @@ void Block::Draw(int offsetX, int offsetY)
     }
 }
 
+/**
+ * @brief Di chuyển khối theo hàng và cột.
+ * 
+ * @param rows Số hàng cần di chuyển.
+ * @param columns Số cột cần di chuyển.
+ */
 void Block::Move(int rows, int columns)
 {
     rowOffset += rows;
     columnOffset += columns;
 }
 
+/**
+ * @brief Lấy danh sách các vị trí cell thực tế của khối dựa trên trạng thái xoay và offset hiện tại.
+ * 
+ * @return std::vector<Position> Danh sách vị trí các ô trong khối.
+ */
 std::vector<Position> Block::GetCellPositions()
 {
     std::vector<Position> tiles = cells[rotationState];
@@ -36,6 +66,9 @@ std::vector<Position> Block::GetCellPositions()
     return movedTiles;
 }
 
+/**
+ * @brief Xoay khối sang trạng thái tiếp theo.
+ */
 void Block::Rotate()
 {
     rotationState++;
@@ -45,6 +78,9 @@ void Block::Rotate()
     }
 }
 
+/**
+ * @brief Hoàn tác lần xoay gần nhất của khối.
+ */
 void Block::UndoRotation()
 {
     rotationState--;
@@ -54,6 +90,11 @@ void Block::UndoRotation()
     }
 }
 
+/**
+ * @brief Tính toán chiều rộng và chiều cao của khối trong trạng thái xoay hiện tại.
+ * 
+ * @return std::pair<int, int> Cặp {width, height} của khối.
+ */
 std::pair<int, int> Block::GetSize()
 {
     std::vector<Position> tiles = cells[rotationState];

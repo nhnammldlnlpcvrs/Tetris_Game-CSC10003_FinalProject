@@ -1,4 +1,20 @@
-﻿#include "colors.h"
+﻿/**
+ * @file colors.cpp
+ * @brief Xác định bảng màu được sử dụng trong trò chơi Tetris.
+ * 
+ * File này định nghĩa các màu chính dùng để hiển thị các khối Tetris
+ * và màu nền liên quan. Mỗi màu tương ứng với một loại block khác nhau
+ * trong trò chơi (I, O, T, S, Z, J, L).
+ * 
+ * Cung cấp hàm `GetCellColors()` để lấy danh sách các màu cho grid.
+ * 
+ * @return std::vector<Color> Danh sách các màu tương ứng với các khối Tetris.
+ * 
+ * @see Color (raylib.h)
+ * 
+ */
+
+#include "colors.h"
 
 const Color darkGrey = { 26, 31, 40, 255 };
 const Color green = { 47, 230, 23, 255 };

@@ -1,4 +1,23 @@
-﻿#include "game.h"
+﻿/**
+ * @file game.cpp
+ * @brief Triển khai lớp Game - trung tâm xử lý logic chính cho trò chơi Tetris.
+ * 
+ * Lớp `Game` đóng vai trò quản lý:
+ * - Logic điều khiển game loop (xử lý input, vẽ màn hình, xoay và di chuyển khối, kiểm tra va chạm, lock block, cập nhật điểm,...)
+ * - Điều khiển trạng thái trò chơi: đang chơi, kết thúc, khởi động lại
+ * - Quản lý khối hiện tại và khối tiếp theo
+ * - Giao tiếp với lưới `Grid`, hệ thống âm thanh `AudioService` và các khối `Block`
+ * 
+ * Các chức năng nổi bật:
+ * - Tạo block ngẫu nhiên không lặp
+ * - Ghi/đọc điểm cao nhất từ file
+ * - Xử lý va chạm, xoay block hợp lệ
+ * - Tính điểm theo số dòng được xóa và soft drop
+ * - Tích hợp âm thanh khi xoay hoặc xóa dòng
+ * 
+ */
+
+#include "game.h"
 #include <fstream>
 #include <iostream>
 #include <filesystem>
