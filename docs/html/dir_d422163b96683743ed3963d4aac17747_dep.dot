@@ -1,0 +1,18 @@
+digraph "app"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  dir_d422163b96683743ed3963d4aac17747 [label="app", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_d422163b96683743ed3963d4aac17747.html",tooltip=""];
+  dir_37c6514aeece95293041e34c0f2e0784 [label="game", fillcolor="#edf0f7", color="grey25", style="filled", URL="dir_37c6514aeece95293041e34c0f2e0784.html",tooltip=""];
+  dir_fda62a176d62d474a35455f571151a78 [label="guide", fillcolor="#edf0f7", color="grey25", style="filled", URL="dir_fda62a176d62d474a35455f571151a78.html",tooltip=""];
+  dir_a5f32cf82ad289a7dac212f63f40f55b [label="audio", fillcolor="#edf0f7", color="grey25", style="filled", URL="dir_a5f32cf82ad289a7dac212f63f40f55b.html",tooltip=""];
+  dir_472fafaf0f039b9e6b043966c1ef7dbf [label="data", fillcolor="#edf0f7", color="grey25", style="filled", URL="dir_472fafaf0f039b9e6b043966c1ef7dbf.html",tooltip=""];
+  dir_d422163b96683743ed3963d4aac17747->dir_37c6514aeece95293041e34c0f2e0784 [headlabel="1", labeldistance=1.5 headhref="dir_000000_000005.html" href="dir_000000_000005.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_d422163b96683743ed3963d4aac17747->dir_472fafaf0f039b9e6b043966c1ef7dbf [headlabel="1", labeldistance=1.5 headhref="dir_000000_000004.html" href="dir_000000_000004.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_d422163b96683743ed3963d4aac17747->dir_a5f32cf82ad289a7dac212f63f40f55b [headlabel="1", labeldistance=1.5 headhref="dir_000000_000001.html" href="dir_000000_000001.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_d422163b96683743ed3963d4aac17747->dir_fda62a176d62d474a35455f571151a78 [headlabel="1", labeldistance=1.5 headhref="dir_000000_000006.html" href="dir_000000_000006.html" color="steelblue1" fontcolor="steelblue1"];
+}

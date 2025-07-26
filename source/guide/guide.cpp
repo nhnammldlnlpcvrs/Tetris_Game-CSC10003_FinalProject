@@ -1,3 +1,20 @@
+/**
+ * @file guide.cpp
+ * @brief Triển khai chức năng vẽ bảng hướng dẫn người chơi (How to Play) trong game.
+ * 
+ * Tệp này chứa định nghĩa hàm `DrawGuide`, sử dụng thư viện Raylib để hiển thị 
+ * hộp thông tin hướng dẫn điều khiển game cho người chơi. Hướng dẫn bao gồm các phím 
+ * điều khiển như di chuyển, xoay khối, thả mềm, thả nhanh và cách chơi lại sau khi Game Over.
+ * 
+ * ## Hướng dẫn hiển thị gồm:
+ * - Mũi tên trái/phải: Di chuyển khối
+ * - Mũi tên lên: Xoay khối
+ * - Mũi tên xuống: Rơi khối nhẹ (Soft Drop)
+ * - Phím SPACE: Rơi khối nhanh (Hard Drop)
+ * - Bất kỳ phím nào: Bắt đầu lại sau khi thua
+ * 
+ */
+
 #include "guide.h"
 #include "raylib.h"
 
