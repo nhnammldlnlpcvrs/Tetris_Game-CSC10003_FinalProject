@@ -1,5 +1,6 @@
 #pragma once
-
+#include <iostream>
+#include <ostream>
 /**
  * @file position.h
  * @brief Định nghĩa lớp Position dùng để biểu diễn tọa độ hàng và cột trong lưới Tetris.
@@ -30,4 +31,8 @@ public:
      * @brief Vị trí cột trong lưới.
      */
     int column;
+
+    bool operator==(const Position& other) const;
+
+    friend std::ostream& operator<<(std::ostream& os, const Position& pos);
 };

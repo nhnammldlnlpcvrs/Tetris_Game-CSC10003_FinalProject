@@ -7,6 +7,7 @@
 #include "../blocks/S_block.h"
 #include "../blocks/T_block.h"
 #include "../blocks/Z_block.h"
+#include "../core/position.h"
 
 #include <iostream>
 #include <vector>
