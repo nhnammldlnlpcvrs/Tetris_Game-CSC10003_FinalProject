@@ -4,7 +4,40 @@
     <ClCompile Include="D:\Giselle_\My Project\CSC10003_FinalProject\source\source\build\test_grid.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="D:\Giselle_\My Project\CSC10003_FinalProject\source\source\libs\catch_amalgamated.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Giselle_\My Project\CSC10003_FinalProject\source\source\blocks\I_block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Giselle_\My Project\CSC10003_FinalProject\source\source\blocks\J_block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Giselle_\My Project\CSC10003_FinalProject\source\source\blocks\L_block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Giselle_\My Project\CSC10003_FinalProject\source\source\blocks\O_block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Giselle_\My Project\CSC10003_FinalProject\source\source\blocks\S_block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Giselle_\My Project\CSC10003_FinalProject\source\source\blocks\T_block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Giselle_\My Project\CSC10003_FinalProject\source\source\blocks\Z_block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="D:\Giselle_\My Project\CSC10003_FinalProject\source\source\core\grid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Giselle_\My Project\CSC10003_FinalProject\source\source\core\position.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Giselle_\My Project\CSC10003_FinalProject\source\source\data\block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Giselle_\My Project\CSC10003_FinalProject\source\source\data\colors.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
