@@ -14,6 +14,12 @@ include_directories(
 
 set(CATCH_SRC ${SRC_DIR}/libs/catch_amalgamated.cpp)
 
+file(GLOB_RECURSE CORE_SOURCES
+    "${SRC_DIR}/core/*.cpp"
+    "${SRC_DIR}/data/*.cpp"
+    "${SRC_DIR}/blocks/*.cpp"
+)
+
 file(GLOB TEST_SOURCES
     "${SRC_DIR}/build/*.cpp"
 )
@@ -24,6 +30,7 @@ foreach(test_file ${TEST_SOURCES})
     add_executable(${test_name}
         ${test_file}
         ${CATCH_SRC}
+        ${CORE_SOURCES}
     )
 
     set_target_properties(${test_name} PROPERTIES
