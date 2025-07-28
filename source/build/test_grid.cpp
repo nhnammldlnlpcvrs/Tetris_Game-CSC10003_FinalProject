@@ -3,10 +3,10 @@
 #include "../libs/catch_amalgamated.hpp"
 #include "../core/grid.h"
 
-TEST_CASE("In lưới Grid ra màn hình", "[Grid][Print]") {
+TEST_CASE("Print on console", "[Grid][Print]") {
     Grid grid;
 
-    SECTION("Lưới mới tạo phải toàn 0") {
+    SECTION("Create grid and print") {
         grid.Initialize();
         grid.Print();
         for (int row = 0; row < 20; row++) {
