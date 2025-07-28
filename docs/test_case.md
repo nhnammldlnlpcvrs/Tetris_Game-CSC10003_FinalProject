@@ -1,0 +1,246 @@
+# Test Case - Tettris Game
+
+## 1. Test IBlock
+- output: 
+```cpp
+Randomness seeded to: 619462256
+IBlock initial positions:
+(0, 3)
+(0, 4)
+(0, 5)
+(0, 6)
+===============================================================================
+All tests passed
+```
+
+## 2. Test JBlock
+- output: 
+```cpp
+Randomness seeded to: 601437607
+JBlock initial positions:
+(0, 3)
+(1, 3)
+(1, 4)
+(1, 5)
+===============================================================================
+All tests passed
+```
+
+## 3. Test LBlock
+- output: 
+```cpp
+Randomness seeded to: 2361449836
+LBlock initial positions:
+(0, 5)
+(1, 3)
+(1, 4)
+(1, 5)
+===============================================================================
+All tests passed
+```
+
+## 4. Test OBlock
+- output:
+```cpp
+Randomness seeded to: 3748637980
+OBlock initial positions:
+(0, 4)
+(0, 5)
+(1, 4)
+(1, 5)
+===============================================================================
+All tests passed
+```
+## 5. Test SBlock
+- output:
+```cpp
+Randomness seeded to: 115037589
+SBlock initial positions:
+(0, 4)
+(0, 5)
+(1, 3)
+(1, 4)
+===============================================================================
+All tests passed
+```
+
+## 6. Test TBlock
+- output:
+```cpp
+Randomness seeded to: 3667071822
+TBlock initial positions:
+(0, 4)
+(1, 3)
+(1, 4)
+(1, 5)
+===============================================================================
+All tests passed
+```
+
+## 7. Test ZBlock
+- output:
+```cpp
+Randomness seeded to: 3748637980
+OBlock initial positions:
+(0, 4)
+(0, 5)
+(1, 4)
+(1, 5)
+===============================================================================
+All tests passed
+```
+
+## 8. Test Rotate
+- output: 
+```cpp
+Randomness seeded to: 3415529193
+LBlock - Original:
+(0, 5)
+(1, 3)
+(1, 4)
+(1, 5)
+
+LBlock - After Rotate():
+(0, 4)
+(1, 4)
+(2, 4)
+(2, 5)
+
+LBlock - After UndoRotation():
+(0, 5)
+(1, 3)
+(1, 4)
+(1, 5)
+
+OBlock - Original:
+(0, 4)
+(0, 5)
+(1, 4)
+(1, 5)
+
+OBlock - After Rotate():
+(0, 4)
+(0, 5)
+(1, 4)
+(1, 5)
+
+TBlock - Original:
+(0, 4)
+(1, 3)
+(1, 4)
+(1, 5)
+
+TBlock - After Rotate():
+(0, 4)
+(1, 4)
+(1, 5)
+(2, 4)
+
+TBlock - After UndoRotation():
+(0, 4)
+(1, 3)
+(1, 4)
+(1, 5)
+
+ZBlock - Original:
+(0, 3)
+(0, 4)
+(1, 4)
+(1, 5)
+
+ZBlock - After Rotate():
+(0, 5)
+(1, 4)
+(1, 5)
+(2, 4)
+
+ZBlock - After UndoRotation():
+(0, 3)
+(0, 4)
+(1, 4)
+(1, 5)
+
+SBlock - Original:
+(0, 4)
+(0, 5)
+(1, 3)
+(1, 4)
+
+SBlock - After Rotate():
+(0, 4)
+(1, 4)
+(1, 5)
+(2, 5)
+
+SBlock - After UndoRotation():
+(0, 4)
+(0, 5)
+(1, 3)
+(1, 4)
+
+IBlock - Original:
+(0, 3)
+(0, 4)
+(0, 5)
+(0, 6)
+
+IBlock - After Rotate():
+(-1, 5)
+(0, 5)
+(1, 5)
+(2, 5)
+
+IBlock - After UndoRotation():
+(0, 3)
+(0, 4)
+(0, 5)
+(0, 6)
+
+JBlock - Original:
+(0, 3)
+(1, 3)
+(1, 4)
+(1, 5)
+
+JBlock - After Rotate():
+(0, 4)
+(0, 5)
+(1, 4)
+(2, 4)
+
+JBlock - After UndoRotation():
+(0, 3)
+(1, 3)
+(1, 4)
+(1, 5)
+
+===============================================================================
+All tests passed (25 assertions in 7 test cases)
+```
+## 9. Test Grid
+- output:
+```cpp
+Randomness seeded to: 1228715700
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+===============================================================================
+All tests passed (200 assertions in 1 test case)
+```
