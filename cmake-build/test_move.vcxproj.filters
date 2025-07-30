@@ -4,9 +4,6 @@
     <ClCompile Include="D:\Giselle_\My Project\CSC10003_FinalProject\source\source\build\test_move.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Giselle_\My Project\CSC10003_FinalProject\source\source\libs\catch_amalgamated.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="D:\Giselle_\My Project\CSC10003_FinalProject\source\source\blocks\I_block.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
