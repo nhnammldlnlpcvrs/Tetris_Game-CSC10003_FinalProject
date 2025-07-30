@@ -83,7 +83,7 @@ public:
      */
     std::shared_ptr<AudioService> GetAudioService();
 
-private:
+public:
     /**
      * @brief Di chuyển khối sang trái nếu hợp lệ.
      */
@@ -94,6 +94,12 @@ private:
      */
     void MoveBlockRight();
 
+    /**
+     * @brief Xoay khối hiện tại nếu hợp lệ.
+     */
+    void RotateBlock();
+
+private:
     /**
      * @brief Thả khối xuống đáy nhanh chóng.
      */
@@ -117,10 +123,7 @@ private:
      */
     bool IsBlockOutside();
 
-    /**
-     * @brief Xoay khối hiện tại nếu hợp lệ.
-     */
-    void RotateBlock();
+    
 
     /**
      * @brief Khóa khối vào lưới khi không thể di chuyển thêm.
