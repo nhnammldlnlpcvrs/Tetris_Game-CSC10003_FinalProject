@@ -1,0 +1,704 @@
+[
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_i.dir/source/build/test_block_i.cpp.o -c /workspaces/CSC10003_FinalProject/source/build/test_block_i.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/build/test_block_i.cpp",
+  "output": "CMakeFiles/test_block_i.dir/source/build/test_block_i.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_i.dir/source/libs/catch_amalgamated.cpp.o -c /workspaces/CSC10003_FinalProject/source/libs/catch_amalgamated.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/libs/catch_amalgamated.cpp",
+  "output": "CMakeFiles/test_block_i.dir/source/libs/catch_amalgamated.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_i.dir/source/blocks/I_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/I_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/I_block.cpp",
+  "output": "CMakeFiles/test_block_i.dir/source/blocks/I_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_i.dir/source/blocks/J_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/J_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/J_block.cpp",
+  "output": "CMakeFiles/test_block_i.dir/source/blocks/J_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_i.dir/source/blocks/L_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/L_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/L_block.cpp",
+  "output": "CMakeFiles/test_block_i.dir/source/blocks/L_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_i.dir/source/blocks/O_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/O_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/O_block.cpp",
+  "output": "CMakeFiles/test_block_i.dir/source/blocks/O_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_i.dir/source/blocks/S_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/S_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/S_block.cpp",
+  "output": "CMakeFiles/test_block_i.dir/source/blocks/S_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_i.dir/source/blocks/T_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/T_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/T_block.cpp",
+  "output": "CMakeFiles/test_block_i.dir/source/blocks/T_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_i.dir/source/blocks/Z_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/Z_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/Z_block.cpp",
+  "output": "CMakeFiles/test_block_i.dir/source/blocks/Z_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_i.dir/source/core/grid.cpp.o -c /workspaces/CSC10003_FinalProject/source/core/grid.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/core/grid.cpp",
+  "output": "CMakeFiles/test_block_i.dir/source/core/grid.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_i.dir/source/core/position.cpp.o -c /workspaces/CSC10003_FinalProject/source/core/position.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/core/position.cpp",
+  "output": "CMakeFiles/test_block_i.dir/source/core/position.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_i.dir/source/data/block.cpp.o -c /workspaces/CSC10003_FinalProject/source/data/block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/data/block.cpp",
+  "output": "CMakeFiles/test_block_i.dir/source/data/block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_i.dir/source/data/colors.cpp.o -c /workspaces/CSC10003_FinalProject/source/data/colors.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/data/colors.cpp",
+  "output": "CMakeFiles/test_block_i.dir/source/data/colors.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_j.dir/source/build/test_block_j.cpp.o -c /workspaces/CSC10003_FinalProject/source/build/test_block_j.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/build/test_block_j.cpp",
+  "output": "CMakeFiles/test_block_j.dir/source/build/test_block_j.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_j.dir/source/libs/catch_amalgamated.cpp.o -c /workspaces/CSC10003_FinalProject/source/libs/catch_amalgamated.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/libs/catch_amalgamated.cpp",
+  "output": "CMakeFiles/test_block_j.dir/source/libs/catch_amalgamated.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_j.dir/source/blocks/I_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/I_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/I_block.cpp",
+  "output": "CMakeFiles/test_block_j.dir/source/blocks/I_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_j.dir/source/blocks/J_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/J_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/J_block.cpp",
+  "output": "CMakeFiles/test_block_j.dir/source/blocks/J_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_j.dir/source/blocks/L_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/L_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/L_block.cpp",
+  "output": "CMakeFiles/test_block_j.dir/source/blocks/L_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_j.dir/source/blocks/O_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/O_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/O_block.cpp",
+  "output": "CMakeFiles/test_block_j.dir/source/blocks/O_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_j.dir/source/blocks/S_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/S_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/S_block.cpp",
+  "output": "CMakeFiles/test_block_j.dir/source/blocks/S_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_j.dir/source/blocks/T_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/T_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/T_block.cpp",
+  "output": "CMakeFiles/test_block_j.dir/source/blocks/T_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_j.dir/source/blocks/Z_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/Z_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/Z_block.cpp",
+  "output": "CMakeFiles/test_block_j.dir/source/blocks/Z_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_j.dir/source/core/grid.cpp.o -c /workspaces/CSC10003_FinalProject/source/core/grid.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/core/grid.cpp",
+  "output": "CMakeFiles/test_block_j.dir/source/core/grid.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_j.dir/source/core/position.cpp.o -c /workspaces/CSC10003_FinalProject/source/core/position.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/core/position.cpp",
+  "output": "CMakeFiles/test_block_j.dir/source/core/position.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_j.dir/source/data/block.cpp.o -c /workspaces/CSC10003_FinalProject/source/data/block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/data/block.cpp",
+  "output": "CMakeFiles/test_block_j.dir/source/data/block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_j.dir/source/data/colors.cpp.o -c /workspaces/CSC10003_FinalProject/source/data/colors.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/data/colors.cpp",
+  "output": "CMakeFiles/test_block_j.dir/source/data/colors.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_l.dir/source/build/test_block_l.cpp.o -c /workspaces/CSC10003_FinalProject/source/build/test_block_l.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/build/test_block_l.cpp",
+  "output": "CMakeFiles/test_block_l.dir/source/build/test_block_l.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_l.dir/source/libs/catch_amalgamated.cpp.o -c /workspaces/CSC10003_FinalProject/source/libs/catch_amalgamated.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/libs/catch_amalgamated.cpp",
+  "output": "CMakeFiles/test_block_l.dir/source/libs/catch_amalgamated.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_l.dir/source/blocks/I_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/I_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/I_block.cpp",
+  "output": "CMakeFiles/test_block_l.dir/source/blocks/I_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_l.dir/source/blocks/J_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/J_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/J_block.cpp",
+  "output": "CMakeFiles/test_block_l.dir/source/blocks/J_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_l.dir/source/blocks/L_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/L_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/L_block.cpp",
+  "output": "CMakeFiles/test_block_l.dir/source/blocks/L_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_l.dir/source/blocks/O_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/O_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/O_block.cpp",
+  "output": "CMakeFiles/test_block_l.dir/source/blocks/O_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_l.dir/source/blocks/S_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/S_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/S_block.cpp",
+  "output": "CMakeFiles/test_block_l.dir/source/blocks/S_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_l.dir/source/blocks/T_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/T_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/T_block.cpp",
+  "output": "CMakeFiles/test_block_l.dir/source/blocks/T_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_l.dir/source/blocks/Z_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/Z_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/Z_block.cpp",
+  "output": "CMakeFiles/test_block_l.dir/source/blocks/Z_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_l.dir/source/core/grid.cpp.o -c /workspaces/CSC10003_FinalProject/source/core/grid.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/core/grid.cpp",
+  "output": "CMakeFiles/test_block_l.dir/source/core/grid.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_l.dir/source/core/position.cpp.o -c /workspaces/CSC10003_FinalProject/source/core/position.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/core/position.cpp",
+  "output": "CMakeFiles/test_block_l.dir/source/core/position.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_l.dir/source/data/block.cpp.o -c /workspaces/CSC10003_FinalProject/source/data/block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/data/block.cpp",
+  "output": "CMakeFiles/test_block_l.dir/source/data/block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_l.dir/source/data/colors.cpp.o -c /workspaces/CSC10003_FinalProject/source/data/colors.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/data/colors.cpp",
+  "output": "CMakeFiles/test_block_l.dir/source/data/colors.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_o.dir/source/build/test_block_o.cpp.o -c /workspaces/CSC10003_FinalProject/source/build/test_block_o.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/build/test_block_o.cpp",
+  "output": "CMakeFiles/test_block_o.dir/source/build/test_block_o.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_o.dir/source/libs/catch_amalgamated.cpp.o -c /workspaces/CSC10003_FinalProject/source/libs/catch_amalgamated.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/libs/catch_amalgamated.cpp",
+  "output": "CMakeFiles/test_block_o.dir/source/libs/catch_amalgamated.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_o.dir/source/blocks/I_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/I_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/I_block.cpp",
+  "output": "CMakeFiles/test_block_o.dir/source/blocks/I_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_o.dir/source/blocks/J_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/J_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/J_block.cpp",
+  "output": "CMakeFiles/test_block_o.dir/source/blocks/J_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_o.dir/source/blocks/L_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/L_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/L_block.cpp",
+  "output": "CMakeFiles/test_block_o.dir/source/blocks/L_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_o.dir/source/blocks/O_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/O_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/O_block.cpp",
+  "output": "CMakeFiles/test_block_o.dir/source/blocks/O_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_o.dir/source/blocks/S_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/S_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/S_block.cpp",
+  "output": "CMakeFiles/test_block_o.dir/source/blocks/S_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_o.dir/source/blocks/T_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/T_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/T_block.cpp",
+  "output": "CMakeFiles/test_block_o.dir/source/blocks/T_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_o.dir/source/blocks/Z_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/Z_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/Z_block.cpp",
+  "output": "CMakeFiles/test_block_o.dir/source/blocks/Z_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_o.dir/source/core/grid.cpp.o -c /workspaces/CSC10003_FinalProject/source/core/grid.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/core/grid.cpp",
+  "output": "CMakeFiles/test_block_o.dir/source/core/grid.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_o.dir/source/core/position.cpp.o -c /workspaces/CSC10003_FinalProject/source/core/position.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/core/position.cpp",
+  "output": "CMakeFiles/test_block_o.dir/source/core/position.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_o.dir/source/data/block.cpp.o -c /workspaces/CSC10003_FinalProject/source/data/block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/data/block.cpp",
+  "output": "CMakeFiles/test_block_o.dir/source/data/block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_o.dir/source/data/colors.cpp.o -c /workspaces/CSC10003_FinalProject/source/data/colors.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/data/colors.cpp",
+  "output": "CMakeFiles/test_block_o.dir/source/data/colors.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_s.dir/source/build/test_block_s.cpp.o -c /workspaces/CSC10003_FinalProject/source/build/test_block_s.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/build/test_block_s.cpp",
+  "output": "CMakeFiles/test_block_s.dir/source/build/test_block_s.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_s.dir/source/libs/catch_amalgamated.cpp.o -c /workspaces/CSC10003_FinalProject/source/libs/catch_amalgamated.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/libs/catch_amalgamated.cpp",
+  "output": "CMakeFiles/test_block_s.dir/source/libs/catch_amalgamated.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_s.dir/source/blocks/I_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/I_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/I_block.cpp",
+  "output": "CMakeFiles/test_block_s.dir/source/blocks/I_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_s.dir/source/blocks/J_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/J_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/J_block.cpp",
+  "output": "CMakeFiles/test_block_s.dir/source/blocks/J_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_s.dir/source/blocks/L_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/L_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/L_block.cpp",
+  "output": "CMakeFiles/test_block_s.dir/source/blocks/L_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_s.dir/source/blocks/O_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/O_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/O_block.cpp",
+  "output": "CMakeFiles/test_block_s.dir/source/blocks/O_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_s.dir/source/blocks/S_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/S_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/S_block.cpp",
+  "output": "CMakeFiles/test_block_s.dir/source/blocks/S_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_s.dir/source/blocks/T_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/T_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/T_block.cpp",
+  "output": "CMakeFiles/test_block_s.dir/source/blocks/T_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_s.dir/source/blocks/Z_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/Z_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/Z_block.cpp",
+  "output": "CMakeFiles/test_block_s.dir/source/blocks/Z_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_s.dir/source/core/grid.cpp.o -c /workspaces/CSC10003_FinalProject/source/core/grid.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/core/grid.cpp",
+  "output": "CMakeFiles/test_block_s.dir/source/core/grid.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_s.dir/source/core/position.cpp.o -c /workspaces/CSC10003_FinalProject/source/core/position.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/core/position.cpp",
+  "output": "CMakeFiles/test_block_s.dir/source/core/position.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_s.dir/source/data/block.cpp.o -c /workspaces/CSC10003_FinalProject/source/data/block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/data/block.cpp",
+  "output": "CMakeFiles/test_block_s.dir/source/data/block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_s.dir/source/data/colors.cpp.o -c /workspaces/CSC10003_FinalProject/source/data/colors.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/data/colors.cpp",
+  "output": "CMakeFiles/test_block_s.dir/source/data/colors.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_t.dir/source/build/test_block_t.cpp.o -c /workspaces/CSC10003_FinalProject/source/build/test_block_t.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/build/test_block_t.cpp",
+  "output": "CMakeFiles/test_block_t.dir/source/build/test_block_t.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_t.dir/source/libs/catch_amalgamated.cpp.o -c /workspaces/CSC10003_FinalProject/source/libs/catch_amalgamated.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/libs/catch_amalgamated.cpp",
+  "output": "CMakeFiles/test_block_t.dir/source/libs/catch_amalgamated.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_t.dir/source/blocks/I_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/I_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/I_block.cpp",
+  "output": "CMakeFiles/test_block_t.dir/source/blocks/I_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_t.dir/source/blocks/J_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/J_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/J_block.cpp",
+  "output": "CMakeFiles/test_block_t.dir/source/blocks/J_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_t.dir/source/blocks/L_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/L_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/L_block.cpp",
+  "output": "CMakeFiles/test_block_t.dir/source/blocks/L_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_t.dir/source/blocks/O_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/O_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/O_block.cpp",
+  "output": "CMakeFiles/test_block_t.dir/source/blocks/O_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_t.dir/source/blocks/S_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/S_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/S_block.cpp",
+  "output": "CMakeFiles/test_block_t.dir/source/blocks/S_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_t.dir/source/blocks/T_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/T_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/T_block.cpp",
+  "output": "CMakeFiles/test_block_t.dir/source/blocks/T_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_t.dir/source/blocks/Z_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/Z_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/Z_block.cpp",
+  "output": "CMakeFiles/test_block_t.dir/source/blocks/Z_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_t.dir/source/core/grid.cpp.o -c /workspaces/CSC10003_FinalProject/source/core/grid.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/core/grid.cpp",
+  "output": "CMakeFiles/test_block_t.dir/source/core/grid.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_t.dir/source/core/position.cpp.o -c /workspaces/CSC10003_FinalProject/source/core/position.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/core/position.cpp",
+  "output": "CMakeFiles/test_block_t.dir/source/core/position.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_t.dir/source/data/block.cpp.o -c /workspaces/CSC10003_FinalProject/source/data/block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/data/block.cpp",
+  "output": "CMakeFiles/test_block_t.dir/source/data/block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_t.dir/source/data/colors.cpp.o -c /workspaces/CSC10003_FinalProject/source/data/colors.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/data/colors.cpp",
+  "output": "CMakeFiles/test_block_t.dir/source/data/colors.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_z.dir/source/build/test_block_z.cpp.o -c /workspaces/CSC10003_FinalProject/source/build/test_block_z.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/build/test_block_z.cpp",
+  "output": "CMakeFiles/test_block_z.dir/source/build/test_block_z.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_z.dir/source/libs/catch_amalgamated.cpp.o -c /workspaces/CSC10003_FinalProject/source/libs/catch_amalgamated.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/libs/catch_amalgamated.cpp",
+  "output": "CMakeFiles/test_block_z.dir/source/libs/catch_amalgamated.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_z.dir/source/blocks/I_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/I_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/I_block.cpp",
+  "output": "CMakeFiles/test_block_z.dir/source/blocks/I_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_z.dir/source/blocks/J_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/J_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/J_block.cpp",
+  "output": "CMakeFiles/test_block_z.dir/source/blocks/J_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_z.dir/source/blocks/L_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/L_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/L_block.cpp",
+  "output": "CMakeFiles/test_block_z.dir/source/blocks/L_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_z.dir/source/blocks/O_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/O_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/O_block.cpp",
+  "output": "CMakeFiles/test_block_z.dir/source/blocks/O_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_z.dir/source/blocks/S_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/S_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/S_block.cpp",
+  "output": "CMakeFiles/test_block_z.dir/source/blocks/S_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_z.dir/source/blocks/T_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/T_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/T_block.cpp",
+  "output": "CMakeFiles/test_block_z.dir/source/blocks/T_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_z.dir/source/blocks/Z_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/Z_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/Z_block.cpp",
+  "output": "CMakeFiles/test_block_z.dir/source/blocks/Z_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_z.dir/source/core/grid.cpp.o -c /workspaces/CSC10003_FinalProject/source/core/grid.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/core/grid.cpp",
+  "output": "CMakeFiles/test_block_z.dir/source/core/grid.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_z.dir/source/core/position.cpp.o -c /workspaces/CSC10003_FinalProject/source/core/position.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/core/position.cpp",
+  "output": "CMakeFiles/test_block_z.dir/source/core/position.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_z.dir/source/data/block.cpp.o -c /workspaces/CSC10003_FinalProject/source/data/block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/data/block.cpp",
+  "output": "CMakeFiles/test_block_z.dir/source/data/block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_block_z.dir/source/data/colors.cpp.o -c /workspaces/CSC10003_FinalProject/source/data/colors.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/data/colors.cpp",
+  "output": "CMakeFiles/test_block_z.dir/source/data/colors.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_grid.dir/source/build/test_grid.cpp.o -c /workspaces/CSC10003_FinalProject/source/build/test_grid.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/build/test_grid.cpp",
+  "output": "CMakeFiles/test_grid.dir/source/build/test_grid.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_grid.dir/source/libs/catch_amalgamated.cpp.o -c /workspaces/CSC10003_FinalProject/source/libs/catch_amalgamated.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/libs/catch_amalgamated.cpp",
+  "output": "CMakeFiles/test_grid.dir/source/libs/catch_amalgamated.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_grid.dir/source/blocks/I_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/I_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/I_block.cpp",
+  "output": "CMakeFiles/test_grid.dir/source/blocks/I_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_grid.dir/source/blocks/J_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/J_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/J_block.cpp",
+  "output": "CMakeFiles/test_grid.dir/source/blocks/J_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_grid.dir/source/blocks/L_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/L_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/L_block.cpp",
+  "output": "CMakeFiles/test_grid.dir/source/blocks/L_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_grid.dir/source/blocks/O_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/O_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/O_block.cpp",
+  "output": "CMakeFiles/test_grid.dir/source/blocks/O_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_grid.dir/source/blocks/S_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/S_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/S_block.cpp",
+  "output": "CMakeFiles/test_grid.dir/source/blocks/S_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_grid.dir/source/blocks/T_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/T_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/T_block.cpp",
+  "output": "CMakeFiles/test_grid.dir/source/blocks/T_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_grid.dir/source/blocks/Z_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/Z_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/Z_block.cpp",
+  "output": "CMakeFiles/test_grid.dir/source/blocks/Z_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_grid.dir/source/core/grid.cpp.o -c /workspaces/CSC10003_FinalProject/source/core/grid.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/core/grid.cpp",
+  "output": "CMakeFiles/test_grid.dir/source/core/grid.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_grid.dir/source/core/position.cpp.o -c /workspaces/CSC10003_FinalProject/source/core/position.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/core/position.cpp",
+  "output": "CMakeFiles/test_grid.dir/source/core/position.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_grid.dir/source/data/block.cpp.o -c /workspaces/CSC10003_FinalProject/source/data/block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/data/block.cpp",
+  "output": "CMakeFiles/test_grid.dir/source/data/block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_grid.dir/source/data/colors.cpp.o -c /workspaces/CSC10003_FinalProject/source/data/colors.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/data/colors.cpp",
+  "output": "CMakeFiles/test_grid.dir/source/data/colors.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_rotate.dir/source/build/test_rotate.cpp.o -c /workspaces/CSC10003_FinalProject/source/build/test_rotate.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/build/test_rotate.cpp",
+  "output": "CMakeFiles/test_rotate.dir/source/build/test_rotate.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_rotate.dir/source/libs/catch_amalgamated.cpp.o -c /workspaces/CSC10003_FinalProject/source/libs/catch_amalgamated.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/libs/catch_amalgamated.cpp",
+  "output": "CMakeFiles/test_rotate.dir/source/libs/catch_amalgamated.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_rotate.dir/source/blocks/I_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/I_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/I_block.cpp",
+  "output": "CMakeFiles/test_rotate.dir/source/blocks/I_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_rotate.dir/source/blocks/J_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/J_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/J_block.cpp",
+  "output": "CMakeFiles/test_rotate.dir/source/blocks/J_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_rotate.dir/source/blocks/L_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/L_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/L_block.cpp",
+  "output": "CMakeFiles/test_rotate.dir/source/blocks/L_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_rotate.dir/source/blocks/O_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/O_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/O_block.cpp",
+  "output": "CMakeFiles/test_rotate.dir/source/blocks/O_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_rotate.dir/source/blocks/S_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/S_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/S_block.cpp",
+  "output": "CMakeFiles/test_rotate.dir/source/blocks/S_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_rotate.dir/source/blocks/T_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/T_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/T_block.cpp",
+  "output": "CMakeFiles/test_rotate.dir/source/blocks/T_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_rotate.dir/source/blocks/Z_block.cpp.o -c /workspaces/CSC10003_FinalProject/source/blocks/Z_block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/blocks/Z_block.cpp",
+  "output": "CMakeFiles/test_rotate.dir/source/blocks/Z_block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_rotate.dir/source/core/grid.cpp.o -c /workspaces/CSC10003_FinalProject/source/core/grid.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/core/grid.cpp",
+  "output": "CMakeFiles/test_rotate.dir/source/core/grid.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_rotate.dir/source/core/position.cpp.o -c /workspaces/CSC10003_FinalProject/source/core/position.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/core/position.cpp",
+  "output": "CMakeFiles/test_rotate.dir/source/core/position.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_rotate.dir/source/data/block.cpp.o -c /workspaces/CSC10003_FinalProject/source/data/block.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/data/block.cpp",
+  "output": "CMakeFiles/test_rotate.dir/source/data/block.cpp.o"
+},
+{
+  "directory": "/workspaces/CSC10003_FinalProject/build",
+  "command": "/usr/bin/g++  -I/workspaces/CSC10003_FinalProject/source/libs -I/workspaces/CSC10003_FinalProject/source/core -I/workspaces/CSC10003_FinalProject/source/data -I/workspaces/CSC10003_FinalProject/source/blocks -g -std=gnu++17 -o CMakeFiles/test_rotate.dir/source/data/colors.cpp.o -c /workspaces/CSC10003_FinalProject/source/data/colors.cpp",
+  "file": "/workspaces/CSC10003_FinalProject/source/data/colors.cpp",
+  "output": "CMakeFiles/test_rotate.dir/source/data/colors.cpp.o"
+}
+]

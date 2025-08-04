@@ -1,9 +1,10 @@
 #pragma once
 #include <vector>
 #include <map>
+
 #include "../core/position.h"
 #include "colors.h"
-
+#include <climits>
 /**
  * @class Block
  * @brief Đại diện cho một khối trong trò chơi Tetris, bao gồm các ô (cells), vị trí, và trạng thái xoay.
