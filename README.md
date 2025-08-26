@@ -7,6 +7,8 @@ This is an academic project where our team applies **Object-Oriented Programming
 
 - Khoi Vu (IT - University of Science, VNU) 
 
+- Trong Khang (IT - University of Science, VNU)
+
 ## Git Feature Branch Workflow
 
 We use **Feature Branch Workflow** to manage collaborative development efficiently.
