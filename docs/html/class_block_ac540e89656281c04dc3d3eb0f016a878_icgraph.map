@@ -1,0 +1,5 @@
+<map id="Block::MoveDown" name="Block::MoveDown">
+<area shape="rect" id="Node000001" title="Di chuyển khối xuống dưới một ô." alt="" coords="259,5,387,31"/>
+<area shape="rect" id="Node000002" href="$class_game_logic_service.html#acea467d66dae6a02d412fcb7116db7fd" title="Di chuyển block xuống dưới." alt="" coords="5,5,211,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="243,21,211,21,211,16,243,16"/>
+</map>

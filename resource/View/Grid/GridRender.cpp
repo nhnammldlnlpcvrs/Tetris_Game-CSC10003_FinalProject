@@ -1,8 +1,24 @@
 #include "GridRender.h"
 
+/**
+ * @brief Khởi tạo đối tượng GridRenderer với kích thước ô (cell size).
+ * 
+ * @param cellSize Kích thước của mỗi ô trong lưới (pixel).
+ */
 GridRenderer::GridRenderer(int cellSize)
     : _cellSize(cellSize) {}
 
+/**
+ * @brief Vẽ lưới và các ô màu của grid lên màn hình.
+ * 
+ * Hàm này hiển thị:
+ * - Các đường viền lưới bằng màu xám nhạt (có alpha để hiển thị mờ).
+ * - Các ô đã có block (cell có màu, alpha khác 0).
+ * 
+ * @param grid Lưới game hiện tại.
+ * @param offset_x Vị trí dịch theo trục X (pixel).
+ * @param offset_y Vị trí dịch theo trục Y (pixel).
+ */
 void GridRenderer::Draw(const Grid& grid, int offset_x, int offset_y) const {
     // Màu xám nhạt có alpha để hiển thị mờ
     Color faintGray = {100, 100, 100, 50};  // R, G, B, A

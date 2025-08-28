@@ -1,0 +1,5 @@
+<map id="GameLogicService::ClearLines" name="GameLogicService::ClearLines">
+<area shape="rect" id="Node000001" title="Xóa các dòng đầy đủ trong grid." alt="" coords="5,5,207,31"/>
+<area shape="rect" id="Node000002" href="$class_grid.html#a29d83e071468b70943613aa758f9476d" title="Xóa toàn bộ các dòng đầy trong lưới." alt="" coords="255,5,391,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,16,239,16,239,21,207,21"/>
+</map>

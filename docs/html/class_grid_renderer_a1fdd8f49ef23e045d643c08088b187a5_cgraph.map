@@ -1,0 +1,9 @@
+<map id="GridRenderer::Draw" name="GridRenderer::Draw">
+<area shape="rect" id="Node000001" title="Vẽ lưới và các block từ grid lên màn hình." alt="" coords="5,55,143,80"/>
+<area shape="rect" id="Node000002" href="$class_grid.html#aeaedeee050268bcee9aff5b92d70f3b3" title="Lấy toàn bộ dữ liệu các ô của lưới." alt="" coords="202,5,306,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,51,189,33,190,38,124,57"/>
+<area shape="rect" id="Node000003" href="$class_grid.html#a14b9ed254fa998e69d61cc536d22b873" title="Lấy số cột của lưới." alt="" coords="191,55,317,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="143,65,175,65,175,70,143,70"/>
+<area shape="rect" id="Node000004" href="$class_grid.html#ad6166ccc007bb8e5148134f09b1b27ae" title="Lấy số hàng của lưới." alt="" coords="200,104,308,130"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="124,78,190,97,189,102,123,84"/>
+</map>

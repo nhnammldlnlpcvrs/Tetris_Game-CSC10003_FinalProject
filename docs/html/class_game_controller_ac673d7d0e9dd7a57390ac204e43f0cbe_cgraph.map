@@ -1,0 +1,7 @@
+<map id="GameController::Update" name="GameController::Update">
+<area shape="rect" id="Node000001" title="Cập nhật trạng thái game theo thời gian và input." alt="" coords="5,13,168,38"/>
+<area shape="rect" id="Node000002" href="$class_game_controller.html#ae1d064295f8daec44164f534dc488c95" title="Sinh block mới và cập nhật trạng thái game." alt="" coords="216,5,403,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,23,200,23,200,28,168,28"/>
+<area shape="rect" id="Node000003" href="$class_random_block_generator.html#a8388aead1bc6f82e48d32b4adfc5be67" title="Sinh ngẫu nhiên một block và đặt nó vào giữa lưới." alt="" coords="451,5,611,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="404,23,435,23,435,28,404,28"/>
+</map>

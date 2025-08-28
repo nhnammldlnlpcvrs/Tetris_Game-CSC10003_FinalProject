@@ -1,0 +1,3 @@
+<map id="BlockFactory" name="BlockFactory">
+<area shape="rect" id="Node000001" title="Factory pattern để tạo các khối (Block) trong game Tetris." alt="" coords="5,5,207,223"/>
+</map>

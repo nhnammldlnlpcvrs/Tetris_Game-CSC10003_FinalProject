@@ -1,0 +1,5 @@
+<map id="BlockFactory::CreateBlock" name="BlockFactory::CreateBlock">
+<area shape="rect" id="Node000001" title="Tạo block dựa theo ID." alt="" coords="248,13,426,38"/>
+<area shape="rect" id="Node000002" href="$class_block_factory.html#a7d7e410223727635f067b6c8550e3f00" title="Tạo block ngẫu nhiên (0–6)." alt="" coords="5,5,200,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,28,200,28,200,23,232,23"/>
+</map>

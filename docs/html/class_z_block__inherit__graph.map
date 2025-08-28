@@ -1,0 +1,5 @@
+<map id="ZBlock" name="ZBlock">
+<area shape="rect" id="Node000001" title="Đại diện cho khối Z trong trò chơi Tetris." alt="" coords="28,595,196,747"/>
+<area shape="rect" id="Node000002" href="$class_block.html" title="Lớp đại diện cho một khối trong trò chơi (Tetris Block)." alt="" coords="5,5,219,547"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,562,115,595,110,595,110,562"/>
+</map>

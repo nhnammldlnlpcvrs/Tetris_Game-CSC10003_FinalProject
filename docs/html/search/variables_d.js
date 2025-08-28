@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['yellow_0',['yellow',['../colors_8cpp.html#af40f471a29b9372da120fc1cfe4919a8',1,'yellow:&#160;colors.cpp'],['../colors_8h.html#af40f471a29b9372da120fc1cfe4919a8',1,'yellow:&#160;colors.cpp']]]
+  ['score_0',['score',['../class_score_service.html#a9c6aaf0b273b07dac69b85960e7ac259',1,'ScoreService']]],
+  ['score_5f_1',['score_',['../class_game_controller.html#a546b6d44cf9aacecdd8aa53b2281cc16',1,'GameController']]],
+  ['screenheight_2',['screenHeight',['../_app_8cpp.html#a8897ff6127a397a8ee4ea76976f8534d',1,'App.cpp']]],
+  ['screenwidth_3',['screenWidth',['../_app_8cpp.html#a7242fea9327c0747b47801c13f4e05c9',1,'App.cpp']]]
 ];

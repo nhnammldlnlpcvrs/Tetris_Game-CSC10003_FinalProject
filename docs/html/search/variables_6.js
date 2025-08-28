@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['lastupdatetime_0',['lastUpdateTime',['../app_8cpp.html#a344adddb4b721b52e3bb43c1d6506c86',1,'app.cpp']]],
-  ['lightblue_1',['lightBlue',['../colors_8cpp.html#abba647316dfb72c08441ace89886a4df',1,'lightBlue:&#160;colors.cpp'],['../colors_8h.html#abba647316dfb72c08441ace89886a4df',1,'lightBlue:&#160;colors.cpp']]]
+  ['is_5fgame_5fover_5f_0',['is_game_over_',['../class_game_controller.html#a1401dd0146207e1adea2d3d46911ed7d',1,'GameController']]],
+  ['is_5finitialized_5f_1',['is_initialized_',['../class_audio_service.html#a8a2ef6d002bf1b045b63d38b374f1c8f',1,'AudioService']]]
 ];
