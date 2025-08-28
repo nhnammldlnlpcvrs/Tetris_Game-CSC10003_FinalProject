@@ -1,0 +1,5 @@
+<map id="Block::RotateBack" name="Block::RotateBack">
+<area shape="rect" id="Node000001" title="Xoay khối ngược chiều kim đồng hồ." alt="" coords="232,5,363,31"/>
+<area shape="rect" id="Node000002" href="$class_game_logic_service.html#a980bbff0cf19f735f10c3b7daaf2b91a" title="Xoay block (theo chiều kim đồng hồ)." alt="" coords="5,5,184,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,21,184,21,184,16,216,16"/>
+</map>

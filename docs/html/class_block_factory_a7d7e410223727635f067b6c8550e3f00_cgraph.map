@@ -1,0 +1,7 @@
+<map id="BlockFactory::CreateRandomBlock" name="BlockFactory::CreateRandomBlock">
+<area shape="rect" id="Node000001" title="Tạo block ngẫu nhiên (0–6)." alt="" coords="5,23,200,64"/>
+<area shape="rect" id="Node000002" href="$class_block_factory.html#a762086ec7b4b74f8b6c29e6922cd183f" title="Tạo block dựa theo ID." alt="" coords="268,5,446,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,31,252,26,253,31,201,36"/>
+<area shape="rect" id="Node000003" href="$class_block_factory.html#ab691f19ab432e1eba233b46d368c41c4" title="Sinh ngẫu nhiên ID block từ 0–6." alt="" coords="248,55,467,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="200,50,232,53,232,58,200,55"/>
+</map>

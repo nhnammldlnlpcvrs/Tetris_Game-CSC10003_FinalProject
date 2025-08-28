@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['undorotation_0',['UndoRotation',['../class_block.html#a1dc89cd9d5eb04508c2e38c87da6e937',1,'Block']]],
-  ['updatescore_1',['UpdateScore',['../class_game.html#a4172ecd9094334b298f73ac13a6ef9f5',1,'Game']]]
+  ['undo_0',['Undo',['../class_block_controller.html#a4d733b25b5288ee7d0bee647e327e255',1,'BlockController::Undo()'],['../class_block_history.html#a1a7948071d008a99a643b1ff5bf07964',1,'BlockHistory::Undo()']]],
+  ['update_1',['Update',['../class_game_controller.html#ac673d7d0e9dd7a57390ac204e43f0cbe',1,'GameController']]]
 ];

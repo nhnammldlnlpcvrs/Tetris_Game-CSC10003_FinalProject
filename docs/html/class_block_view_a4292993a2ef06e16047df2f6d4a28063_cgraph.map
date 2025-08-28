@@ -1,0 +1,7 @@
+<map id="BlockView::Render" name="BlockView::Render">
+<area shape="rect" id="Node000001" title="Vẽ một khối tại vị trí chỉ định." alt="" coords="5,5,139,31"/>
+<area shape="rect" id="Node000002" href="$class_block.html#a7df884ba33f04fb233a290cfc70905f8" title="Vẽ khối tại vị trí hiện tại." alt="" coords="187,5,280,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,16,171,16,171,21,139,21"/>
+<area shape="rect" id="Node000003" href="$class_block.html#a1fb01ff1f82c82806024787f382071e0" title="Lấy danh sách vị trí các ô trong khối." alt="" coords="328,5,488,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="280,16,312,16,312,21,280,21"/>
+</map>

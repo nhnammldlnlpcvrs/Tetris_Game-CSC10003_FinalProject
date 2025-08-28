@@ -1,0 +1,17 @@
+<map id="RandomBlockGenerator::Generate" name="RandomBlockGenerator::Generate">
+<area shape="rect" id="Node000001" title="Sinh ngẫu nhiên một block và đặt nó vào giữa lưới." alt="" coords="673,48,833,89"/>
+<area shape="rect" id="Node000002" href="$class_game_controller.html#abe2325a1ff410fbbe6d94a7d1f63320a" title="Khởi tạo trạng thái ban đầu (block đầu tiên, nhạc, điểm)." alt="" coords="239,5,377,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="657,51,624,46,493,32,378,24,378,19,494,27,625,41,658,46"/>
+<area shape="rect" id="Node000005" href="$class_game_controller.html#a3e555e037b0ad8dd0c94e5166070b7a3" title="Reset game về trạng thái ban đầu." alt="" coords="453,56,609,82"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="657,72,609,72,609,66,657,66"/>
+<area shape="rect" id="Node000006" href="$class_game_controller.html#ae1d064295f8daec44164f534dc488c95" title="Sinh block mới và cập nhật trạng thái game." alt="" coords="437,106,625,146"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="658,96,613,108,612,103,657,91"/>
+<area shape="rect" id="Node000003" href="$class_app.html#a78d24016da98422fabb55b10dbfe3d72" title="Hàm chạy ứng dụng chính." alt="" coords="103,56,179,82"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="249,39,180,60,179,55,248,34"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,56,55,82"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,72,55,72,55,66,87,66"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="438,72,179,72,179,66,438,66"/>
+<area shape="rect" id="Node000007" href="$class_game_controller.html#ac673d7d0e9dd7a57390ac204e43f0cbe" title="Cập nhật trạng thái game theo thời gian và input." alt="" coords="227,109,389,135"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="422,127,390,126,390,121,422,122"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="250,107,178,83,180,78,252,101"/>
+</map>

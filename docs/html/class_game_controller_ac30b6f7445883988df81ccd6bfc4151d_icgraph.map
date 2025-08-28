@@ -1,0 +1,7 @@
+<map id="GameController::DrawNextBlock" name="GameController::DrawNextBlock">
+<area shape="rect" id="Node000001" title="Vẽ block tiếp theo (preview)." alt="" coords="227,5,406,46"/>
+<area shape="rect" id="Node000002" href="$class_app.html#a78d24016da98422fabb55b10dbfe3d72" title="Hàm chạy ứng dụng chính." alt="" coords="103,13,179,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,28,180,28,180,23,212,23"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,13,55,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,28,55,28,55,23,87,23"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="GameController::IsGameOver" name="GameController::IsGameOver">
+<area shape="rect" id="Node000001" title="Kiểm tra game có kết thúc hay chưa." alt="" coords="227,5,421,31"/>
+<area shape="rect" id="Node000002" href="$class_app.html#a78d24016da98422fabb55b10dbfe3d72" title="Hàm chạy ứng dụng chính." alt="" coords="103,5,179,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,21,179,21,179,16,211,16"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>

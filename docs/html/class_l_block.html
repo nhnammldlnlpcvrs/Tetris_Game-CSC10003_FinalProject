@@ -93,58 +93,101 @@ $(function(){initNavTree('class_l_block.html','','class_l_block-members'); });
 </div><!--header-->
 <div class="contents">
 
-<p>Đại diện cho khối L trong trò chơi Tetris.  
+<p>Lớp đại diện cho khối L trong trò chơi Tetris.  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="_l__block_8h_source.html">L_block.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_l_block_8h_source.html">LBlock.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for LBlock:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_l_block__inherit__graph.png" border="0" usemap="#a_l_block_inherit__map" loading="lazy" alt="Inheritance graph"/></div>
+<map name="a_l_block_inherit__map" id="a_l_block_inherit__map">
+<area shape="rect" title="Lớp đại diện cho khối L trong trò chơi Tetris." alt="" coords="28,595,196,747"/>
+<area shape="rect" href="class_block.html" title="Lớp đại diện cho một khối trong trò chơi (Tetris Block)." alt="" coords="5,5,219,547"/>
+<area shape="poly" title=" " alt="" coords="115,562,115,595,110,595,110,562"/>
+</map>
 </div>
 <div class="dynheader">
 Collaboration diagram for LBlock:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_l_block__coll__graph.png" border="0" usemap="#a_l_block_coll__map" loading="lazy" alt="Collaboration graph"/></div>
+<map name="a_l_block_coll__map" id="a_l_block_coll__map">
+<area shape="rect" title="Lớp đại diện cho khối L trong trò chơi Tetris." alt="" coords="28,595,196,747"/>
+<area shape="rect" href="class_block.html" title="Lớp đại diện cho một khối trong trò chơi (Tetris Block)." alt="" coords="5,5,219,547"/>
+<area shape="poly" title=" " alt="" coords="115,562,115,595,110,595,110,562"/>
+</map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a1b3d85ab4771dd322c8cb7080016248a" id="r_a1b3d85ab4771dd322c8cb7080016248a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b3d85ab4771dd322c8cb7080016248a">LBlock</a> ()</td></tr>
-<tr class="memdesc:a1b3d85ab4771dd322c8cb7080016248a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor khối L.  <br /></td></tr>
+<tr class="memdesc:a1b3d85ab4771dd322c8cb7080016248a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor mặc định, khởi tạo khối L với:  <br /></td></tr>
+<tr class="memitem:a0040537b9e5b6072c7234d16f06b4646" id="r_a0040537b9e5b6072c7234d16f06b4646"><td class="memItemLeft" align="right" valign="top">std::vector&lt; Color &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0040537b9e5b6072c7234d16f06b4646">GetCellColor</a> () const override</td></tr>
+<tr class="memdesc:a0040537b9e5b6072c7234d16f06b4646"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lấy màu sắc của các ô trong trạng thái xoay hiện tại.  <br /></td></tr>
+<tr class="memitem:aa6a0bade55865e762a3291a11a4ba6d3" id="r_aa6a0bade55865e762a3291a11a4ba6d3"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="class_block.html">Block</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6a0bade55865e762a3291a11a4ba6d3">Clone</a> () const override</td></tr>
+<tr class="memdesc:aa6a0bade55865e762a3291a11a4ba6d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tạo một bản sao của khối L.  <br /></td></tr>
 <tr class="inherit_header pub_methods_class_block"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_block')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="class_block.html">Block</a></td></tr>
 <tr class="memitem:a37658a946bf5067ad01d68d9ff086adc inherit pub_methods_class_block" id="r_a37658a946bf5067ad01d68d9ff086adc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#a37658a946bf5067ad01d68d9ff086adc">Block</a> ()</td></tr>
-<tr class="memdesc:a37658a946bf5067ad01d68d9ff086adc inherit pub_methods_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor khởi tạo block với ID ngẫu nhiên và trạng thái xoay ban đầu.  <br /></td></tr>
-<tr class="memitem:aff9a876805127586734c4f39910cf9a2 inherit pub_methods_class_block" id="r_aff9a876805127586734c4f39910cf9a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#aff9a876805127586734c4f39910cf9a2">Draw</a> (int offsetX, int offsetY)</td></tr>
-<tr class="memdesc:aff9a876805127586734c4f39910cf9a2 inherit pub_methods_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vẽ block lên màn hình tại vị trí được chỉ định.  <br /></td></tr>
+<tr class="memdesc:a37658a946bf5067ad01d68d9ff086adc inherit pub_methods_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor mặc định, khởi tạo khối rỗng.  <br /></td></tr>
+<tr class="memitem:a1730a2e08f5e03e2d8f475f858c708b7 inherit pub_methods_class_block" id="r_a1730a2e08f5e03e2d8f475f858c708b7"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="class_block_memento.html">BlockMemento</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#a1730a2e08f5e03e2d8f475f858c708b7">SaveState</a> () const</td></tr>
+<tr class="memdesc:a1730a2e08f5e03e2d8f475f858c708b7 inherit pub_methods_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lưu trạng thái hiện tại của khối.  <br /></td></tr>
+<tr class="memitem:a4f90c211eb2c191746e6e37b510ada1e inherit pub_methods_class_block" id="r_a4f90c211eb2c191746e6e37b510ada1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#a4f90c211eb2c191746e6e37b510ada1e">RestoreState</a> (const std::shared_ptr&lt; <a class="el" href="class_block_memento.html">BlockMemento</a> &gt; &amp;memento)</td></tr>
+<tr class="memdesc:a4f90c211eb2c191746e6e37b510ada1e inherit pub_methods_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Khôi phục trạng thái khối từ memento.  <br /></td></tr>
+<tr class="memitem:a7df884ba33f04fb233a290cfc70905f8 inherit pub_methods_class_block" id="r_a7df884ba33f04fb233a290cfc70905f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#a7df884ba33f04fb233a290cfc70905f8">Draw</a> (int offset_x, int offset_y)</td></tr>
+<tr class="memdesc:a7df884ba33f04fb233a290cfc70905f8 inherit pub_methods_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vẽ khối tại vị trí hiện tại.  <br /></td></tr>
+<tr class="memitem:a695ec89ef86b9d565514a0c992fa611c inherit pub_methods_class_block" id="r_a695ec89ef86b9d565514a0c992fa611c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#a695ec89ef86b9d565514a0c992fa611c">DrawPreview</a> (int offset_x, int offset_y)</td></tr>
+<tr class="memdesc:a695ec89ef86b9d565514a0c992fa611c inherit pub_methods_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vẽ bản xem trước của khối, dịch về góc trái trên.  <br /></td></tr>
 <tr class="memitem:a8d3c1b1b61b9a5671281508e42034010 inherit pub_methods_class_block" id="r_a8d3c1b1b61b9a5671281508e42034010"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#a8d3c1b1b61b9a5671281508e42034010">Move</a> (int rows, int columns)</td></tr>
-<tr class="memdesc:a8d3c1b1b61b9a5671281508e42034010 inherit pub_methods_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Di chuyển block một số hàng và cột nhất định.  <br /></td></tr>
-<tr class="memitem:a807d1cf9876d903882bc1462af0f9c81 inherit pub_methods_class_block" id="r_a807d1cf9876d903882bc1462af0f9c81"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_position.html">Position</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#a807d1cf9876d903882bc1462af0f9c81">GetCellPositions</a> ()</td></tr>
-<tr class="memdesc:a807d1cf9876d903882bc1462af0f9c81 inherit pub_methods_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trả về danh sách vị trí các ô hiện tại của block.  <br /></td></tr>
+<tr class="memdesc:a8d3c1b1b61b9a5671281508e42034010 inherit pub_methods_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Di chuyển khối theo số hàng và cột chỉ định.  <br /></td></tr>
+<tr class="memitem:a086ba9ec7589bba279aec285a1ff61df inherit pub_methods_class_block" id="r_a086ba9ec7589bba279aec285a1ff61df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#a086ba9ec7589bba279aec285a1ff61df">MoveLeft</a> ()</td></tr>
+<tr class="memdesc:a086ba9ec7589bba279aec285a1ff61df inherit pub_methods_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Di chuyển khối sang trái một ô.  <br /></td></tr>
+<tr class="memitem:ad867388e27d27f27cbcc80d03c426a8b inherit pub_methods_class_block" id="r_ad867388e27d27f27cbcc80d03c426a8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#ad867388e27d27f27cbcc80d03c426a8b">MoveRight</a> ()</td></tr>
+<tr class="memdesc:ad867388e27d27f27cbcc80d03c426a8b inherit pub_methods_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Di chuyển khối sang phải một ô.  <br /></td></tr>
+<tr class="memitem:ac540e89656281c04dc3d3eb0f016a878 inherit pub_methods_class_block" id="r_ac540e89656281c04dc3d3eb0f016a878"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#ac540e89656281c04dc3d3eb0f016a878">MoveDown</a> ()</td></tr>
+<tr class="memdesc:ac540e89656281c04dc3d3eb0f016a878 inherit pub_methods_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Di chuyển khối xuống dưới một ô.  <br /></td></tr>
+<tr class="memitem:a49bbf9a0b53ffad2d8b2ead886c3c895 inherit pub_methods_class_block" id="r_a49bbf9a0b53ffad2d8b2ead886c3c895"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#a49bbf9a0b53ffad2d8b2ead886c3c895">MoveUp</a> ()</td></tr>
+<tr class="memdesc:a49bbf9a0b53ffad2d8b2ead886c3c895 inherit pub_methods_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Di chuyển khối lên trên một ô.  <br /></td></tr>
 <tr class="memitem:a1ced2170a2dad5b9110cb3c2171be6e4 inherit pub_methods_class_block" id="r_a1ced2170a2dad5b9110cb3c2171be6e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#a1ced2170a2dad5b9110cb3c2171be6e4">Rotate</a> ()</td></tr>
-<tr class="memdesc:a1ced2170a2dad5b9110cb3c2171be6e4 inherit pub_methods_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Xoay block theo chiều kim đồng hồ.  <br /></td></tr>
-<tr class="memitem:a1dc89cd9d5eb04508c2e38c87da6e937 inherit pub_methods_class_block" id="r_a1dc89cd9d5eb04508c2e38c87da6e937"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#a1dc89cd9d5eb04508c2e38c87da6e937">UndoRotation</a> ()</td></tr>
-<tr class="memdesc:a1dc89cd9d5eb04508c2e38c87da6e937 inherit pub_methods_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hoàn tác lần xoay gần nhất (xoay ngược lại).  <br /></td></tr>
-<tr class="memitem:afe5e0695602fafc70d3b370af8d7b508 inherit pub_methods_class_block" id="r_afe5e0695602fafc70d3b370af8d7b508"><td class="memItemLeft" align="right" valign="top">std::pair&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#afe5e0695602fafc70d3b370af8d7b508">GetSize</a> ()</td></tr>
-<tr class="memdesc:afe5e0695602fafc70d3b370af8d7b508 inherit pub_methods_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lấy kích thước của block (chiều ngang và dọc).  <br /></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a5069fbd2be5f271d16f5a677e8502f3e" id="r_a5069fbd2be5f271d16f5a677e8502f3e"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="class_l_block.html">LBlock</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5069fbd2be5f271d16f5a677e8502f3e">Create</a> ()</td></tr>
-<tr class="memdesc:a5069fbd2be5f271d16f5a677e8502f3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tạo một unique_ptr tới đối tượng <a class="el" href="class_l_block.html" title="Đại diện cho khối L trong trò chơi Tetris.">LBlock</a>.  <br /></td></tr>
+<tr class="memdesc:a1ced2170a2dad5b9110cb3c2171be6e4 inherit pub_methods_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Xoay khối theo chiều kim đồng hồ.  <br /></td></tr>
+<tr class="memitem:a6490efd5854a5236ba7a132870e8fb31 inherit pub_methods_class_block" id="r_a6490efd5854a5236ba7a132870e8fb31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#a6490efd5854a5236ba7a132870e8fb31">RotateBack</a> ()</td></tr>
+<tr class="memdesc:a6490efd5854a5236ba7a132870e8fb31 inherit pub_methods_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Xoay khối ngược chiều kim đồng hồ.  <br /></td></tr>
+<tr class="memitem:a1fb01ff1f82c82806024787f382071e0 inherit pub_methods_class_block" id="r_a1fb01ff1f82c82806024787f382071e0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="struct_position.html">Position</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#a1fb01ff1f82c82806024787f382071e0">GetCellPositions</a> () const</td></tr>
+<tr class="memdesc:a1fb01ff1f82c82806024787f382071e0 inherit pub_methods_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lấy danh sách vị trí các ô trong khối.  <br /></td></tr>
+<tr class="memitem:af0c7f1220a3e906962ccea4d83fd6838 inherit pub_methods_class_block" id="r_af0c7f1220a3e906962ccea4d83fd6838"><td class="memItemLeft" align="right" valign="top">std::pair&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#af0c7f1220a3e906962ccea4d83fd6838">GetSize</a> () const</td></tr>
+<tr class="memdesc:af0c7f1220a3e906962ccea4d83fd6838 inherit pub_methods_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lấy kích thước khối theo offset.  <br /></td></tr>
+<tr class="memitem:a3336669e14498db0791297edd0fd2ddb inherit pub_methods_class_block" id="r_a3336669e14498db0791297edd0fd2ddb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#a3336669e14498db0791297edd0fd2ddb">GetId</a> () const</td></tr>
+<tr class="memdesc:a3336669e14498db0791297edd0fd2ddb inherit pub_methods_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lấy ID khối.  <br /></td></tr>
+<tr class="memitem:aece461956ee55f531533348cab5487bf inherit pub_methods_class_block" id="r_aece461956ee55f531533348cab5487bf"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#aece461956ee55f531533348cab5487bf">~Block</a> ()=default</td></tr>
+<tr class="memdesc:aece461956ee55f531533348cab5487bf inherit pub_methods_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor ảo.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_attribs_class_block"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_class_block')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Attributes inherited from <a class="el" href="class_block.html">Block</a></td></tr>
-<tr class="memitem:a86f38c868a8dab090101db6492078071 inherit pub_attribs_class_block" id="r_a86f38c868a8dab090101db6492078071"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#a86f38c868a8dab090101db6492078071">id</a></td></tr>
-<tr class="memdesc:a86f38c868a8dab090101db6492078071 inherit pub_attribs_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">ID đại diện cho loại block (0-6).  <br /></td></tr>
-<tr class="memitem:a56a842cb00e27e55f6adc4ce4a1cb649 inherit pub_attribs_class_block" id="r_a56a842cb00e27e55f6adc4ce4a1cb649"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, std::vector&lt; <a class="el" href="class_position.html">Position</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#a56a842cb00e27e55f6adc4ce4a1cb649">cells</a></td></tr>
-<tr class="memdesc:a56a842cb00e27e55f6adc4ce4a1cb649 inherit pub_attribs_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bản đồ lưu trạng thái các ô của block tương ứng với từng trạng thái xoay (0-3).  <br /></td></tr>
+<tr class="inherit_header pro_attribs_class_block"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_class_block')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Attributes inherited from <a class="el" href="class_block.html">Block</a></td></tr>
+<tr class="memitem:aa3e22cbcc4cc469f33569b1b9c431855 inherit pro_attribs_class_block" id="r_aa3e22cbcc4cc469f33569b1b9c431855"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#aa3e22cbcc4cc469f33569b1b9c431855">_id</a></td></tr>
+<tr class="memdesc:aa3e22cbcc4cc469f33569b1b9c431855 inherit pro_attribs_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">ID của khối.  <br /></td></tr>
+<tr class="memitem:a9d62c757df555397bbcf7d2caed740fd inherit pro_attribs_class_block" id="r_a9d62c757df555397bbcf7d2caed740fd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#a9d62c757df555397bbcf7d2caed740fd">_rotationState</a></td></tr>
+<tr class="memdesc:a9d62c757df555397bbcf7d2caed740fd inherit pro_attribs_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trạng thái xoay hiện tại (0–3).  <br /></td></tr>
+<tr class="memitem:a1fe022f0690155ab3e4b77013a5bea34 inherit pro_attribs_class_block" id="r_a1fe022f0690155ab3e4b77013a5bea34"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#a1fe022f0690155ab3e4b77013a5bea34">_rowOffset</a></td></tr>
+<tr class="memdesc:a1fe022f0690155ab3e4b77013a5bea34 inherit pro_attribs_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offset theo hàng (row).  <br /></td></tr>
+<tr class="memitem:a31032d0702bcf331d52c8fab33078a71 inherit pro_attribs_class_block" id="r_a31032d0702bcf331d52c8fab33078a71"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#a31032d0702bcf331d52c8fab33078a71">_columnOffset</a></td></tr>
+<tr class="memdesc:a31032d0702bcf331d52c8fab33078a71 inherit pro_attribs_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offset theo cột (column).  <br /></td></tr>
+<tr class="memitem:aa05cf617218d661ea9f1ff8572328f61 inherit pro_attribs_class_block" id="r_aa05cf617218d661ea9f1ff8572328f61"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, std::vector&lt; <a class="el" href="struct_position.html">Position</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#aa05cf617218d661ea9f1ff8572328f61">_cells</a></td></tr>
+<tr class="memdesc:aa05cf617218d661ea9f1ff8572328f61 inherit pro_attribs_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map trạng thái xoay → danh sách vị trí các ô.  <br /></td></tr>
+<tr class="memitem:ac698c3f6c0d260133890071f02ec8ad3 inherit pro_attribs_class_block" id="r_ac698c3f6c0d260133890071f02ec8ad3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; Color &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#ac698c3f6c0d260133890071f02ec8ad3">_colors</a></td></tr>
+<tr class="memdesc:ac698c3f6c0d260133890071f02ec8ad3 inherit pro_attribs_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Danh sách màu của khối.  <br /></td></tr>
+<tr class="inherit_header pro_static_attribs_class_block"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_static_attribs_class_block')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Static Protected Attributes inherited from <a class="el" href="class_block.html">Block</a></td></tr>
+<tr class="memitem:a38fd7bd64af431ccd6fe2d22cb122443 inherit pro_static_attribs_class_block" id="r_a38fd7bd64af431ccd6fe2d22cb122443"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_block.html#a38fd7bd64af431ccd6fe2d22cb122443">cellSize</a> = 30</td></tr>
+<tr class="memdesc:a38fd7bd64af431ccd6fe2d22cb122443 inherit pro_static_attribs_class_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Kích thước một ô (pixel).  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Đại diện cho khối L trong trò chơi Tetris. </p>
+<div class="textblock"><p>Lớp đại diện cho khối L trong trò chơi Tetris. </p>
+<p>Kế thừa từ lớp <a class="el" href="class_block.html" title="Lớp đại diện cho một khối trong trò chơi (Tetris Block).">Block</a> và cài đặt các phương thức đặc thù của khối L:</p><ul>
+<li>Xác định hình dạng (các trạng thái xoay).</li>
+<li>Xác định màu sắc cho các ô (cells).</li>
+<li>Cho phép nhân bản đối tượng (Clone). </li>
+</ul>
 
-<p class="definition">Definition at line <a class="el" href="_l__block_8h_source.html#l00011">11</a> of file <a class="el" href="_l__block_8h_source.html">L_block.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_l_block_8h_source.html#l00013">13</a> of file <a class="el" href="_l_block_8h_source.html">LBlock.h</a>.</p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1b3d85ab4771dd322c8cb7080016248a" name="a1b3d85ab4771dd322c8cb7080016248a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1b3d85ab4771dd322c8cb7080016248a">&#9670;&#160;</a></span>LBlock()</h2>
@@ -161,32 +204,52 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Constructor khối L. </p>
+<p>Constructor mặc định, khởi tạo khối L với: </p>
+<p>Constructor của <a class="el" href="class_l_block.html" title="Lớp đại diện cho khối L trong trò chơi Tetris.">LBlock</a>.</p>
+<ul>
+<li>ID cố định</li>
+<li>Trạng thái xoay ban đầu</li>
+<li>Màu sắc</li>
+<li>Cấu hình hình dạng các cell</li>
+</ul>
+<p>Khởi tạo khối L với:</p><ul>
+<li>ID = 2</li>
+<li>Trạng thái xoay ban đầu = 0</li>
+<li>Vị trí offset hàng/cột = 0</li>
+<li>Màu cam (orange)</li>
+<li>Các cấu hình tọa độ của 4 trạng thái xoay. </li>
+</ul>
 
-<p class="definition">Definition at line <a class="el" href="_l__block_8cpp_source.html#l00003">3</a> of file <a class="el" href="_l__block_8cpp_source.html">L_block.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">    3</span>               {</div>
-<div class="line"><span class="lineno">    4</span>    <span class="keywordtype">id</span> = 1;</div>
-<div class="line"><span class="lineno">    5</span>    <a class="code hl_variable" href="class_block.html#a56a842cb00e27e55f6adc4ce4a1cb649">cells</a>[0] = { Position(0, 2), Position(1, 0), Position(1, 1), Position(1, 2) };</div>
-<div class="line"><span class="lineno">    6</span>    <a class="code hl_variable" href="class_block.html#a56a842cb00e27e55f6adc4ce4a1cb649">cells</a>[1] = { Position(0, 1), Position(1, 1), Position(2, 1), Position(2, 2) };</div>
-<div class="line"><span class="lineno">    7</span>    <a class="code hl_variable" href="class_block.html#a56a842cb00e27e55f6adc4ce4a1cb649">cells</a>[2] = { Position(1, 0), Position(1, 1), Position(1, 2), Position(2, 0) };</div>
-<div class="line"><span class="lineno">    8</span>    <a class="code hl_variable" href="class_block.html#a56a842cb00e27e55f6adc4ce4a1cb649">cells</a>[3] = { Position(0, 0), Position(0, 1), Position(1, 1), Position(2, 1) };</div>
-<div class="line"><span class="lineno">    9</span>    <a class="code hl_function" href="class_block.html#a8d3c1b1b61b9a5671281508e42034010">Move</a>(0, 3);</div>
-<div class="line"><span class="lineno">   10</span>}</div>
-<div class="ttc" id="aclass_block_html_a56a842cb00e27e55f6adc4ce4a1cb649"><div class="ttname"><a href="class_block.html#a56a842cb00e27e55f6adc4ce4a1cb649">Block::cells</a></div><div class="ttdeci">std::map&lt; int, std::vector&lt; Position &gt; &gt; cells</div><div class="ttdoc">Bản đồ lưu trạng thái các ô của block tương ứng với từng trạng thái xoay (0-3).</div><div class="ttdef"><b>Definition</b> <a href="block_8h_source.html#l00057">block.h:57</a></div></div>
-<div class="ttc" id="aclass_block_html_a8d3c1b1b61b9a5671281508e42034010"><div class="ttname"><a href="class_block.html#a8d3c1b1b61b9a5671281508e42034010">Block::Move</a></div><div class="ttdeci">void Move(int rows, int columns)</div><div class="ttdoc">Di chuyển block một số hàng và cột nhất định.</div><div class="ttdef"><b>Definition</b> <a href="block_8cpp_source.html#l00046">block.cpp:46</a></div></div>
+<p class="definition">Definition at line <a class="el" href="_l_block_8cpp_source.html#l00013">13</a> of file <a class="el" href="_l_block_8cpp_source.html">LBlock.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   13</span>               {</div>
+<div class="line"><span class="lineno">   14</span>    <a class="code hl_variable" href="class_block.html#aa3e22cbcc4cc469f33569b1b9c431855">_id</a> = 2;</div>
+<div class="line"><span class="lineno">   15</span>    <a class="code hl_variable" href="class_block.html#a9d62c757df555397bbcf7d2caed740fd">_rotationState</a> = 0;</div>
+<div class="line"><span class="lineno">   16</span>    <a class="code hl_variable" href="class_block.html#a1fe022f0690155ab3e4b77013a5bea34">_rowOffset</a> = 0;</div>
+<div class="line"><span class="lineno">   17</span>    <a class="code hl_variable" href="class_block.html#a31032d0702bcf331d52c8fab33078a71">_columnOffset</a> = 0;</div>
+<div class="line"><span class="lineno">   18</span>    <a class="code hl_variable" href="class_block.html#ac698c3f6c0d260133890071f02ec8ad3">_colors</a> = {<a class="code hl_variable" href="_color_8cpp.html#a326249a02ed814a93a9accf6eaeb1ae0">orange</a>};</div>
+<div class="line"><span class="lineno">   19</span> </div>
+<div class="line"><span class="lineno">   20</span>    <a class="code hl_variable" href="class_block.html#aa05cf617218d661ea9f1ff8572328f61">_cells</a> = {</div>
+<div class="line"><span class="lineno">   21</span>        {0, {{0,2}, {1,0}, {1,1}, {1,2}}},</div>
+<div class="line"><span class="lineno">   22</span>        {1, {{0,1}, {1,1}, {2,1}, {2,2}}},</div>
+<div class="line"><span class="lineno">   23</span>        {2, {{1,0}, {1,1}, {1,2}, {2,0}}},</div>
+<div class="line"><span class="lineno">   24</span>        {3, {{0,0}, {0,1}, {1,1}, {2,1}}}</div>
+<div class="line"><span class="lineno">   25</span>    };</div>
+<div class="line"><span class="lineno">   26</span>}</div>
+<div class="ttc" id="a_color_8cpp_html_a326249a02ed814a93a9accf6eaeb1ae0"><div class="ttname"><a href="_color_8cpp.html#a326249a02ed814a93a9accf6eaeb1ae0">orange</a></div><div class="ttdeci">const Color orange</div><div class="ttdoc">L-block.</div><div class="ttdef"><b>Definition</b> <a href="_color_8cpp_source.html#l00009">Color.cpp:9</a></div></div>
+<div class="ttc" id="aclass_block_html_a1fe022f0690155ab3e4b77013a5bea34"><div class="ttname"><a href="class_block.html#a1fe022f0690155ab3e4b77013a5bea34">Block::_rowOffset</a></div><div class="ttdeci">int _rowOffset</div><div class="ttdoc">Offset theo hàng (row).</div><div class="ttdef"><b>Definition</b> <a href="_block_8h_source.html#l00124">Block.h:124</a></div></div>
+<div class="ttc" id="aclass_block_html_a31032d0702bcf331d52c8fab33078a71"><div class="ttname"><a href="class_block.html#a31032d0702bcf331d52c8fab33078a71">Block::_columnOffset</a></div><div class="ttdeci">int _columnOffset</div><div class="ttdoc">Offset theo cột (column).</div><div class="ttdef"><b>Definition</b> <a href="_block_8h_source.html#l00127">Block.h:127</a></div></div>
+<div class="ttc" id="aclass_block_html_a9d62c757df555397bbcf7d2caed740fd"><div class="ttname"><a href="class_block.html#a9d62c757df555397bbcf7d2caed740fd">Block::_rotationState</a></div><div class="ttdeci">int _rotationState</div><div class="ttdoc">Trạng thái xoay hiện tại (0–3).</div><div class="ttdef"><b>Definition</b> <a href="_block_8h_source.html#l00121">Block.h:121</a></div></div>
+<div class="ttc" id="aclass_block_html_aa05cf617218d661ea9f1ff8572328f61"><div class="ttname"><a href="class_block.html#aa05cf617218d661ea9f1ff8572328f61">Block::_cells</a></div><div class="ttdeci">std::map&lt; int, std::vector&lt; Position &gt; &gt; _cells</div><div class="ttdoc">Map trạng thái xoay → danh sách vị trí các ô.</div><div class="ttdef"><b>Definition</b> <a href="_block_8h_source.html#l00130">Block.h:130</a></div></div>
+<div class="ttc" id="aclass_block_html_aa3e22cbcc4cc469f33569b1b9c431855"><div class="ttname"><a href="class_block.html#aa3e22cbcc4cc469f33569b1b9c431855">Block::_id</a></div><div class="ttdeci">int _id</div><div class="ttdoc">ID của khối.</div><div class="ttdef"><b>Definition</b> <a href="_block_8h_source.html#l00118">Block.h:118</a></div></div>
+<div class="ttc" id="aclass_block_html_ac698c3f6c0d260133890071f02ec8ad3"><div class="ttname"><a href="class_block.html#ac698c3f6c0d260133890071f02ec8ad3">Block::_colors</a></div><div class="ttdeci">std::vector&lt; Color &gt; _colors</div><div class="ttdoc">Danh sách màu của khối.</div><div class="ttdef"><b>Definition</b> <a href="_block_8h_source.html#l00133">Block.h:133</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="block_8h_source.html#l00057">Block::cells</a>, and <a class="el" href="block_8cpp_source.html#l00046">Block::Move()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_l_block_a1b3d85ab4771dd322c8cb7080016248a_cgraph.png" border="0" usemap="#aclass_l_block_a1b3d85ab4771dd322c8cb7080016248a_cgraph" loading="lazy" alt=""/></div>
-</div>
+<p class="reference">References <a class="el" href="_block_8h_source.html#l00130">Block::_cells</a>, <a class="el" href="_block_8h_source.html#l00133">Block::_colors</a>, <a class="el" href="_block_8h_source.html#l00127">Block::_columnOffset</a>, <a class="el" href="_block_8h_source.html#l00118">Block::_id</a>, <a class="el" href="_block_8h_source.html#l00121">Block::_rotationState</a>, <a class="el" href="_block_8h_source.html#l00124">Block::_rowOffset</a>, and <a class="el" href="_color_8cpp_source.html#l00009">orange</a>.</p>
 
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a5069fbd2be5f271d16f5a677e8502f3e" name="a5069fbd2be5f271d16f5a677e8502f3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5069fbd2be5f271d16f5a677e8502f3e">&#9670;&#160;</a></span>Create()</h2>
+<a id="aa6a0bade55865e762a3291a11a4ba6d3" name="aa6a0bade55865e762a3291a11a4ba6d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6a0bade55865e762a3291a11a4ba6d3">&#9670;&#160;</a></span>Clone()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -195,32 +258,85 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt; <a class="el" href="class_l_block.html">LBlock</a> &gt; LBlock::Create </td>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="class_block.html">Block</a> &gt; LBlock::Clone </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Tạo một unique_ptr tới đối tượng <a class="el" href="class_l_block.html" title="Đại diện cho khối L trong trò chơi Tetris.">LBlock</a>. </p>
-<dl class="section return"><dt>Returns</dt><dd>std::unique_ptr&lt;LBlock&gt; Con trỏ thông minh tới khối L. </dd></dl>
+<p>Tạo một bản sao của khối L. </p>
+<p>Tạo bản sao của khối L.</p>
+<dl class="section return"><dt>Returns</dt><dd>std::unique_ptr&lt;Block&gt; Con trỏ thông minh trỏ tới bản sao mới của <a class="el" href="class_l_block.html" title="Lớp đại diện cho khối L trong trò chơi Tetris.">LBlock</a>.</dd>
+<dd>
+std::unique_ptr&lt;Block&gt; con trỏ thông minh tới một bản sao của <a class="el" href="class_l_block.html" title="Lớp đại diện cho khối L trong trò chơi Tetris.">LBlock</a>. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_l__block_8cpp_source.html#l00012">12</a> of file <a class="el" href="_l__block_8cpp_source.html">L_block.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   12</span>                                     {</div>
-<div class="line"><span class="lineno">   13</span>    <span class="keywordflow">return</span> std::make_unique&lt;LBlock&gt;();</div>
-<div class="line"><span class="lineno">   14</span>}</div>
+<p>Implements <a class="el" href="class_block.html#a38d890966dfeaa3ec332899f9428555f">Block</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_l_block_8cpp_source.html#l00033">33</a> of file <a class="el" href="_l_block_8cpp_source.html">LBlock.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   33</span>                                         {</div>
+<div class="line"><span class="lineno">   34</span>    <span class="keywordflow">return</span> std::make_unique&lt;LBlock&gt;(*<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">   35</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
+<a id="a0040537b9e5b6072c7234d16f06b4646" name="a0040537b9e5b6072c7234d16f06b4646"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0040537b9e5b6072c7234d16f06b4646">&#9670;&#160;</a></span>GetCellColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; Color &gt; LBlock::GetCellColor </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Lấy màu sắc của các ô trong trạng thái xoay hiện tại. </p>
+<p>Lấy màu của các ô (cells) trong trạng thái xoay hiện tại.</p>
+<dl class="section return"><dt>Returns</dt><dd>std::vector&lt;Color&gt; Danh sách màu của các cell theo trạng thái hiện tại.</dd></dl>
+<ul>
+<li>Nếu chỉ có một màu trong <span class="tt">_colors</span>, toàn bộ cell sẽ dùng chung màu đó. <br  />
+</li>
+<li>Nếu có nhiều màu, trả về danh sách màu gốc.</li>
+</ul>
+<dl class="section return"><dt>Returns</dt><dd>std::vector&lt;Color&gt; danh sách màu cho các cell hiện tại. </dd></dl>
+
+<p>Implements <a class="el" href="class_block.html#afbec0b36440b11cd6aa16990ea760e98">Block</a>.</p>
+
+<p class="definition">Definition at line <a class="el" href="_l_block_8cpp_source.html#l00045">45</a> of file <a class="el" href="_l_block_8cpp_source.html">LBlock.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   45</span>                                            {</div>
+<div class="line"><span class="lineno">   46</span>    <span class="keyword">const</span> <span class="keyword">auto</span>&amp; current_cells = <a class="code hl_variable" href="class_block.html#aa05cf617218d661ea9f1ff8572328f61">_cells</a>.at(<a class="code hl_variable" href="class_block.html#a9d62c757df555397bbcf7d2caed740fd">_rotationState</a>); <span class="comment">// at() cho map const</span></div>
+<div class="line"><span class="lineno">   47</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="class_block.html#ac698c3f6c0d260133890071f02ec8ad3">_colors</a>.size() == 1) {</div>
+<div class="line"><span class="lineno">   48</span>        <span class="keywordflow">return</span> std::vector&lt;Color&gt;(current_cells.size(), <a class="code hl_variable" href="class_block.html#ac698c3f6c0d260133890071f02ec8ad3">_colors</a>[0]);</div>
+<div class="line"><span class="lineno">   49</span>    }</div>
+<div class="line"><span class="lineno">   50</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_block.html#ac698c3f6c0d260133890071f02ec8ad3">_colors</a>;</div>
+<div class="line"><span class="lineno">   51</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="_block_8h_source.html#l00130">Block::_cells</a>, <a class="el" href="_block_8h_source.html#l00133">Block::_colors</a>, and <a class="el" href="_block_8h_source.html#l00121">Block::_rotationState</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>blocks/<a class="el" href="_l__block_8h_source.html">L_block.h</a></li>
-<li>blocks/<a class="el" href="_l__block_8cpp_source.html">L_block.cpp</a></li>
+<li>Model/Block/<a class="el" href="_l_block_8h_source.html">LBlock.h</a></li>
+<li>Model/Block/<a class="el" href="_l_block_8cpp_source.html">LBlock.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

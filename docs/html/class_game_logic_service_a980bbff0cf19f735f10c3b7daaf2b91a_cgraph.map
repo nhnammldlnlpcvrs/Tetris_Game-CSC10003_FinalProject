@@ -1,0 +1,13 @@
+<map id="GameLogicService::Rotate" name="GameLogicService::Rotate">
+<area shape="rect" id="Node000001" title="Xoay block (theo chiều kim đồng hồ)." alt="" coords="5,80,184,106"/>
+<area shape="rect" id="Node000002" href="$class_block.html#a1fb01ff1f82c82806024787f382071e0" title="Lấy danh sách vị trí các ô trong khối." alt="" coords="232,5,392,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,77,231,40,249,34,251,39,233,45,131,82"/>
+<area shape="rect" id="Node000003" href="$class_grid.html#ad5a0606a61f181e3a3e5f6b20a865032" title="Kiểm tra xem một tập hợp vị trí có hợp lệ trong lưới hay không." alt="" coords="242,55,382,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,80,227,75,227,80,184,85"/>
+<area shape="rect" id="Node000005" href="$class_block.html#a1ced2170a2dad5b9110cb3c2171be6e4" title="Xoay khối theo chiều kim đồng hồ." alt="" coords="261,104,362,130"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="184,100,246,107,245,112,183,105"/>
+<area shape="rect" id="Node000006" href="$class_block.html#a6490efd5854a5236ba7a132870e8fb31" title="Xoay khối ngược chiều kim đồng hồ." alt="" coords="246,153,378,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="132,104,233,140,251,146,250,151,231,145,130,109"/>
+<area shape="rect" id="Node000004" href="$class_grid.html#a6d6ea351a0c88b3c0f79df0277f3a108" title="Kiểm tra xem ô tại (row, column) có bị chiếm không." alt="" coords="440,55,582,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="382,65,424,65,424,70,382,70"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Grid::GetCells" name="Grid::GetCells">
+<area shape="rect" id="Node000001" title="Lấy toàn bộ dữ liệu các ô của lưới." alt="" coords="191,5,295,31"/>
+<area shape="rect" id="Node000002" href="$class_grid_renderer.html#a1fdd8f49ef23e045d643c08088b187a5" title="Vẽ lưới và các block từ grid lên màn hình." alt="" coords="5,5,143,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,21,143,21,143,16,175,16"/>
+</map>

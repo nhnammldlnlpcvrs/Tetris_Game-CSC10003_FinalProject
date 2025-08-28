@@ -1,18 +1,16 @@
 var class_grid =
 [
-    [ "Grid", "class_grid.html#a4ac9ff4f63552b4c61ff90fcb35ad66c", null ],
-    [ "ClearFullRows", "class_grid.html#ac6da070fc992cecd8051b2fb712f70ea", null ],
-    [ "ClearRow", "class_grid.html#aadf6184adb95e753c0c846a23e906480", null ],
-    [ "Draw", "class_grid.html#aa55979d0fc9087c65e497453e1e861bc", null ],
-    [ "Initialize", "class_grid.html#a3e31c7f04df3d45afe2db4c19cca96fa", null ],
-    [ "IsCellEmpty", "class_grid.html#ae34cef2db7f54d0fd1a964935eb860bd", null ],
-    [ "IsCellOutside", "class_grid.html#acc1c0368b187e5428ef7f1a8d7d5d11c", null ],
-    [ "IsRowFull", "class_grid.html#a9a4b14defdd6472db42bdeab612571ad", null ],
-    [ "MoveRowDown", "class_grid.html#a77c171870d167ae7256b0d7a71775516", null ],
-    [ "Print", "class_grid.html#a9894012a14efc864082b1dd73254102a", null ],
-    [ "cellSize", "class_grid.html#a0c0c3a73c34785ee823cd08612efd4da", null ],
-    [ "colors", "class_grid.html#aa1a41cb15b5d16ebef707c03eeb48784", null ],
-    [ "grid", "class_grid.html#a4319b635b069bbaee2b2c9376f02fd75", null ],
-    [ "numCols", "class_grid.html#afc283e507aa92f21e9d18fe59b57f8cd", null ],
-    [ "numRows", "class_grid.html#a68ff92f75a19ddb6d201a106ab137750", null ]
+    [ "Grid", "class_grid.html#a3e2592c777f412b65e0d4e7396b7f602", null ],
+    [ "ClearCell", "class_grid.html#aab7fc6e8a0b8a922c7035f4423cf2458", null ],
+    [ "ClearFullLines", "class_grid.html#a29d83e071468b70943613aa758f9476d", null ],
+    [ "GetCells", "class_grid.html#aeaedeee050268bcee9aff5b92d70f3b3", null ],
+    [ "GetColumns", "class_grid.html#a14b9ed254fa998e69d61cc536d22b873", null ],
+    [ "GetRows", "class_grid.html#ad6166ccc007bb8e5148134f09b1b27ae", null ],
+    [ "HasBlockAtTop", "class_grid.html#ae1316dfd669dc06b92f270657df172b3", null ],
+    [ "IsCellOccupied", "class_grid.html#a6d6ea351a0c88b3c0f79df0277f3a108", null ],
+    [ "IsValidPosition", "class_grid.html#ad5a0606a61f181e3a3e5f6b20a865032", null ],
+    [ "SetCell", "class_grid.html#a60a9f60f3c95281243fcc49dae4ef8e3", null ],
+    [ "_cells", "class_grid.html#a6b8f8960d5d62cadcde83f6fefa95e90", null ],
+    [ "_columns", "class_grid.html#adadaed5e80bd86e3b4061478cfd159bc", null ],
+    [ "_rows", "class_grid.html#a1ffc6dd8bbe395e54bd7132c3c3fcfc4", null ]
 ];

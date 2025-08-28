@@ -1,0 +1,13 @@
+<map id="GameLogicService::MoveDown" name="GameLogicService::MoveDown">
+<area shape="rect" id="Node000001" title="Di chuyển block xuống dưới." alt="" coords="5,80,211,106"/>
+<area shape="rect" id="Node000002" href="$class_block.html#a1fb01ff1f82c82806024787f382071e0" title="Lấy danh sách vị trí các ô trong khối." alt="" coords="259,5,419,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,77,258,40,277,33,279,39,259,45,149,82"/>
+<area shape="rect" id="Node000003" href="$class_grid.html#ad5a0606a61f181e3a3e5f6b20a865032" title="Kiểm tra xem một tập hợp vị trí có hợp lệ trong lưới hay không." alt="" coords="269,55,408,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="210,79,254,74,254,79,211,84"/>
+<area shape="rect" id="Node000005" href="$class_block.html#ac540e89656281c04dc3d3eb0f016a878" title="Di chuyển khối xuống dưới một ô." alt="" coords="275,104,403,130"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="211,101,259,106,259,111,210,106"/>
+<area shape="rect" id="Node000006" href="$class_block.html#a49bbf9a0b53ffad2d8b2ead886c3c895" title="Di chuyển khối lên trên một ô." alt="" coords="283,153,394,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="150,104,259,140,279,146,278,151,258,145,148,109"/>
+<area shape="rect" id="Node000004" href="$class_grid.html#a6d6ea351a0c88b3c0f79df0277f3a108" title="Kiểm tra xem ô tại (row, column) có bị chiếm không." alt="" coords="467,55,609,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="409,65,451,65,451,70,409,70"/>
+</map>

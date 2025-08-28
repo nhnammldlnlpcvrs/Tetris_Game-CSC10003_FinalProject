@@ -1,0 +1,7 @@
+<map id="Grid::GetColumns" name="Grid::GetColumns">
+<area shape="rect" id="Node000001" title="Lấy số cột của lưới." alt="" coords="254,31,380,56"/>
+<area shape="rect" id="Node000002" href="$class_grid_renderer.html#a1fdd8f49ef23e045d643c08088b187a5" title="Vẽ lưới và các block từ grid lên màn hình." alt="" coords="37,5,174,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="238,37,175,29,175,24,239,32"/>
+<area shape="rect" id="Node000003" href="$class_game_logic_service.html#a66080fbc0a0a1f6215bbc22a84b6f168" title="Khóa block vào grid khi block chạm đáy hoặc bị cản." alt="" coords="5,55,206,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="239,55,206,59,206,53,238,50"/>
+</map>

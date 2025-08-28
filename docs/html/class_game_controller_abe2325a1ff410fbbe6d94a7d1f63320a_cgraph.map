@@ -1,0 +1,5 @@
+<map id="GameController::Init" name="GameController::Init">
+<area shape="rect" id="Node000001" title="Khởi tạo trạng thái ban đầu (block đầu tiên, nhạc, điểm)." alt="" coords="5,13,144,38"/>
+<area shape="rect" id="Node000002" href="$class_random_block_generator.html#a8388aead1bc6f82e48d32b4adfc5be67" title="Sinh ngẫu nhiên một block và đặt nó vào giữa lưới." alt="" coords="192,5,352,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,23,176,23,176,28,144,28"/>
+</map>

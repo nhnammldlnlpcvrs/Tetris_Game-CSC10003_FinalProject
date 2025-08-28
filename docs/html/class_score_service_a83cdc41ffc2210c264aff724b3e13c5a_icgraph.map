@@ -1,0 +1,5 @@
+<map id="ScoreService::LoadBestScore" name="ScoreService::LoadBestScore">
+<area shape="rect" id="Node000001" title="Tải điểm cao nhất từ file." alt="" coords="239,5,435,31"/>
+<area shape="rect" id="Node000002" href="$class_score_service.html#af7e62887b7c4b51100e2370791f8e21c" title="Khởi tạo ScoreService, tự động tải điểm cao nhất từ file." alt="" coords="5,5,191,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,21,191,21,191,16,223,16"/>
+</map>

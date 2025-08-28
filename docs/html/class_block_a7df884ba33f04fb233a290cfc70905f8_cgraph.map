@@ -1,0 +1,5 @@
+<map id="Block::Draw" name="Block::Draw">
+<area shape="rect" id="Node000001" title="Vẽ khối tại vị trí hiện tại." alt="" coords="5,5,99,31"/>
+<area shape="rect" id="Node000002" href="$class_block.html#a1fb01ff1f82c82806024787f382071e0" title="Lấy danh sách vị trí các ô trong khối." alt="" coords="147,5,307,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,16,131,16,131,21,99,21"/>
+</map>
