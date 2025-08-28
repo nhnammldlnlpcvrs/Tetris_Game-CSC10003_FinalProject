@@ -3,11 +3,14 @@ CXX := g++
 CXXFLAGS := -std=c++17 -Wall -Wextra -I. -Iresource
 LDFLAGS := -lraylib
 
-# Detect OS for platform-specific libraries
+# Detect platform
 UNAME_S := $(shell uname -s)
-ifeq ($(UNAME_S),Darwin)
+
+ifeq ($(OS),Windows_NT)  # Windows (MSYS2/MinGW)
+    LDLIBS := -lopengl32 -lgdi32 -lwinmm
+else ifeq ($(UNAME_S),Darwin)  # macOS
     LDLIBS := -framework OpenGL -framework Cocoa -framework IOKit -framework CoreVideo
-else
+else  # Linux
     LDLIBS := -lGL -lm -lpthread -ldl -lrt -lX11
 endif
 
