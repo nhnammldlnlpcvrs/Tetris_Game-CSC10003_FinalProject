@@ -1,19 +1,19 @@
-## Project OOP - Tetris C++ Game
+# Project OOP - Tetris C++ Game
 
 This is an academic project where our team applies **Object-Oriented Programming (OOP)** concepts to design and build a classic **Tetris game** using **C++**.
 
-## Team Members
+# Team Members
 - Nguyen Nam (IT - University of Science, VNU)
 
 - Khoi Vu (IT - University of Science, VNU) 
 
 - Trong Khang (IT - University of Science, VNU)
 
-## Git Feature Branch Workflow
+# Git Feature Branch Workflow
 
 We use **Feature Branch Workflow** to manage collaborative development efficiently.
 
-### Branch Naming Convention
+## Branch Naming Convention
 
 - `main`: Stable production-ready code
 - `feature/<feature-name>`: New feature branches  
@@ -26,7 +26,7 @@ We use **Feature Branch Workflow** to manage collaborative development efficient
 
 - `hotfix/<description>`: Urgent production fixes
 
-### Workflow Steps
+## Workflow Steps
 1. **Start a Feature**
 ```bash
 git checkout main
@@ -51,7 +51,7 @@ git push -u origin feature/your-feature-name
 git branch -d feature/your-feature-name
 git push origin --delete feature/your-feature-name
 ```
-## Project Structure
+# Project Structure
 ```bash
 ./
 │── assets/ # Assets (fonts, sounds, textures)
@@ -81,16 +81,100 @@ git push origin --delete feature/your-feature-name
 ```
 
 
-## How to Compile and Run
+# How to Compile and Run
+Run Tetris (Raylib) using Docker and Docker Compose. Works on Windows, Linux, and macOS.
+```bash
+git clone https://github.com/nhnammldlnlpcvrs/CSC10003_FinalProject.git
+```
+## Prerequisites
+- Docker & Docker Compose installed
 
-### Install the *raylib* library
-- **MacOS:** `brew install raylib`  
-- **Linux:** `sudo apt install libraylib-dev`  
-- **Windows (MSYS2):** `pacman -S mingw-w64-x86_64-raylib`  
+- Windows only: Install X server (e.g., VcXsrv)
+
+## Linux/macOS
+```bash
+xhost +local:docker
+
+docker-compose up --build
+```
+
+## Windows
+Launch VcXsrv (Multiple Windows, No Client, Disable Access Control)
+
+Run
+```bash 
+docker-compose up --build
+```
+**Notes**
+
+- Binary uses static Raylib, no extra libraries needed.
+
+- Best score can be persisted by mounting a volume for best_score.txt.
+
+## (Optional) Run without Docker
+Install the *raylib* library
+1. **MacOS:** 
+
+- Install Homebrew
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+- Install raylib
+
+```bash
+brew install raylib
+```
+
+- Check
+```bash
+pkg-config --modversion raylib
+```
+2. **Ubuntu / Debian Linux:**
+- Update package list
+```bash
+sudo apt update
+```
+
+- Install raylib 
+```bash
+sudo apt install libraylib-dev
+```
+
+- Check
+```bash
+pkg-config --modversion raylib
+```
+
+3. **Windows (MSYS2):**
+
+- Install MSYS2: https://www.msys2.org/
+
+- Open MSYS2 MinGW 64-bit shell.
+
+- Update package database
+```bash
+pacman -Syu
+```
+
+- Install raylib 
+```bash
+pacman -S mingw-w64-x86_64-raylib
+```
+
+- Check
+```bash
+pkg-config --modversion raylib
+```
+**Note:** If using Docker, there's no need to manually install raylib, because the Dockerfile has built it statically.
 
 ### Build with Makefile
-Mở file **Makefile** từ thư mục gốc (cùng cấp với thư mục `resource`), sau đó chạy:  
+Open a terminal in the project root folder.
 ```bash
-make clean   # Nếu có file .o, cần clean trước
+make clean
+
 make
+
 ./tetris
+```
+**⚠️ Make sure you are in the project root directory where Makefile is located.**
