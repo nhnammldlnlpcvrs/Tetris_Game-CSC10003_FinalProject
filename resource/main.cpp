@@ -3,7 +3,7 @@
  * @brief Điểm khởi đầu của chương trình – chỉ gọi App::Run().
  */
 
-#include "../resource/App/App.h"
+#include "App/App.h"
 
 int main() {
     App app;
