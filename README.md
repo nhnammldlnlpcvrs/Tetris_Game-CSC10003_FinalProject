@@ -83,6 +83,9 @@ git push origin --delete feature/your-feature-name
 
 # How to Compile and Run
 Run Tetris (Raylib) using Docker and Docker Compose. Works on Windows, Linux, and macOS.
+
+**Note:** Run source.sln on Visual Studio to play demo game
+
 ```bash
 git clone https://github.com/nhnammldlnlpcvrs/CSC10003_FinalProject.git
 ```
