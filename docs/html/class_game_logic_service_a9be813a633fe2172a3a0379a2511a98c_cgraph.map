@@ -1,0 +1,5 @@
+<map id="GameLogicService::IsGameOver" name="GameLogicService::IsGameOver">
+<area shape="rect" id="Node000001" title="Kiểm tra game có kết thúc hay chưa." alt="" coords="5,5,219,31"/>
+<area shape="rect" id="Node000002" href="$class_grid.html#ae1316dfd669dc06b92f270657df172b3" title="Kiểm tra xem có block nào chạm đỉnh lưới không." alt="" coords="267,5,411,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,16,251,16,251,21,219,21"/>
+</map>

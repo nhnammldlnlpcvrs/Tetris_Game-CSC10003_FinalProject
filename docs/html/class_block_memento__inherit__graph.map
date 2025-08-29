@@ -1,0 +1,5 @@
+<map id="BlockMemento" name="BlockMemento">
+<area shape="rect" id="Node000001" title="Lưu trạng thái xoay và vị trí của khối Block để hỗ trợ undo/redo." alt="" coords="5,135,181,378"/>
+<area shape="rect" id="Node000002" href="$class_i_memento.html" title="Interface cơ sở cho Memento trong Memento Pattern." alt="" coords="25,5,162,87"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,102,96,135,91,135,91,102"/>
+</map>

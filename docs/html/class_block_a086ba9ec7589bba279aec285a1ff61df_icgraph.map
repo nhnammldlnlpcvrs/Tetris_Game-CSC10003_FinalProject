@@ -1,0 +1,7 @@
+<map id="Block::MoveLeft" name="Block::MoveLeft">
+<area shape="rect" id="Node000001" title="Di chuyển khối sang trái một ô." alt="" coords="256,31,372,56"/>
+<area shape="rect" id="Node000002" href="$class_game_logic_service.html#a665ec1f545ec841bacab8e7bc695925f" title="Di chuyển block sang trái." alt="" coords="10,5,203,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="240,37,203,33,204,27,241,32"/>
+<area shape="rect" id="Node000003" href="$class_game_logic_service.html#aec8318804d8d89e8fa65b14b7589ddb2" title="Di chuyển block sang phải." alt="" coords="5,55,208,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="241,55,208,58,208,53,240,49"/>
+</map>

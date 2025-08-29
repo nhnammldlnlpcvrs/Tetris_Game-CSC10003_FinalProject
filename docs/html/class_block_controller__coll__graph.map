@@ -1,0 +1,5 @@
+<map id="BlockController" name="BlockController">
+<area shape="rect" id="Node000001" title="Quản lý và điều khiển hành vi của một Block trong trò chơi." alt="" coords="32,385,188,648"/>
+<area shape="rect" id="Node000002" href="$class_block_history.html" title="Quản lý lịch sử trạng thái của Block theo mô hình Undo/Redo." alt="" coords="5,5,215,314"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,314,113,368,108,368,108,314"/>
+</map>

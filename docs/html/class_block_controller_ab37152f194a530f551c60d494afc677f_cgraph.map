@@ -1,0 +1,5 @@
+<map id="BlockController::Rotate" name="BlockController::Rotate">
+<area shape="rect" id="Node000001" title="Xoay Block sang trạng thái kế tiếp." alt="" coords="5,5,163,31"/>
+<area shape="rect" id="Node000002" href="$class_block_controller.html#a2d70f4a7f12862c3bf47cb87c1d91ac6" title="Lưu trạng thái hiện tại của Block vào lịch sử." alt="" coords="211,5,390,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,16,195,16,195,21,163,21"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Grid::IsValidPosition" name="Grid::IsValidPosition">
+<area shape="rect" id="Node000001" title="Kiểm tra xem một tập hợp vị trí có hợp lệ trong lưới hay không." alt="" coords="5,5,145,31"/>
+<area shape="rect" id="Node000002" href="$class_grid.html#a6d6ea351a0c88b3c0f79df0277f3a108" title="Kiểm tra xem ô tại (row, column) có bị chiếm không." alt="" coords="193,5,335,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,16,177,16,177,21,145,21"/>
+</map>

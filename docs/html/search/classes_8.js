@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['sblock_0',['SBlock',['../class_s_block.html',1,'']]]
+  ['randomblockgenerator_0',['RandomBlockGenerator',['../class_random_block_generator.html',1,'']]]
 ];

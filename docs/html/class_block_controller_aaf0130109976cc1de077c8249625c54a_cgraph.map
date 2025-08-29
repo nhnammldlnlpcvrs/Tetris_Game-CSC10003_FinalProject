@@ -1,0 +1,5 @@
+<map id="BlockController::Move" name="BlockController::Move">
+<area shape="rect" id="Node000001" title="Di chuyển Block theo hàng và cột." alt="" coords="5,5,156,31"/>
+<area shape="rect" id="Node000002" href="$class_block_controller.html#a2d70f4a7f12862c3bf47cb87c1d91ac6" title="Lưu trạng thái hiện tại của Block vào lịch sử." alt="" coords="204,5,383,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,16,188,16,188,21,156,21"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$class_i_memento.html" title="Interface cơ sở cho Memento trong Memento Pattern." alt="" coords="5,5,85,31"/>
+<area shape="rect" id="Node000001" href="$class_block_memento.html" title="Lưu trạng thái xoay và vị trí của khối Block để hỗ trợ undo/redo." alt="" coords="133,5,241,31"/>
+<area shape="poly" id="edge8_Node000000_Node000001" title=" " alt="" coords="100,16,132,16,132,21,100,21"/>
+</map>

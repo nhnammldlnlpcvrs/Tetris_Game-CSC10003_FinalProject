@@ -1,0 +1,29 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,219,55,244"/>
+<area shape="rect" id="Node000002" href="$class_app.html#a78d24016da98422fabb55b10dbfe3d72" title="Hàm chạy ứng dụng chính." alt="" coords="103,219,179,244"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,229,87,229,87,234,55,234"/>
+<area shape="rect" id="Node000003" href="$class_game_controller.html#a817309716548ec96b574eb59b5ec1212" title="Vẽ lưới và block hiện tại." alt="" coords="252,5,404,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="141,218,149,182,164,134,188,83,205,60,225,40,237,32,240,36,229,44,209,64,193,86,169,136,154,183,147,219"/>
+<area shape="rect" id="Node000004" href="$_guide_8cpp.html#a072740cc83de0c007f577e3b0bf5ba6c" title="Vẽ khung hướng dẫn chơi game lên màn hình." alt="" coords="285,55,371,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="144,217,171,156,195,121,225,91,246,79,269,72,271,77,248,84,229,95,199,124,176,159,149,219"/>
+<area shape="rect" id="Node000005" href="$class_game_controller.html#ac30b6f7445883988df81ccd6bfc4151d" title="Vẽ block tiếp theo (preview)." alt="" coords="238,104,418,145"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="152,216,184,185,226,155,235,149,238,154,228,159,187,189,156,220"/>
+<area shape="rect" id="Node000006" href="$class_game_controller.html#a19a0c52ac3a09bd5c9bb655d21b9bc2e" title="Lấy điểm cao nhất." alt="" coords="227,169,429,195"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="179,217,226,204,254,197,255,202,228,209,180,222"/>
+<area shape="rect" id="Node000007" href="$class_game_controller.html#ad194663264cdcc05769e94fda8d35616" title="Lấy điểm số hiện tại." alt="" coords="240,219,416,244"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="180,229,225,229,225,234,180,234"/>
+<area shape="rect" id="Node000008" href="$class_game_controller.html#abe2325a1ff410fbbe6d94a7d1f63320a" title="Khởi tạo trạng thái ban đầu (block đầu tiên, nhạc, điểm)." alt="" coords="502,292,640,318"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="180,241,228,254,364,278,487,294,486,299,363,284,226,259,179,247"/>
+<area shape="rect" id="Node000010" href="$class_game_controller.html#ac02eedfe4afbe4f4fc69e711a358f270" title="Kiểm tra game có kết thúc hay chưa." alt="" coords="231,320,425,346"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="157,243,188,271,228,299,259,312,257,317,226,303,184,275,153,246"/>
+<area shape="rect" id="Node000011" href="$class_game_controller.html#a3e555e037b0ad8dd0c94e5166070b7a3" title="Reset game về trạng thái ban đầu." alt="" coords="493,364,649,390"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="149,244,159,269,176,301,199,332,228,356,259,370,291,381,358,393,425,394,485,390,485,395,425,400,358,398,290,386,257,375,226,360,195,335,171,303,154,271,144,246"/>
+<area shape="rect" id="Node000012" href="$class_game_controller.html#ac673d7d0e9dd7a57390ac204e43f0cbe" title="Cập nhật trạng thái game theo thời gian và input." alt="" coords="247,421,409,447"/>
+<area shape="poly" id="edge12_Node000002_Node000012" title=" " alt="" coords="148,244,156,276,172,318,196,362,229,400,248,413,245,417,225,404,192,365,167,320,151,278,142,245"/>
+<area shape="rect" id="Node000009" href="$class_random_block_generator.html#a8388aead1bc6f82e48d32b4adfc5be67" title="Sinh ngẫu nhiên một block và đặt nó vào giữa lưới." alt="" coords="713,356,873,397"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="614,316,714,349,713,354,612,321"/>
+<area shape="poly" id="edge11_Node000011_Node000009" title=" " alt="" coords="649,374,697,374,697,380,649,380"/>
+<area shape="rect" id="Node000013" href="$class_game_controller.html#ae1d064295f8daec44164f534dc488c95" title="Sinh block mới và cập nhật trạng thái game." alt="" coords="477,414,665,454"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="410,432,462,432,462,437,410,437"/>
+<area shape="poly" id="edge14_Node000013_Node000009" title=" " alt="" coords="651,411,697,399,698,404,653,416"/>
+</map>

@@ -93,26 +93,28 @@ $(function(){initNavTree('class_app.html','','class_app-members'); });
 </div><!--header-->
 <div class="contents">
 
-<p>Lớp đại diện cho toàn bộ ứng dụng, chịu trách nhiệm khởi động và điều phối trò chơi.  
+<p>Quản lý vòng lặp chính và khởi động trò chơi Tetris.  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="app_8h_source.html">app.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_app_8h_source.html">App.h</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for App:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_app__coll__graph.png" border="0" usemap="#a_app_coll__map" loading="lazy" alt="Collaboration graph"/></div>
+<map name="a_app_coll__map" id="a_app_coll__map">
+<area shape="rect" title="Quản lý vòng lặp chính và khởi động trò chơi Tetris." alt="" coords="5,5,89,72"/>
+</map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a78d24016da98422fabb55b10dbfe3d72" id="r_a78d24016da98422fabb55b10dbfe3d72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78d24016da98422fabb55b10dbfe3d72">Run</a> ()</td></tr>
-<tr class="memdesc:a78d24016da98422fabb55b10dbfe3d72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chạy ứng dụng chính, khởi động vòng lặp game.  <br /></td></tr>
+<tr class="memdesc:a78d24016da98422fabb55b10dbfe3d72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hàm chạy ứng dụng chính.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Lớp đại diện cho toàn bộ ứng dụng, chịu trách nhiệm khởi động và điều phối trò chơi. </p>
-<p>Lớp này thường là nơi khởi tạo cửa sổ, vòng lặp game chính và gọi các thành phần phụ như <a class="el" href="class_game.html" title="Quản lý toàn bộ vòng đời và logic chính của trò chơi Tetris.">Game</a>, UI, Audio. </p>
+<div class="textblock"><p>Quản lý vòng lặp chính và khởi động trò chơi Tetris. </p>
 
-<p class="definition">Definition at line <a class="el" href="app_8h_source.html#l00014">14</a> of file <a class="el" href="app_8h_source.html">app.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_app_8h_source.html#l00012">12</a> of file <a class="el" href="_app_8h_source.html">App.h</a>.</p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a78d24016da98422fabb55b10dbfe3d72" name="a78d24016da98422fabb55b10dbfe3d72"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a78d24016da98422fabb55b10dbfe3d72">&#9670;&#160;</a></span>Run()</h2>
@@ -129,114 +131,130 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Chạy ứng dụng chính, khởi động vòng lặp game. </p>
-<p>Chạy vòng lặp chính của ứng dụng Tetris.</p>
-<p>Khởi tạo cửa sổ, font chữ và game. Điều khiển vòng lặp chính của game, xử lý input, update logic và render toàn bộ nội dung. </p>
+<p>Hàm chạy ứng dụng chính. </p>
+<p>Main application loop for the Tetris game.</p>
+<p>Khởi tạo cửa sổ, tải tài nguyên, chạy vòng lặp game cho đến khi thoát.</p>
+<p>Initializes the window, sets the target FPS, loads resources, and runs the main game loop until the window is closed. Inside the loop, it handles:</p><ul>
+<li>Updating the game state</li>
+<li>Drawing game board, next block preview, score, and guide</li>
+<li>Handling game over state and restart </li>
+</ul>
+<p>Load game font from assets</p>
+<p>Game controller: manages board and gameplay</p>
+<p>&lt; rows = 20, columns = 10, cellSize = 30</p>
 
-<p class="definition">Definition at line <a class="el" href="app_8cpp_source.html#l00039">39</a> of file <a class="el" href="app_8cpp_source.html">app.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   40</span>{</div>
-<div class="line"><span class="lineno">   41</span>    InitWindow(960, 1080, <span class="stringliteral">&quot;Tetris Game (OOP)&quot;</span>);</div>
-<div class="line"><span class="lineno">   42</span>    SetTargetFPS(60);</div>
-<div class="line"><span class="lineno">   43</span> </div>
-<div class="line"><span class="lineno">   44</span>    <span class="comment">// Tải font tuỳ chỉnh</span></div>
-<div class="line"><span class="lineno">   45</span>    Font font = LoadFontEx(<span class="stringliteral">&quot;assets/font/PressStart2P-Regular.ttf&quot;</span>, 64, 0, 0);</div>
+<p class="definition">Definition at line <a class="el" href="_app_8cpp_source.html#l00031">31</a> of file <a class="el" href="_app_8cpp_source.html">App.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   31</span>              {</div>
+<div class="line"><span class="lineno">   32</span>    InitWindow(<a class="code hl_variable" href="_app_8cpp.html#a7242fea9327c0747b47801c13f4e05c9">screenWidth</a>, <a class="code hl_variable" href="_app_8cpp.html#a8897ff6127a397a8ee4ea76976f8534d">screenHeight</a>, <span class="stringliteral">&quot;Tetris Game (OOP + Clean Architecture)&quot;</span>);</div>
+<div class="line"><span class="lineno">   33</span>    SetTargetFPS(<a class="code hl_variable" href="_app_8cpp.html#ae6bea5d630f02caf8697b377b87416f9">targetFPS</a>);</div>
+<div class="line"><span class="lineno">   34</span></div>
+<div class="line"><span class="lineno">   36</span>    Font font = LoadFontEx(<span class="stringliteral">&quot;assets/font/PressStart2P-Regular.ttf&quot;</span>, 64, 0, 0);</div>
+<div class="line"><span class="lineno">   37</span></div>
+<div class="line"><span class="lineno">   39</span>    GameController game(20, 10, 30);  </div>
+<div class="line"><span class="lineno">   40</span>    game.Init();</div>
+<div class="line"><span class="lineno">   41</span> </div>
+<div class="line"><span class="lineno">   42</span>    <span class="comment">// Main game loop</span></div>
+<div class="line"><span class="lineno">   43</span>    <span class="keywordflow">while</span> (!WindowShouldClose()) {</div>
+<div class="line"><span class="lineno">   44</span>        <span class="keywordtype">float</span> deltaTime = GetFrameTime();</div>
+<div class="line"><span class="lineno">   45</span>        game.Update(deltaTime);</div>
 <div class="line"><span class="lineno">   46</span> </div>
-<div class="line"><span class="lineno">   47</span>    std::unique_ptr&lt;Game&gt; game = std::make_unique&lt;Game&gt;();</div>
-<div class="line"><span class="lineno">   48</span>    game-&gt;GetAudioService()-&gt;PlayMusic();</div>
+<div class="line"><span class="lineno">   47</span>        BeginDrawing();</div>
+<div class="line"><span class="lineno">   48</span>        ClearBackground(BLACK);</div>
 <div class="line"><span class="lineno">   49</span> </div>
-<div class="line"><span class="lineno">   50</span>    <span class="keywordflow">while</span> (!WindowShouldClose())</div>
-<div class="line"><span class="lineno">   51</span>    {</div>
-<div class="line"><span class="lineno">   52</span>        <span class="comment">// Cập nhật nhạc nền</span></div>
-<div class="line"><span class="lineno">   53</span>        UpdateMusicStream(game-&gt;GetAudioService()-&gt;GetMusic());</div>
-<div class="line"><span class="lineno">   54</span> </div>
-<div class="line"><span class="lineno">   55</span>        <span class="comment">// Xử lý input</span></div>
-<div class="line"><span class="lineno">   56</span>        game-&gt;HandleInput();</div>
-<div class="line"><span class="lineno">   57</span> </div>
-<div class="line"><span class="lineno">   58</span>        <span class="comment">// Di chuyển khối xuống mỗi 0.2 giây</span></div>
-<div class="line"><span class="lineno">   59</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="app_8cpp.html#abf30848723419125d7009e38f1a42686">EventTriggered</a>(0.2))</div>
-<div class="line"><span class="lineno">   60</span>        {</div>
-<div class="line"><span class="lineno">   61</span>            game-&gt;MoveBlockDown();</div>
-<div class="line"><span class="lineno">   62</span>        }</div>
+<div class="line"><span class="lineno">   50</span>        <span class="comment">// Draw main game board</span></div>
+<div class="line"><span class="lineno">   51</span>        game.Draw();</div>
+<div class="line"><span class="lineno">   52</span> </div>
+<div class="line"><span class="lineno">   53</span>        <span class="comment">// Draw right-side info panel</span></div>
+<div class="line"><span class="lineno">   54</span>        DrawRectangle(<a class="code hl_variable" href="_app_8cpp.html#a025a03ca7150bb7aa1abba3fd99d5012">panelX</a>, 50, <a class="code hl_variable" href="_app_8cpp.html#a7bfed013731d120e1ba1371f4dfc44f7">panelWidth</a>, 900, DARKGRAY);</div>
+<div class="line"><span class="lineno">   55</span> </div>
+<div class="line"><span class="lineno">   56</span>        <span class="comment">// Next block preview</span></div>
+<div class="line"><span class="lineno">   57</span>        DrawTextEx(font, <span class="stringliteral">&quot;NEXT&quot;</span>, {<a class="code hl_variable" href="_app_8cpp.html#a025a03ca7150bb7aa1abba3fd99d5012">panelX</a> + 20, 60}, 20, 2, WHITE);</div>
+<div class="line"><span class="lineno">   58</span>        game.DrawNextBlock();</div>
+<div class="line"><span class="lineno">   59</span> </div>
+<div class="line"><span class="lineno">   60</span>        <span class="comment">// Score</span></div>
+<div class="line"><span class="lineno">   61</span>        DrawTextEx(font, <span class="stringliteral">&quot;SCORE&quot;</span>, {<a class="code hl_variable" href="_app_8cpp.html#a025a03ca7150bb7aa1abba3fd99d5012">panelX</a> + 20, 180}, 20, 2, WHITE);</div>
+<div class="line"><span class="lineno">   62</span>        DrawTextEx(font, TextFormat(<span class="stringliteral">&quot;%d&quot;</span>, game.GetScore()), {panelX + 20, 210}, 24, 2, YELLOW);</div>
 <div class="line"><span class="lineno">   63</span> </div>
-<div class="line"><span class="lineno">   64</span>        <span class="comment">// Bắt đầu vẽ</span></div>
-<div class="line"><span class="lineno">   65</span>        BeginDrawing();</div>
-<div class="line"><span class="lineno">   66</span>        ClearBackground(<a class="code hl_variable" href="colors_8cpp.html#a475c619b2aa4c3377a3a62ce406ad53f">darkBlue</a>);</div>
+<div class="line"><span class="lineno">   64</span>        <span class="comment">// Best score</span></div>
+<div class="line"><span class="lineno">   65</span>        DrawTextEx(font, <span class="stringliteral">&quot;BEST&quot;</span>, {<a class="code hl_variable" href="_app_8cpp.html#a025a03ca7150bb7aa1abba3fd99d5012">panelX</a> + 20, 270}, 20, 2, WHITE);</div>
+<div class="line"><span class="lineno">   66</span>        DrawTextEx(font, TextFormat(<span class="stringliteral">&quot;%d&quot;</span>, game.GetBestScore()), {panelX + 20, 300}, 24, 2, GREEN);</div>
 <div class="line"><span class="lineno">   67</span> </div>
-<div class="line"><span class="lineno">   68</span>        <span class="comment">// Hiển thị điểm cao nhất</span></div>
-<div class="line"><span class="lineno">   69</span>        DrawTextEx(font, <span class="stringliteral">&quot;BEST&quot;</span>, </div>
-<div class="line"><span class="lineno">   70</span>            {<a class="code hl_variable" href="app_8cpp.html#a025a03ca7150bb7aa1abba3fd99d5012">panelX</a> + (<a class="code hl_variable" href="app_8cpp.html#a7bfed013731d120e1ba1371f4dfc44f7">panelWidth</a> - MeasureTextEx(font, <span class="stringliteral">&quot;BEST&quot;</span>, 28, 2).x) / 2, 30}, 28, 2, GOLD);</div>
-<div class="line"><span class="lineno">   71</span>        DrawTextEx(font, <span class="stringliteral">&quot;SCORE&quot;</span>, </div>
-<div class="line"><span class="lineno">   72</span>            {<a class="code hl_variable" href="app_8cpp.html#a025a03ca7150bb7aa1abba3fd99d5012">panelX</a> + (<a class="code hl_variable" href="app_8cpp.html#a7bfed013731d120e1ba1371f4dfc44f7">panelWidth</a> - MeasureTextEx(font, <span class="stringliteral">&quot;SCORE&quot;</span>, 28, 2).x) / 2, 60}, 28, 2, GOLD);</div>
-<div class="line"><span class="lineno">   73</span> </div>
-<div class="line"><span class="lineno">   74</span>        DrawRectangleRounded({<a class="code hl_variable" href="app_8cpp.html#a025a03ca7150bb7aa1abba3fd99d5012">panelX</a>, 90, <a class="code hl_variable" href="app_8cpp.html#a7bfed013731d120e1ba1371f4dfc44f7">panelWidth</a>, 60}, 0.3f, 6, <a class="code hl_variable" href="colors_8cpp.html#abba647316dfb72c08441ace89886a4df">lightBlue</a>);</div>
-<div class="line"><span class="lineno">   75</span> </div>
-<div class="line"><span class="lineno">   76</span>        <span class="keywordtype">char</span> bestScoreText[10];</div>
-<div class="line"><span class="lineno">   77</span>        sprintf_s(bestScoreText, <span class="keyword">sizeof</span>(bestScoreText), <span class="stringliteral">&quot;%d&quot;</span>, game-&gt;bestScore);</div>
-<div class="line"><span class="lineno">   78</span>        Vector2 bestScoreSize = MeasureTextEx(font, bestScoreText, 38, 2);</div>
-<div class="line"><span class="lineno">   79</span>        DrawTextEx(font, bestScoreText, </div>
-<div class="line"><span class="lineno">   80</span>            {<a class="code hl_variable" href="app_8cpp.html#a025a03ca7150bb7aa1abba3fd99d5012">panelX</a> + (<a class="code hl_variable" href="app_8cpp.html#a7bfed013731d120e1ba1371f4dfc44f7">panelWidth</a> - bestScoreSize.x) / 2, 100}, 38, 2, WHITE);</div>
-<div class="line"><span class="lineno">   81</span> </div>
-<div class="line"><span class="lineno">   82</span>        <span class="comment">// Hiển thị điểm hiện tại</span></div>
-<div class="line"><span class="lineno">   83</span>        DrawTextEx(font, <span class="stringliteral">&quot;SCORE&quot;</span>, </div>
-<div class="line"><span class="lineno">   84</span>            {<a class="code hl_variable" href="app_8cpp.html#a025a03ca7150bb7aa1abba3fd99d5012">panelX</a> + (<a class="code hl_variable" href="app_8cpp.html#a7bfed013731d120e1ba1371f4dfc44f7">panelWidth</a> - MeasureTextEx(font, <span class="stringliteral">&quot;SCORE&quot;</span>, 28, 2).x) / 2, 170}, 28, 2, WHITE);</div>
-<div class="line"><span class="lineno">   85</span>        DrawRectangleRounded({<a class="code hl_variable" href="app_8cpp.html#a025a03ca7150bb7aa1abba3fd99d5012">panelX</a>, 200, <a class="code hl_variable" href="app_8cpp.html#a7bfed013731d120e1ba1371f4dfc44f7">panelWidth</a>, 60}, 0.3f, 6, <a class="code hl_variable" href="colors_8cpp.html#abba647316dfb72c08441ace89886a4df">lightBlue</a>);</div>
-<div class="line"><span class="lineno">   86</span> </div>
-<div class="line"><span class="lineno">   87</span>        <span class="keywordtype">char</span> scoreText[10];</div>
-<div class="line"><span class="lineno">   88</span>        sprintf_s(scoreText, <span class="keyword">sizeof</span>(scoreText), <span class="stringliteral">&quot;%d&quot;</span>, game-&gt;score);</div>
-<div class="line"><span class="lineno">   89</span>        Vector2 scoreSize = MeasureTextEx(font, scoreText, 38, 2);</div>
-<div class="line"><span class="lineno">   90</span>        DrawTextEx(font, scoreText, </div>
-<div class="line"><span class="lineno">   91</span>            {<a class="code hl_variable" href="app_8cpp.html#a025a03ca7150bb7aa1abba3fd99d5012">panelX</a> + (<a class="code hl_variable" href="app_8cpp.html#a7bfed013731d120e1ba1371f4dfc44f7">panelWidth</a> - scoreSize.x) / 2, 210}, 38, 2, WHITE);</div>
-<div class="line"><span class="lineno">   92</span> </div>
-<div class="line"><span class="lineno">   93</span>        <span class="comment">// Hiển thị khối kế tiếp</span></div>
-<div class="line"><span class="lineno">   94</span>        DrawTextEx(font, <span class="stringliteral">&quot;NEXT&quot;</span>, </div>
-<div class="line"><span class="lineno">   95</span>            {<a class="code hl_variable" href="app_8cpp.html#a025a03ca7150bb7aa1abba3fd99d5012">panelX</a> + (<a class="code hl_variable" href="app_8cpp.html#a7bfed013731d120e1ba1371f4dfc44f7">panelWidth</a> - MeasureTextEx(font, <span class="stringliteral">&quot;NEXT&quot;</span>, 28, 2).x) / 2, 280}, 28, 2, WHITE);</div>
-<div class="line"><span class="lineno">   96</span>        DrawRectangleRounded({<a class="code hl_variable" href="app_8cpp.html#a025a03ca7150bb7aa1abba3fd99d5012">panelX</a>, 310, <a class="code hl_variable" href="app_8cpp.html#a7bfed013731d120e1ba1371f4dfc44f7">panelWidth</a>, 180}, 0.3f, 6, <a class="code hl_variable" href="colors_8cpp.html#abba647316dfb72c08441ace89886a4df">lightBlue</a>);</div>
-<div class="line"><span class="lineno">   97</span> </div>
-<div class="line"><span class="lineno">   98</span>        <span class="comment">// Hiển thị thông báo Game Over</span></div>
-<div class="line"><span class="lineno">   99</span>        <span class="keywordflow">if</span> (game-&gt;gameOver)</div>
-<div class="line"><span class="lineno">  100</span>        {</div>
-<div class="line"><span class="lineno">  101</span>            DrawTextEx(font, <span class="stringliteral">&quot;GAME OVER&quot;</span>, {400, 600}, 38, 2, WHITE);</div>
-<div class="line"><span class="lineno">  102</span>            game-&gt;SaveBestScore();</div>
-<div class="line"><span class="lineno">  103</span>        }</div>
-<div class="line"><span class="lineno">  104</span> </div>
-<div class="line"><span class="lineno">  105</span>        <span class="comment">// Vẽ lưới và các khối</span></div>
-<div class="line"><span class="lineno">  106</span>        game-&gt;Draw();</div>
-<div class="line"><span class="lineno">  107</span> </div>
-<div class="line"><span class="lineno">  108</span>        <span class="comment">// Vẽ hướng dẫn chơi</span></div>
-<div class="line"><span class="lineno">  109</span>        <a class="code hl_function" href="guide_8cpp.html#a1e4aac02a186e7d6d39f0f89f71fc326">DrawGuide</a>(font);</div>
-<div class="line"><span class="lineno">  110</span> </div>
-<div class="line"><span class="lineno">  111</span>        EndDrawing();</div>
-<div class="line"><span class="lineno">  112</span>    }</div>
-<div class="line"><span class="lineno">  113</span> </div>
-<div class="line"><span class="lineno">  114</span>    <span class="comment">// Đóng cửa sổ khi vòng lặp kết thúc</span></div>
-<div class="line"><span class="lineno">  115</span>    CloseWindow();</div>
-<div class="line"><span class="lineno">  116</span>}</div>
-<div class="ttc" id="aapp_8cpp_html_a025a03ca7150bb7aa1abba3fd99d5012"><div class="ttname"><a href="app_8cpp.html#a025a03ca7150bb7aa1abba3fd99d5012">panelX</a></div><div class="ttdeci">const float panelX</div><div class="ttdoc">Toạ độ X của bảng điều khiển bên phải.</div><div class="ttdef"><b>Definition</b> <a href="app_8cpp_source.html#l00010">app.cpp:10</a></div></div>
-<div class="ttc" id="aapp_8cpp_html_a7bfed013731d120e1ba1371f4dfc44f7"><div class="ttname"><a href="app_8cpp.html#a7bfed013731d120e1ba1371f4dfc44f7">panelWidth</a></div><div class="ttdeci">const float panelWidth</div><div class="ttdoc">Chiều rộng của bảng điều khiển.</div><div class="ttdef"><b>Definition</b> <a href="app_8cpp_source.html#l00011">app.cpp:11</a></div></div>
-<div class="ttc" id="aapp_8cpp_html_abf30848723419125d7009e38f1a42686"><div class="ttname"><a href="app_8cpp.html#abf30848723419125d7009e38f1a42686">EventTriggered</a></div><div class="ttdeci">bool EventTriggered(double interval)</div><div class="ttdoc">Kiểm tra xem sự kiện có được kích hoạt theo khoảng thời gian hay không.</div><div class="ttdef"><b>Definition</b> <a href="app_8cpp_source.html#l00022">app.cpp:22</a></div></div>
-<div class="ttc" id="acolors_8cpp_html_a475c619b2aa4c3377a3a62ce406ad53f"><div class="ttname"><a href="colors_8cpp.html#a475c619b2aa4c3377a3a62ce406ad53f">darkBlue</a></div><div class="ttdeci">const Color darkBlue</div><div class="ttdoc">Màu xanh dương đậm - một trong các màu khối hoặc nền.</div><div class="ttdef"><b>Definition</b> <a href="colors_8cpp_source.html#l00028">colors.cpp:28</a></div></div>
-<div class="ttc" id="acolors_8cpp_html_abba647316dfb72c08441ace89886a4df"><div class="ttname"><a href="colors_8cpp.html#abba647316dfb72c08441ace89886a4df">lightBlue</a></div><div class="ttdeci">const Color lightBlue</div><div class="ttdoc">Màu xanh dương nhạt - màu phụ trợ hoặc khối khác.</div><div class="ttdef"><b>Definition</b> <a href="colors_8cpp_source.html#l00027">colors.cpp:27</a></div></div>
-<div class="ttc" id="aguide_8cpp_html_a1e4aac02a186e7d6d39f0f89f71fc326"><div class="ttname"><a href="guide_8cpp.html#a1e4aac02a186e7d6d39f0f89f71fc326">DrawGuide</a></div><div class="ttdeci">void DrawGuide(Font &amp;font)</div><div class="ttdef"><b>Definition</b> <a href="guide_8cpp_source.html#l00021">guide.cpp:21</a></div></div>
+<div class="line"><span class="lineno">   68</span>        <span class="comment">// Control guide</span></div>
+<div class="line"><span class="lineno">   69</span>        <a class="code hl_function" href="_guide_8cpp.html#a072740cc83de0c007f577e3b0bf5ba6c">DrawGuide</a>(font, <a class="code hl_variable" href="_app_8cpp.html#a025a03ca7150bb7aa1abba3fd99d5012">panelX</a> + 12, 360, <a class="code hl_variable" href="_app_8cpp.html#a7bfed013731d120e1ba1371f4dfc44f7">panelWidth</a> - 24);</div>
+<div class="line"><span class="lineno">   70</span> </div>
+<div class="line"><span class="lineno">   71</span>        <span class="comment">// Game over screen</span></div>
+<div class="line"><span class="lineno">   72</span>        <span class="keywordflow">if</span> (game.IsGameOver()) {</div>
+<div class="line"><span class="lineno">   73</span>            DrawTextEx(font, <span class="stringliteral">&quot;GAME OVER&quot;</span>, {<a class="code hl_variable" href="_app_8cpp.html#a7242fea9327c0747b47801c13f4e05c9">screenWidth</a> / 2.0f - 130, <a class="code hl_variable" href="_app_8cpp.html#a8897ff6127a397a8ee4ea76976f8534d">screenHeight</a> / 2.0f - 50}, 30, 4, RED);</div>
+<div class="line"><span class="lineno">   74</span>            DrawTextEx(font, <span class="stringliteral">&quot;Press R to Restart&quot;</span>, {<a class="code hl_variable" href="_app_8cpp.html#a7242fea9327c0747b47801c13f4e05c9">screenWidth</a> / 2.0f - 140, <a class="code hl_variable" href="_app_8cpp.html#a8897ff6127a397a8ee4ea76976f8534d">screenHeight</a> / 2.0f}, 20, 2, WHITE);</div>
+<div class="line"><span class="lineno">   75</span>            <span class="keywordflow">if</span> (IsKeyPressed(KEY_R)) {</div>
+<div class="line"><span class="lineno">   76</span>                game.Reset();</div>
+<div class="line"><span class="lineno">   77</span>            }  </div>
+<div class="line"><span class="lineno">   78</span>        }</div>
+<div class="line"><span class="lineno">   79</span> </div>
+<div class="line"><span class="lineno">   80</span>        EndDrawing();</div>
+<div class="line"><span class="lineno">   81</span>    }</div>
+<div class="line"><span class="lineno">   82</span> </div>
+<div class="line"><span class="lineno">   83</span>    UnloadFont(font);</div>
+<div class="line"><span class="lineno">   84</span>    CloseWindow();</div>
+<div class="line"><span class="lineno">   85</span>}</div>
+<div class="ttc" id="a_app_8cpp_html_a025a03ca7150bb7aa1abba3fd99d5012"><div class="ttname"><a href="_app_8cpp.html#a025a03ca7150bb7aa1abba3fd99d5012">panelX</a></div><div class="ttdeci">const float panelX</div><div class="ttdoc">X position of the right-side panel.</div><div class="ttdef"><b>Definition</b> <a href="_app_8cpp_source.html#l00016">App.cpp:16</a></div></div>
+<div class="ttc" id="a_app_8cpp_html_a7242fea9327c0747b47801c13f4e05c9"><div class="ttname"><a href="_app_8cpp.html#a7242fea9327c0747b47801c13f4e05c9">screenWidth</a></div><div class="ttdeci">const int screenWidth</div><div class="ttdoc">Screen width in pixels.</div><div class="ttdef"><b>Definition</b> <a href="_app_8cpp_source.html#l00007">App.cpp:7</a></div></div>
+<div class="ttc" id="a_app_8cpp_html_a7bfed013731d120e1ba1371f4dfc44f7"><div class="ttname"><a href="_app_8cpp.html#a7bfed013731d120e1ba1371f4dfc44f7">panelWidth</a></div><div class="ttdeci">const float panelWidth</div><div class="ttdoc">Width of the right-side panel.</div><div class="ttdef"><b>Definition</b> <a href="_app_8cpp_source.html#l00019">App.cpp:19</a></div></div>
+<div class="ttc" id="a_app_8cpp_html_a8897ff6127a397a8ee4ea76976f8534d"><div class="ttname"><a href="_app_8cpp.html#a8897ff6127a397a8ee4ea76976f8534d">screenHeight</a></div><div class="ttdeci">const int screenHeight</div><div class="ttdoc">Screen height in pixels.</div><div class="ttdef"><b>Definition</b> <a href="_app_8cpp_source.html#l00010">App.cpp:10</a></div></div>
+<div class="ttc" id="a_app_8cpp_html_ae6bea5d630f02caf8697b377b87416f9"><div class="ttname"><a href="_app_8cpp.html#ae6bea5d630f02caf8697b377b87416f9">targetFPS</a></div><div class="ttdeci">const int targetFPS</div><div class="ttdoc">Target frames per second.</div><div class="ttdef"><b>Definition</b> <a href="_app_8cpp_source.html#l00013">App.cpp:13</a></div></div>
+<div class="ttc" id="a_guide_8cpp_html_a072740cc83de0c007f577e3b0bf5ba6c"><div class="ttname"><a href="_guide_8cpp.html#a072740cc83de0c007f577e3b0bf5ba6c">DrawGuide</a></div><div class="ttdeci">void DrawGuide(const Font &amp;font, float x, float y, float width)</div><div class="ttdoc">Vẽ khung hướng dẫn chơi game lên màn hình.</div><div class="ttdef"><b>Definition</b> <a href="_guide_8cpp_source.html#l00023">Guide.cpp:23</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="colors_8cpp_source.html#l00028">darkBlue</a>, <a class="el" href="guide_8cpp_source.html#l00021">DrawGuide()</a>, <a class="el" href="app_8cpp_source.html#l00022">EventTriggered()</a>, <a class="el" href="colors_8cpp_source.html#l00027">lightBlue</a>, <a class="el" href="app_8cpp_source.html#l00011">panelWidth</a>, and <a class="el" href="app_8cpp_source.html#l00010">panelX</a>.</p>
+<p class="reference">References <a class="el" href="_game_controller_8cpp_source.html#l00116">GameController::Draw()</a>, <a class="el" href="_guide_8cpp_source.html#l00023">DrawGuide()</a>, <a class="el" href="_game_controller_8cpp_source.html#l00127">GameController::DrawNextBlock()</a>, <a class="el" href="_game_controller_8cpp_source.html#l00145">GameController::GetBestScore()</a>, <a class="el" href="_game_controller_8cpp_source.html#l00137">GameController::GetScore()</a>, <a class="el" href="_game_controller_8cpp_source.html#l00018">GameController::Init()</a>, <a class="el" href="_game_controller_8cpp_source.html#l00153">GameController::IsGameOver()</a>, <a class="el" href="_app_8cpp_source.html#l00019">panelWidth</a>, <a class="el" href="_app_8cpp_source.html#l00016">panelX</a>, <a class="el" href="_game_controller_8cpp_source.html#l00030">GameController::Reset()</a>, <a class="el" href="_app_8cpp_source.html#l00010">screenHeight</a>, <a class="el" href="_app_8cpp_source.html#l00007">screenWidth</a>, <a class="el" href="_app_8cpp_source.html#l00013">targetFPS</a>, and <a class="el" href="_game_controller_8cpp_source.html#l00058">GameController::Update()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="source_8cpp_source.html#l00003">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8cpp_source.html#l00008">main()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_app_a78d24016da98422fabb55b10dbfe3d72_cgraph.png" border="0" usemap="#aclass_app_a78d24016da98422fabb55b10dbfe3d72_cgraph" loading="lazy" alt=""/></div>
+<map name="aclass_app_a78d24016da98422fabb55b10dbfe3d72_cgraph" id="aclass_app_a78d24016da98422fabb55b10dbfe3d72_cgraph">
+<area shape="rect" title="Hàm chạy ứng dụng chính." alt="" coords="5,219,82,244"/>
+<area shape="rect" href="class_game_controller.html#a817309716548ec96b574eb59b5ec1212" title="Vẽ lưới và block hiện tại." alt="" coords="155,5,306,31"/>
+<area shape="poly" title=" " alt="" coords="44,218,51,182,66,134,91,83,108,60,128,40,140,32,143,36,131,44,112,64,96,86,71,136,57,183,49,219"/>
+<area shape="rect" href="_guide_8cpp.html#a072740cc83de0c007f577e3b0bf5ba6c" title="Vẽ khung hướng dẫn chơi game lên màn hình." alt="" coords="188,55,274,80"/>
+<area shape="poly" title=" " alt="" coords="47,217,74,156,98,121,128,91,149,79,172,72,173,77,151,84,131,95,102,124,79,159,52,219"/>
+<area shape="rect" href="class_game_controller.html#ac30b6f7445883988df81ccd6bfc4151d" title="Vẽ block tiếp theo (preview)." alt="" coords="141,104,320,145"/>
+<area shape="poly" title=" " alt="" coords="55,216,86,185,128,155,138,149,140,154,131,159,90,189,59,220"/>
+<area shape="rect" href="class_game_controller.html#a19a0c52ac3a09bd5c9bb655d21b9bc2e" title="Lấy điểm cao nhất." alt="" coords="130,169,332,195"/>
+<area shape="poly" title=" " alt="" coords="82,217,129,204,156,197,158,202,130,209,83,222"/>
+<area shape="rect" href="class_game_controller.html#ad194663264cdcc05769e94fda8d35616" title="Lấy điểm số hiện tại." alt="" coords="143,219,318,244"/>
+<area shape="poly" title=" " alt="" coords="82,229,128,229,128,234,82,234"/>
+<area shape="rect" href="class_game_controller.html#abe2325a1ff410fbbe6d94a7d1f63320a" title="Khởi tạo trạng thái ban đầu (block đầu tiên, nhạc, điểm)." alt="" coords="404,292,543,318"/>
+<area shape="poly" title=" " alt="" coords="83,241,130,254,266,278,389,294,389,299,266,284,129,259,81,247"/>
+<area shape="rect" href="class_game_controller.html#ac02eedfe4afbe4f4fc69e711a358f270" title="Kiểm tra game có kết thúc hay chưa." alt="" coords="134,320,328,346"/>
+<area shape="poly" title=" " alt="" coords="59,243,90,271,131,299,162,312,160,317,128,303,87,275,56,246"/>
+<area shape="rect" href="class_game_controller.html#a3e555e037b0ad8dd0c94e5166070b7a3" title="Reset game về trạng thái ban đầu." alt="" coords="396,364,551,390"/>
+<area shape="poly" title=" " alt="" coords="52,244,62,269,78,301,101,332,131,356,161,370,194,381,261,393,327,394,387,390,388,395,327,400,260,398,192,386,159,375,128,360,97,335,74,303,57,271,47,246"/>
+<area shape="rect" href="class_game_controller.html#ac673d7d0e9dd7a57390ac204e43f0cbe" title="Cập nhật trạng thái game theo thời gian và input." alt="" coords="150,421,312,447"/>
+<area shape="poly" title=" " alt="" coords="50,244,59,276,75,318,99,362,131,400,150,413,147,417,128,404,94,365,70,320,54,278,45,245"/>
+<area shape="rect" href="class_random_block_generator.html#a8388aead1bc6f82e48d32b4adfc5be67" title="Sinh ngẫu nhiên một block và đặt nó vào giữa lưới." alt="" coords="615,356,776,397"/>
+<area shape="poly" title=" " alt="" coords="517,316,617,349,615,354,515,321"/>
+<area shape="poly" title=" " alt="" coords="552,374,600,374,600,380,552,380"/>
+<area shape="rect" href="class_game_controller.html#ae1d064295f8daec44164f534dc488c95" title="Sinh block mới và cập nhật trạng thái game." alt="" coords="380,414,567,454"/>
+<area shape="poly" title=" " alt="" coords="312,432,364,432,364,437,312,437"/>
+<area shape="poly" title=" " alt="" coords="554,411,600,399,601,404,555,416"/>
+</map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_app_a78d24016da98422fabb55b10dbfe3d72_icgraph.png" border="0" usemap="#aclass_app_a78d24016da98422fabb55b10dbfe3d72_icgraph" loading="lazy" alt=""/></div>
+<map name="aclass_app_a78d24016da98422fabb55b10dbfe3d72_icgraph" id="aclass_app_a78d24016da98422fabb55b10dbfe3d72_icgraph">
+<area shape="rect" title="Hàm chạy ứng dụng chính." alt="" coords="103,5,179,31"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,31"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
 </div>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>app/<a class="el" href="app_8h_source.html">app.h</a></li>
-<li>app/<a class="el" href="app_8cpp_source.html">app.cpp</a></li>
+<li>App/<a class="el" href="_app_8h_source.html">App.h</a></li>
+<li>App/<a class="el" href="_app_8cpp_source.html">App.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

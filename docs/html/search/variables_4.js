@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['gameover_0',['gameOver',['../class_game.html#a21f9857b2d4b38b97ec90b9c2ce3413d',1,'Game']]],
-  ['green_1',['green',['../colors_8cpp.html#ad0ef3ed7b6e40bc293b3becaed19e328',1,'green:&#160;colors.cpp'],['../colors_8h.html#ad0ef3ed7b6e40bc293b3becaed19e328',1,'green:&#160;colors.cpp']]],
-  ['grid_2',['grid',['../class_grid.html#a4319b635b069bbaee2b2c9376f02fd75',1,'Grid::grid'],['../class_game.html#a8deaae545ba4341147afc5ec7f79e5fa',1,'Game::grid']]]
+  ['darkblue_0',['darkBlue',['../_color_8h.html#a475c619b2aa4c3377a3a62ce406ad53f',1,'Color.h']]],
+  ['darkgrey_1',['darkGrey',['../_color_8cpp.html#ac745ea02ee7c667d37dbb70af4c9014f',1,'darkGrey:&#160;Color.cpp'],['../_color_8h.html#ac745ea02ee7c667d37dbb70af4c9014f',1,'darkGrey:&#160;Color.cpp']]],
+  ['drop_5finterval_5f_2',['drop_interval_',['../class_game_controller.html#a7aa76805eb521d5222fe4267be649cfc',1,'GameController']]],
+  ['drop_5ftimer_5f_3',['drop_timer_',['../class_game_controller.html#ac8075367bfae76b751afc9720b3b19e9',1,'GameController']]]
 ];

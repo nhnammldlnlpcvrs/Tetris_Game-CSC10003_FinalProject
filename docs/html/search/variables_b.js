@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['red_0',['red',['../colors_8cpp.html#a0c72d046084f830d973084d2596cd1a4',1,'red:&#160;colors.cpp'],['../colors_8h.html#a0c72d046084f830d973084d2596cd1a4',1,'red:&#160;colors.cpp']]],
-  ['rotatesound_1',['rotateSound',['../class_audio_service.html#a4a7b577c487b2fded2849e444f7c9971',1,'AudioService']]],
-  ['rotationstate_2',['rotationState',['../class_block.html#a54c2e8d9530ae180873f23a858e65ab6',1,'Block']]],
-  ['row_3',['row',['../class_position.html#a224d714110152e1fca26b2437253f56a',1,'Position']]],
-  ['rowoffset_4',['rowOffset',['../class_block.html#aee5b1a981d650ae38cc123adeebc7189',1,'Block']]]
+  ['panelwidth_0',['panelWidth',['../_app_8cpp.html#a7bfed013731d120e1ba1371f4dfc44f7',1,'App.cpp']]],
+  ['panelx_1',['panelX',['../_app_8cpp.html#a025a03ca7150bb7aa1abba3fd99d5012',1,'App.cpp']]],
+  ['purple_2',['purple',['../_color_8cpp.html#a2e57d4080e7963600dea70c0f94f4dad',1,'purple:&#160;Color.cpp'],['../_color_8h.html#a2e57d4080e7963600dea70c0f94f4dad',1,'purple:&#160;Color.cpp']]]
 ];

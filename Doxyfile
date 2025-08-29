@@ -4,7 +4,7 @@ PROJECT_NUMBER         = "v1.0"
 OUTPUT_DIRECTORY       = docs
 OUTPUT_LANGUAGE        = English
 
-INPUT                  = ./source ./libs
+INPUT                  = ./resource ./libs
 RECURSIVE              = YES
 FILE_PATTERNS          = *.cpp *.h
 
@@ -40,5 +40,5 @@ WARN_IF_DOC_ERROR      = YES
 WARN_NO_PARAMDOC       = YES
 WARN_LOGFILE           = docs/doxygen_warnings.log
 
-STRIP_FROM_PATH        = ./source ./libs
+STRIP_FROM_PATH        = ./resource ./libs
 GENERATE_TAGFILE       = docs/tetris_game.tag

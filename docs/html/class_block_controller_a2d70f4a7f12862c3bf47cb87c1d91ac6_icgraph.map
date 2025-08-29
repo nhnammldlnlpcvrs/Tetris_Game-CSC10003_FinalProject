@@ -1,0 +1,7 @@
+<map id="BlockController::SaveState" name="BlockController::SaveState">
+<area shape="rect" id="Node000001" title="Lưu trạng thái hiện tại của Block vào lịch sử." alt="" coords="211,31,390,56"/>
+<area shape="rect" id="Node000002" href="$class_block_controller.html#aaf0130109976cc1de077c8249625c54a" title="Di chuyển Block theo hàng và cột." alt="" coords="9,5,159,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,34,159,30,160,24,195,29"/>
+<area shape="rect" id="Node000003" href="$class_block_controller.html#ab37152f194a530f551c60d494afc677f" title="Xoay Block sang trạng thái kế tiếp." alt="" coords="5,55,163,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="195,58,164,61,163,56,195,53"/>
+</map>

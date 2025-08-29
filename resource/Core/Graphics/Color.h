@@ -5,47 +5,80 @@
 
 /**
  * @file colors.h
- * @brief Định nghĩa các màu sắc được sử dụng trong trò chơi và cung cấp hàm hỗ trợ.
+ * @brief Khai báo các màu sắc được sử dụng trong trò chơi Tetris và cung cấp hàm hỗ trợ.
  */
 
-
-/// Màu xám đậm - nền bảng hoặc khung chính.
+/**
+ * @brief Màu xám đậm - nền bảng hoặc khung chính.
+ */
 extern const Color darkGrey;
 
-/// Màu xanh lá cây - thường dùng cho các khối hoặc hiệu ứng tích cực.
+/**
+ * @brief Màu xanh lá cây - thường dùng cho khối S.
+ */
 extern const Color green;
 
-/// Màu đỏ - thường dùng cho các cảnh báo hoặc lỗi.
+/**
+ * @brief Màu đỏ - thường dùng cho khối Z hoặc cảnh báo.
+ */
 extern const Color red;
 
-/// Màu cam - một trong các màu khối.
+/**
+ * @brief Màu cam - thường dùng cho khối L.
+ */
 extern const Color orange;
 
-/// Màu vàng - một trong các màu khối.
+/**
+ * @brief Màu vàng - thường dùng cho khối O.
+ */
 extern const Color yellow;
 
-/// Màu tím - một trong các màu khối.
+/**
+ * @brief Màu tím - thường dùng cho khối T.
+ */
 extern const Color purple;
 
-/// Màu cyan (xanh ngọc) - một trong các màu khối.
+/**
+ * @brief Màu cyan (xanh ngọc) - thường dùng cho khối I.
+ */
 extern const Color cyan;
 
-/// Màu xanh dương cơ bản - một trong các màu khối.
+/**
+ * @brief Màu xanh dương cơ bản - thường dùng cho khối J.
+ */
 extern const Color blue;
 
-/// Màu xanh dương nhạt - màu phụ trợ hoặc khối khác.
+/**
+ * @brief Màu xanh dương nhạt - màu phụ trợ (không nằm trong 7 khối chuẩn).
+ */
 extern const Color lightBlue;
 
-/// Màu xanh dương đậm - một trong các màu khối hoặc nền.
+/**
+ * @brief Màu xanh dương đậm - có thể dùng cho nền hoặc hiệu ứng phụ.
+ */
 extern const Color darkBlue;
 
 /**
  * @brief Trả về danh sách tất cả các màu khối dùng trong trò chơi.
  * 
+ * Thứ tự mặc định:
+ * - 0: darkGrey (nền)
+ * - 1: cyan (I)
+ * - 2: blue (J)
+ * - 3: orange (L)
+ * - 4: yellow (O)
+ * - 5: green (S)
+ * - 6: purple (T)
+ * - 7: red (Z)
+ *
  * @return std::vector<Color> Danh sách màu theo thứ tự định sẵn.
  */
 std::vector<Color> GetCellColors();
 
-
-// Lấy màu theo ID block
+/**
+ * @brief Lấy màu của block dựa trên ID.
+ *
+ * @param id ID của block (0 = nền, 1-7 = các khối chuẩn).
+ * @return Color Màu sắc tương ứng, hoặc BLACK nếu id không hợp lệ.
+ */
 inline Color GetBlockColor(int id);

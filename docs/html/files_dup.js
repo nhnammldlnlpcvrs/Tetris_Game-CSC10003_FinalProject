@@ -1,11 +1,10 @@
 var files_dup =
 [
-    [ "app", "dir_d422163b96683743ed3963d4aac17747.html", "dir_d422163b96683743ed3963d4aac17747" ],
-    [ "audio", "dir_a5f32cf82ad289a7dac212f63f40f55b.html", "dir_a5f32cf82ad289a7dac212f63f40f55b" ],
-    [ "blocks", "dir_fa73ac1fd5f129f302876b2115c5fa9d.html", "dir_fa73ac1fd5f129f302876b2115c5fa9d" ],
-    [ "core", "dir_4270bfced15e0e73154b13468c7c9ad9.html", "dir_4270bfced15e0e73154b13468c7c9ad9" ],
-    [ "data", "dir_472fafaf0f039b9e6b043966c1ef7dbf.html", "dir_472fafaf0f039b9e6b043966c1ef7dbf" ],
-    [ "game", "dir_37c6514aeece95293041e34c0f2e0784.html", "dir_37c6514aeece95293041e34c0f2e0784" ],
-    [ "guide", "dir_fda62a176d62d474a35455f571151a78.html", "dir_fda62a176d62d474a35455f571151a78" ],
-    [ "source.cpp", "source_8cpp.html", "source_8cpp" ]
+    [ "App", "dir_b1617d756d2224e91d37255e84e89ba2.html", "dir_b1617d756d2224e91d37255e84e89ba2" ],
+    [ "Controller", "dir_b500f500d6f9b315c95ab1cd4a3b5c0d.html", "dir_b500f500d6f9b315c95ab1cd4a3b5c0d" ],
+    [ "Core", "dir_c6310732a22f63c0c2fc5595561e68f1.html", "dir_c6310732a22f63c0c2fc5595561e68f1" ],
+    [ "Infrastructure", "dir_df0805c56bacaea49bdc66185f445cd8.html", "dir_df0805c56bacaea49bdc66185f445cd8" ],
+    [ "Model", "dir_312950da3f243a51cc00f4a947545131.html", "dir_312950da3f243a51cc00f4a947545131" ],
+    [ "View", "dir_f2ee84e8e3a17eaa7015d788fa443c27.html", "dir_f2ee84e8e3a17eaa7015d788fa443c27" ],
+    [ "main.cpp", "main_8cpp.html", "main_8cpp" ]
 ];

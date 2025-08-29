@@ -93,45 +93,47 @@ $(function(){initNavTree('class_audio_service.html','','class_audio_service-memb
 </div><!--header-->
 <div class="contents">
 
-<p>Cung cấp các chức năng phát nhạc và hiệu ứng âm thanh.  
- <a href="#details">More...</a></p>
-
-<p><code>#include &lt;<a class="el" href="audio__service_8h_source.html">audio_service.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_audio_service_8h_source.html">AudioService.h</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for AudioService:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_audio_service__coll__graph.png" border="0" usemap="#a_audio_service_coll__map" loading="lazy" alt="Collaboration graph"/></div>
+<map name="a_audio_service_coll__map" id="a_audio_service_coll__map">
+<area shape="rect" title=" " alt="" coords="5,5,214,255"/>
+</map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ae802d9f4de7199ed2300c96f2740169e" id="r_ae802d9f4de7199ed2300c96f2740169e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae802d9f4de7199ed2300c96f2740169e">AudioService</a> ()</td></tr>
-<tr class="memdesc:ae802d9f4de7199ed2300c96f2740169e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Tải âm thanh và nhạc nền từ tệp.  <br /></td></tr>
+<tr class="memdesc:ae802d9f4de7199ed2300c96f2740169e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor mặc định, không load tài nguyên ngay.  <br /></td></tr>
 <tr class="memitem:a1532bf691f7e70c8e0a34bf2d05cae16" id="r_a1532bf691f7e70c8e0a34bf2d05cae16"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1532bf691f7e70c8e0a34bf2d05cae16">~AudioService</a> ()</td></tr>
-<tr class="memdesc:a1532bf691f7e70c8e0a34bf2d05cae16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. Giải phóng tài nguyên âm thanh.  <br /></td></tr>
-<tr class="memitem:a7eeb7eb3812dbfd8682d48cd08c938f8" id="r_a7eeb7eb3812dbfd8682d48cd08c938f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7eeb7eb3812dbfd8682d48cd08c938f8">PlayRotateSound</a> ()</td></tr>
-<tr class="memdesc:a7eeb7eb3812dbfd8682d48cd08c938f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phát hiệu ứng âm thanh khi xoay khối.  <br /></td></tr>
-<tr class="memitem:a3990589f20686f3c8cd914ab943ee4e1" id="r_a3990589f20686f3c8cd914ab943ee4e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3990589f20686f3c8cd914ab943ee4e1">PlayClearSound</a> ()</td></tr>
-<tr class="memdesc:a3990589f20686f3c8cd914ab943ee4e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phát hiệu ứng âm thanh khi xóa một hoặc nhiều dòng.  <br /></td></tr>
-<tr class="memitem:a9401df6e6982bb9339822105917ed1c5" id="r_a9401df6e6982bb9339822105917ed1c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9401df6e6982bb9339822105917ed1c5">PlayMusic</a> ()</td></tr>
-<tr class="memdesc:a9401df6e6982bb9339822105917ed1c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phát hoặc tiếp tục nhạc nền.  <br /></td></tr>
-<tr class="memitem:aecc2725995e221aaaefcb5756423163b" id="r_aecc2725995e221aaaefcb5756423163b"><td class="memItemLeft" align="right" valign="top">Music &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecc2725995e221aaaefcb5756423163b">GetMusic</a> ()</td></tr>
-<tr class="memdesc:aecc2725995e221aaaefcb5756423163b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lấy đối tượng nhạc nền hiện tại.  <br /></td></tr>
+<tr class="memdesc:a1532bf691f7e70c8e0a34bf2d05cae16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor, giải phóng tài nguyên âm thanh nếu đã khởi tạo.  <br /></td></tr>
+<tr class="memitem:a48f4419250668d2f3e9ed6693d850a22" id="r_a48f4419250668d2f3e9ed6693d850a22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48f4419250668d2f3e9ed6693d850a22">Init</a> ()</td></tr>
+<tr class="memdesc:a48f4419250668d2f3e9ed6693d850a22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Khởi tạo hệ thống âm thanh và load các file âm thanh/nhạc nền.  <br /></td></tr>
+<tr class="memitem:a93199082518f814ef98782708cfa666a" id="r_a93199082518f814ef98782708cfa666a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93199082518f814ef98782708cfa666a">PlayRotateEffect</a> ()</td></tr>
+<tr class="memdesc:a93199082518f814ef98782708cfa666a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phát hiệu ứng âm thanh khi xoay khối.  <br /></td></tr>
+<tr class="memitem:ad97739a121918062514f0fb4a798541a" id="r_ad97739a121918062514f0fb4a798541a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad97739a121918062514f0fb4a798541a">PlayClearEffect</a> ()</td></tr>
+<tr class="memdesc:ad97739a121918062514f0fb4a798541a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phát hiệu ứng âm thanh khi xóa dòng.  <br /></td></tr>
+<tr class="memitem:aeb46906945f4914497cdb30685b836a0" id="r_aeb46906945f4914497cdb30685b836a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb46906945f4914497cdb30685b836a0">PlayBackgroundMusic</a> ()</td></tr>
+<tr class="memdesc:aeb46906945f4914497cdb30685b836a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phát nhạc nền.  <br /></td></tr>
+<tr class="memitem:a6fffef3150c9d05e7ed0a0cd1184412f" id="r_a6fffef3150c9d05e7ed0a0cd1184412f"><td class="memItemLeft" align="right" valign="top">Music &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fffef3150c9d05e7ed0a0cd1184412f">GetBackgroundMusic</a> ()</td></tr>
+<tr class="memdesc:a6fffef3150c9d05e7ed0a0cd1184412f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trả về tham chiếu đến nhạc nền để cập nhật mỗi frame.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a4a7b577c487b2fded2849e444f7c9971" id="r_a4a7b577c487b2fded2849e444f7c9971"><td class="memItemLeft" align="right" valign="top">Sound&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a7b577c487b2fded2849e444f7c9971">rotateSound</a></td></tr>
-<tr class="memdesc:a4a7b577c487b2fded2849e444f7c9971"><td class="mdescLeft">&#160;</td><td class="mdescRight">Âm thanh khi xoay khối.  <br /></td></tr>
-<tr class="memitem:a18eb3a24d3fee948e96194cb2a4ff5a7" id="r_a18eb3a24d3fee948e96194cb2a4ff5a7"><td class="memItemLeft" align="right" valign="top">Sound&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18eb3a24d3fee948e96194cb2a4ff5a7">clearSound</a></td></tr>
-<tr class="memdesc:a18eb3a24d3fee948e96194cb2a4ff5a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Âm thanh khi xóa dòng.  <br /></td></tr>
-<tr class="memitem:a720f7ce36eb0e32ca19b78553b52b6aa" id="r_a720f7ce36eb0e32ca19b78553b52b6aa"><td class="memItemLeft" align="right" valign="top">Music&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a720f7ce36eb0e32ca19b78553b52b6aa">music</a></td></tr>
-<tr class="memdesc:a720f7ce36eb0e32ca19b78553b52b6aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nhạc nền đang phát trong trò chơi.  <br /></td></tr>
+<tr class="memitem:a5243983ea2d640b7259238ca0141e642" id="r_a5243983ea2d640b7259238ca0141e642"><td class="memItemLeft" align="right" valign="top">Sound&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5243983ea2d640b7259238ca0141e642">rotate_sound_</a> {}</td></tr>
+<tr class="memdesc:a5243983ea2d640b7259238ca0141e642"><td class="mdescLeft">&#160;</td><td class="mdescRight">Âm thanh xoay khối.  <br /></td></tr>
+<tr class="memitem:a2e6777e6569e4d4b419b0326c20e06bb" id="r_a2e6777e6569e4d4b419b0326c20e06bb"><td class="memItemLeft" align="right" valign="top">Sound&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e6777e6569e4d4b419b0326c20e06bb">clear_sound_</a> {}</td></tr>
+<tr class="memdesc:a2e6777e6569e4d4b419b0326c20e06bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Âm thanh xóa dòng.  <br /></td></tr>
+<tr class="memitem:a520dd8d72694f4f2c99d1ba63b2f649c" id="r_a520dd8d72694f4f2c99d1ba63b2f649c"><td class="memItemLeft" align="right" valign="top">Music&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a520dd8d72694f4f2c99d1ba63b2f649c">background_music_</a> {}</td></tr>
+<tr class="memdesc:a520dd8d72694f4f2c99d1ba63b2f649c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nhạc nền của trò chơi.  <br /></td></tr>
+<tr class="memitem:a8a2ef6d002bf1b045b63d38b374f1c8f" id="r_a8a2ef6d002bf1b045b63d38b374f1c8f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a2ef6d002bf1b045b63d38b374f1c8f">is_initialized_</a> = false</td></tr>
+<tr class="memdesc:a8a2ef6d002bf1b045b63d38b374f1c8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Đảm bảo tránh giải phóng hai lần nếu Init thất bại.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Cung cấp các chức năng phát nhạc và hiệu ứng âm thanh. </p>
-<p>Lớp này chịu trách nhiệm tải, phát và quản lý các âm thanh như: xoay khối, xóa dòng và nhạc nền. </p>
-
-<p class="definition">Definition at line <a class="el" href="audio__service_8h_source.html#l00015">15</a> of file <a class="el" href="audio__service_8h_source.html">audio_service.h</a>.</p>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_audio_service_8h_source.html#l00011">11</a> of file <a class="el" href="_audio_service_8h_source.html">AudioService.h</a>.</p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae802d9f4de7199ed2300c96f2740169e" name="ae802d9f4de7199ed2300c96f2740169e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae802d9f4de7199ed2300c96f2740169e">&#9670;&#160;</a></span>AudioService()</h2>
@@ -148,29 +150,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Constructor. Tải âm thanh và nhạc nền từ tệp. </p>
-<p>Khởi tạo hệ thống âm thanh và tải các tệp âm thanh cần thiết.</p>
-<p>Hàm khởi tạo sẽ:</p><ul>
-<li>Khởi tạo thiết bị âm thanh (InitAudioDevice)</li>
-<li>Tải âm thanh xoay khối (rotate.mp3)</li>
-<li>Tải âm thanh xóa dòng (clear.mp3)</li>
-<li>Tải và phát nhạc nền (music.mp3) </li>
-</ul>
+<p>Constructor mặc định, không load tài nguyên ngay. </p>
+<p>Khởi tạo <a class="el" href="class_audio_service.html">AudioService</a> nhưng chưa load tài nguyên.</p>
+<p>Constructor này không thực hiện logic nặng, việc khởi tạo thật sự được thực hiện trong <a class="el" href="#a48f4419250668d2f3e9ed6693d850a22" title="Khởi tạo hệ thống âm thanh và load các file âm thanh/nhạc nền.">Init()</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="audio__service_8cpp_source.html#l00012">12</a> of file <a class="el" href="audio__service_8cpp_source.html">audio_service.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_audio_service_8cpp_source.html#l00012">12</a> of file <a class="el" href="_audio_service_8cpp_source.html">AudioService.cpp</a>.</p>
 <div class="fragment"><div class="line"><span class="lineno">   12</span>                           {</div>
-<div class="line"><span class="lineno">   13</span>    InitAudioDevice();</div>
-<div class="line"><span class="lineno">   14</span>    <a class="code hl_variable" href="#a4a7b577c487b2fded2849e444f7c9971">rotateSound</a> = LoadSound(<span class="stringliteral">&quot;../assets/sounds/rotate.mp3&quot;</span>);</div>
-<div class="line"><span class="lineno">   15</span>    <a class="code hl_variable" href="#a18eb3a24d3fee948e96194cb2a4ff5a7">clearSound</a> = LoadSound(<span class="stringliteral">&quot;../assets/sounds/clear.mp3&quot;</span>);</div>
-<div class="line"><span class="lineno">   16</span>    <a class="code hl_variable" href="#a720f7ce36eb0e32ca19b78553b52b6aa">music</a> = LoadMusicStream(<span class="stringliteral">&quot;../assets/sounds/hold_on_tight_aespa.mp3&quot;</span>);</div>
-<div class="line"><span class="lineno">   17</span>    PlayMusicStream(<a class="code hl_variable" href="#a720f7ce36eb0e32ca19b78553b52b6aa">music</a>);</div>
-<div class="line"><span class="lineno">   18</span>}</div>
-<div class="ttc" id="aclass_audio_service_html_a18eb3a24d3fee948e96194cb2a4ff5a7"><div class="ttname"><a href="#a18eb3a24d3fee948e96194cb2a4ff5a7">AudioService::clearSound</a></div><div class="ttdeci">Sound clearSound</div><div class="ttdoc">Âm thanh khi xóa dòng.</div><div class="ttdef"><b>Definition</b> <a href="audio__service_8h_source.html#l00057">audio_service.h:57</a></div></div>
-<div class="ttc" id="aclass_audio_service_html_a4a7b577c487b2fded2849e444f7c9971"><div class="ttname"><a href="#a4a7b577c487b2fded2849e444f7c9971">AudioService::rotateSound</a></div><div class="ttdeci">Sound rotateSound</div><div class="ttdoc">Âm thanh khi xoay khối.</div><div class="ttdef"><b>Definition</b> <a href="audio__service_8h_source.html#l00052">audio_service.h:52</a></div></div>
-<div class="ttc" id="aclass_audio_service_html_a720f7ce36eb0e32ca19b78553b52b6aa"><div class="ttname"><a href="#a720f7ce36eb0e32ca19b78553b52b6aa">AudioService::music</a></div><div class="ttdeci">Music music</div><div class="ttdoc">Nhạc nền đang phát trong trò chơi.</div><div class="ttdef"><b>Definition</b> <a href="audio__service_8h_source.html#l00062">audio_service.h:62</a></div></div>
+<div class="line"><span class="lineno">   13</span>    <span class="comment">// Constructor không thực hiện logic nặng</span></div>
+<div class="line"><span class="lineno">   14</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="audio__service_8h_source.html#l00057">clearSound</a>, <a class="el" href="audio__service_8h_source.html#l00062">music</a>, and <a class="el" href="audio__service_8h_source.html#l00052">rotateSound</a>.</p>
-
 </div>
 </div>
 <a id="a1532bf691f7e70c8e0a34bf2d05cae16" name="a1532bf691f7e70c8e0a34bf2d05cae16"></a>
@@ -188,34 +176,43 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Destructor. Giải phóng tài nguyên âm thanh. </p>
-<p>Hủy các tài nguyên âm thanh và đóng thiết bị âm thanh.</p>
-<p>Hàm hủy sẽ:</p><ul>
-<li>Giải phóng các tệp âm thanh và nhạc nền</li>
-<li>Tắt thiết bị âm thanh </li>
+<p>Destructor, giải phóng tài nguyên âm thanh nếu đã khởi tạo. </p>
+<p>Giải phóng tài nguyên âm thanh khi <a class="el" href="class_audio_service.html">AudioService</a> bị hủy.</p>
+<ul>
+<li>Giải phóng sound effect. <br  />
+</li>
+<li>Giải phóng nhạc nền. <br  />
+</li>
+<li>Đóng thiết bị âm thanh. </li>
 </ul>
 
-<p class="definition">Definition at line <a class="el" href="audio__service_8cpp_source.html#l00027">27</a> of file <a class="el" href="audio__service_8cpp_source.html">audio_service.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   27</span>                            {</div>
-<div class="line"><span class="lineno">   28</span>    UnloadSound(<a class="code hl_variable" href="#a4a7b577c487b2fded2849e444f7c9971">rotateSound</a>);</div>
-<div class="line"><span class="lineno">   29</span>    UnloadSound(<a class="code hl_variable" href="#a18eb3a24d3fee948e96194cb2a4ff5a7">clearSound</a>);</div>
-<div class="line"><span class="lineno">   30</span>    UnloadMusicStream(<a class="code hl_variable" href="#a720f7ce36eb0e32ca19b78553b52b6aa">music</a>);</div>
-<div class="line"><span class="lineno">   31</span>    CloseAudioDevice();</div>
-<div class="line"><span class="lineno">   32</span>}</div>
+<p class="definition">Definition at line <a class="el" href="_audio_service_8cpp_source.html#l00041">41</a> of file <a class="el" href="_audio_service_8cpp_source.html">AudioService.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   41</span>                            {</div>
+<div class="line"><span class="lineno">   42</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="#a8a2ef6d002bf1b045b63d38b374f1c8f">is_initialized_</a>) <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   43</span> </div>
+<div class="line"><span class="lineno">   44</span>    UnloadSound(<a class="code hl_variable" href="#a5243983ea2d640b7259238ca0141e642">rotate_sound_</a>);</div>
+<div class="line"><span class="lineno">   45</span>    UnloadSound(<a class="code hl_variable" href="#a2e6777e6569e4d4b419b0326c20e06bb">clear_sound_</a>);</div>
+<div class="line"><span class="lineno">   46</span>    UnloadMusicStream(<a class="code hl_variable" href="#a520dd8d72694f4f2c99d1ba63b2f649c">background_music_</a>);</div>
+<div class="line"><span class="lineno">   47</span>    CloseAudioDevice();</div>
+<div class="line"><span class="lineno">   48</span>}</div>
+<div class="ttc" id="aclass_audio_service_html_a2e6777e6569e4d4b419b0326c20e06bb"><div class="ttname"><a href="#a2e6777e6569e4d4b419b0326c20e06bb">AudioService::clear_sound_</a></div><div class="ttdeci">Sound clear_sound_</div><div class="ttdoc">Âm thanh xóa dòng.</div><div class="ttdef"><b>Definition</b> <a href="_audio_service_8h_source.html#l00058">AudioService.h:58</a></div></div>
+<div class="ttc" id="aclass_audio_service_html_a520dd8d72694f4f2c99d1ba63b2f649c"><div class="ttname"><a href="#a520dd8d72694f4f2c99d1ba63b2f649c">AudioService::background_music_</a></div><div class="ttdeci">Music background_music_</div><div class="ttdoc">Nhạc nền của trò chơi.</div><div class="ttdef"><b>Definition</b> <a href="_audio_service_8h_source.html#l00059">AudioService.h:59</a></div></div>
+<div class="ttc" id="aclass_audio_service_html_a5243983ea2d640b7259238ca0141e642"><div class="ttname"><a href="#a5243983ea2d640b7259238ca0141e642">AudioService::rotate_sound_</a></div><div class="ttdeci">Sound rotate_sound_</div><div class="ttdoc">Âm thanh xoay khối.</div><div class="ttdef"><b>Definition</b> <a href="_audio_service_8h_source.html#l00057">AudioService.h:57</a></div></div>
+<div class="ttc" id="aclass_audio_service_html_a8a2ef6d002bf1b045b63d38b374f1c8f"><div class="ttname"><a href="#a8a2ef6d002bf1b045b63d38b374f1c8f">AudioService::is_initialized_</a></div><div class="ttdeci">bool is_initialized_</div><div class="ttdoc">Đảm bảo tránh giải phóng hai lần nếu Init thất bại.</div><div class="ttdef"><b>Definition</b> <a href="_audio_service_8h_source.html#l00061">AudioService.h:61</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="audio__service_8h_source.html#l00057">clearSound</a>, <a class="el" href="audio__service_8h_source.html#l00062">music</a>, and <a class="el" href="audio__service_8h_source.html#l00052">rotateSound</a>.</p>
+<p class="reference">References <a class="el" href="_audio_service_8h_source.html#l00059">background_music_</a>, <a class="el" href="_audio_service_8h_source.html#l00058">clear_sound_</a>, <a class="el" href="_audio_service_8h_source.html#l00061">is_initialized_</a>, and <a class="el" href="_audio_service_8h_source.html#l00057">rotate_sound_</a>.</p>
 
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="aecc2725995e221aaaefcb5756423163b" name="aecc2725995e221aaaefcb5756423163b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aecc2725995e221aaaefcb5756423163b">&#9670;&#160;</a></span>GetMusic()</h2>
+<a id="a6fffef3150c9d05e7ed0a0cd1184412f" name="a6fffef3150c9d05e7ed0a0cd1184412f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fffef3150c9d05e7ed0a0cd1184412f">&#9670;&#160;</a></span>GetBackgroundMusic()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Music &amp; AudioService::GetMusic </td>
+          <td class="memname">Music &amp; AudioService::GetBackgroundMusic </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -223,29 +220,29 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Lấy đối tượng nhạc nền hiện tại. </p>
-<p>Trả về tham chiếu đến đối tượng nhạc nền đang được phát.</p>
-<dl class="section return"><dt>Returns</dt><dd>Tham chiếu đến biến Music.</dd>
+<p>Trả về tham chiếu đến nhạc nền để cập nhật mỗi frame. </p>
+<p>Trả về tham chiếu tới nhạc nền hiện tại.</p>
+<dl class="section return"><dt>Returns</dt><dd>Music&amp; đối tượng nhạc nền đang phát.</dd>
 <dd>
-Music&amp; - tham chiếu đến đối tượng nhạc. </dd></dl>
+Music&amp; tham chiếu tới đối tượng nhạc nền. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="audio__service_8cpp_source.html#l00060">60</a> of file <a class="el" href="audio__service_8cpp_source.html">audio_service.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   60</span>                              {</div>
-<div class="line"><span class="lineno">   61</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="#a720f7ce36eb0e32ca19b78553b52b6aa">music</a>;</div>
-<div class="line"><span class="lineno">   62</span>}</div>
+<p class="definition">Definition at line <a class="el" href="_audio_service_8cpp_source.html#l00084">84</a> of file <a class="el" href="_audio_service_8cpp_source.html">AudioService.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   84</span>                                        {</div>
+<div class="line"><span class="lineno">   85</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="#a520dd8d72694f4f2c99d1ba63b2f649c">background_music_</a>;</div>
+<div class="line"><span class="lineno">   86</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="audio__service_8h_source.html#l00062">music</a>.</p>
+<p class="reference">References <a class="el" href="_audio_service_8h_source.html#l00059">background_music_</a>.</p>
 
 </div>
 </div>
-<a id="a3990589f20686f3c8cd914ab943ee4e1" name="a3990589f20686f3c8cd914ab943ee4e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3990589f20686f3c8cd914ab943ee4e1">&#9670;&#160;</a></span>PlayClearSound()</h2>
+<a id="a48f4419250668d2f3e9ed6693d850a22" name="a48f4419250668d2f3e9ed6693d850a22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48f4419250668d2f3e9ed6693d850a22">&#9670;&#160;</a></span>Init()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AudioService::PlayClearSound </td>
+          <td class="memname">void AudioService::Init </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -253,26 +250,48 @@ Music&amp; - tham chiếu đến đối tượng nhạc. </dd></dl>
       </table>
 </div><div class="memdoc">
 
-<p>Phát hiệu ứng âm thanh khi xóa một hoặc nhiều dòng. </p>
-<p>Phát âm thanh khi xóa dòng. </p>
+<p>Khởi tạo hệ thống âm thanh và load các file âm thanh/nhạc nền. </p>
+<p>Khởi tạo hệ thống âm thanh và load các hiệu ứng + nhạc nền.</p>
+<ul>
+<li>Gọi InitAudioDevice(). <br  />
+</li>
+<li>Load hiệu ứng xoay khối, xóa dòng. <br  />
+</li>
+<li>Load và phát nhạc nền.</li>
+<li>Gọi InitAudioDevice() để khởi tạo thiết bị âm thanh. <br  />
+</li>
+<li>Load âm thanh xoay khối, âm thanh xóa dòng, và nhạc nền. <br  />
+</li>
+<li>Tự động phát nhạc nền ngay khi khởi tạo. </li>
+</ul>
 
-<p class="definition">Definition at line <a class="el" href="audio__service_8cpp_source.html#l00044">44</a> of file <a class="el" href="audio__service_8cpp_source.html">audio_service.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   44</span>                                  {</div>
-<div class="line"><span class="lineno">   45</span>    PlaySound(<a class="code hl_variable" href="#a18eb3a24d3fee948e96194cb2a4ff5a7">clearSound</a>);</div>
-<div class="line"><span class="lineno">   46</span>}</div>
+<p class="definition">Definition at line <a class="el" href="_audio_service_8cpp_source.html#l00023">23</a> of file <a class="el" href="_audio_service_8cpp_source.html">AudioService.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   23</span>                        {</div>
+<div class="line"><span class="lineno">   24</span>    InitAudioDevice();</div>
+<div class="line"><span class="lineno">   25</span> </div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_variable" href="#a5243983ea2d640b7259238ca0141e642">rotate_sound_</a> = LoadSound(<a class="code hl_variable" href="_audio_service_8cpp.html#aca95064d2374c6a58daff28c5b93115f">ROTATE_SOUND_PATH</a>);</div>
+<div class="line"><span class="lineno">   27</span>    <a class="code hl_variable" href="#a2e6777e6569e4d4b419b0326c20e06bb">clear_sound_</a>  = LoadSound(<a class="code hl_variable" href="_audio_service_8cpp.html#a8de609d278857e08fba0ee04727b5c84">CLEAR_SOUND_PATH</a>);</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_variable" href="#a520dd8d72694f4f2c99d1ba63b2f649c">background_music_</a> = LoadMusicStream(<a class="code hl_variable" href="_audio_service_8cpp.html#a8b8bb0e14f2c4092841330a050b20733">MUSIC_PATH</a>);</div>
+<div class="line"><span class="lineno">   29</span> </div>
+<div class="line"><span class="lineno">   30</span>    PlayMusicStream(<a class="code hl_variable" href="#a520dd8d72694f4f2c99d1ba63b2f649c">background_music_</a>);  <span class="comment">// Tự động phát nhạc ngay</span></div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_variable" href="#a8a2ef6d002bf1b045b63d38b374f1c8f">is_initialized_</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   32</span>}</div>
+<div class="ttc" id="a_audio_service_8cpp_html_a8b8bb0e14f2c4092841330a050b20733"><div class="ttname"><a href="_audio_service_8cpp.html#a8b8bb0e14f2c4092841330a050b20733">MUSIC_PATH</a></div><div class="ttdeci">constexpr const char * MUSIC_PATH</div><div class="ttdef"><b>Definition</b> <a href="_audio_service_8cpp_source.html#l00005">AudioService.cpp:5</a></div></div>
+<div class="ttc" id="a_audio_service_8cpp_html_a8de609d278857e08fba0ee04727b5c84"><div class="ttname"><a href="_audio_service_8cpp.html#a8de609d278857e08fba0ee04727b5c84">CLEAR_SOUND_PATH</a></div><div class="ttdeci">constexpr const char * CLEAR_SOUND_PATH</div><div class="ttdef"><b>Definition</b> <a href="_audio_service_8cpp_source.html#l00004">AudioService.cpp:4</a></div></div>
+<div class="ttc" id="a_audio_service_8cpp_html_aca95064d2374c6a58daff28c5b93115f"><div class="ttname"><a href="_audio_service_8cpp.html#aca95064d2374c6a58daff28c5b93115f">ROTATE_SOUND_PATH</a></div><div class="ttdeci">constexpr const char * ROTATE_SOUND_PATH</div><div class="ttdef"><b>Definition</b> <a href="_audio_service_8cpp_source.html#l00003">AudioService.cpp:3</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="audio__service_8h_source.html#l00057">clearSound</a>.</p>
+<p class="reference">References <a class="el" href="_audio_service_8h_source.html#l00059">background_music_</a>, <a class="el" href="_audio_service_8h_source.html#l00058">clear_sound_</a>, <a class="el" href="_audio_service_8cpp_source.html#l00004">CLEAR_SOUND_PATH</a>, <a class="el" href="_audio_service_8h_source.html#l00061">is_initialized_</a>, <a class="el" href="_audio_service_8cpp_source.html#l00005">MUSIC_PATH</a>, <a class="el" href="_audio_service_8h_source.html#l00057">rotate_sound_</a>, and <a class="el" href="_audio_service_8cpp_source.html#l00003">ROTATE_SOUND_PATH</a>.</p>
 
 </div>
 </div>
-<a id="a9401df6e6982bb9339822105917ed1c5" name="a9401df6e6982bb9339822105917ed1c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9401df6e6982bb9339822105917ed1c5">&#9670;&#160;</a></span>PlayMusic()</h2>
+<a id="aeb46906945f4914497cdb30685b836a0" name="aeb46906945f4914497cdb30685b836a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb46906945f4914497cdb30685b836a0">&#9670;&#160;</a></span>PlayBackgroundMusic()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AudioService::PlayMusic </td>
+          <td class="memname">void AudioService::PlayBackgroundMusic </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -280,26 +299,58 @@ Music&amp; - tham chiếu đến đối tượng nhạc. </dd></dl>
       </table>
 </div><div class="memdoc">
 
-<p>Phát hoặc tiếp tục nhạc nền. </p>
-<p>Phát lại nhạc nền. </p>
+<p>Phát nhạc nền. </p>
+<p>Phát nhạc nền (background music).</p>
+<p>Nếu nhạc đang tạm dừng thì tiếp tục phát (resume).</p>
+<p>Nếu đã gọi <a class="el" href="#a48f4419250668d2f3e9ed6693d850a22" title="Khởi tạo hệ thống âm thanh và load các file âm thanh/nhạc nền.">Init()</a>, hàm này sẽ phát nhạc nền. </p>
 
-<p class="definition">Definition at line <a class="el" href="audio__service_8cpp_source.html#l00051">51</a> of file <a class="el" href="audio__service_8cpp_source.html">audio_service.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   51</span>                             {</div>
-<div class="line"><span class="lineno">   52</span>    PlayMusicStream(<a class="code hl_variable" href="#a720f7ce36eb0e32ca19b78553b52b6aa">music</a>);</div>
-<div class="line"><span class="lineno">   53</span>}</div>
+<p class="definition">Definition at line <a class="el" href="_audio_service_8cpp_source.html#l00073">73</a> of file <a class="el" href="_audio_service_8cpp_source.html">AudioService.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   73</span>                                       {</div>
+<div class="line"><span class="lineno">   74</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a8a2ef6d002bf1b045b63d38b374f1c8f">is_initialized_</a>) {</div>
+<div class="line"><span class="lineno">   75</span>        PlayMusicStream(<a class="code hl_variable" href="#a520dd8d72694f4f2c99d1ba63b2f649c">background_music_</a>);</div>
+<div class="line"><span class="lineno">   76</span>    }</div>
+<div class="line"><span class="lineno">   77</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="audio__service_8h_source.html#l00062">music</a>.</p>
+<p class="reference">References <a class="el" href="_audio_service_8h_source.html#l00059">background_music_</a>, and <a class="el" href="_audio_service_8h_source.html#l00061">is_initialized_</a>.</p>
 
 </div>
 </div>
-<a id="a7eeb7eb3812dbfd8682d48cd08c938f8" name="a7eeb7eb3812dbfd8682d48cd08c938f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7eeb7eb3812dbfd8682d48cd08c938f8">&#9670;&#160;</a></span>PlayRotateSound()</h2>
+<a id="ad97739a121918062514f0fb4a798541a" name="ad97739a121918062514f0fb4a798541a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad97739a121918062514f0fb4a798541a">&#9670;&#160;</a></span>PlayClearEffect()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AudioService::PlayRotateSound </td>
+          <td class="memname">void AudioService::PlayClearEffect </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Phát hiệu ứng âm thanh khi xóa dòng. </p>
+
+<p class="definition">Definition at line <a class="el" href="_audio_service_8cpp_source.html#l00062">62</a> of file <a class="el" href="_audio_service_8cpp_source.html">AudioService.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   62</span>                                   {</div>
+<div class="line"><span class="lineno">   63</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a8a2ef6d002bf1b045b63d38b374f1c8f">is_initialized_</a>) {</div>
+<div class="line"><span class="lineno">   64</span>        PlaySound(<a class="code hl_variable" href="#a2e6777e6569e4d4b419b0326c20e06bb">clear_sound_</a>);</div>
+<div class="line"><span class="lineno">   65</span>    }</div>
+<div class="line"><span class="lineno">   66</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="_audio_service_8h_source.html#l00058">clear_sound_</a>, and <a class="el" href="_audio_service_8h_source.html#l00061">is_initialized_</a>.</p>
+
+</div>
+</div>
+<a id="a93199082518f814ef98782708cfa666a" name="a93199082518f814ef98782708cfa666a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93199082518f814ef98782708cfa666a">&#9670;&#160;</a></span>PlayRotateEffect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AudioService::PlayRotateEffect </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -308,20 +359,21 @@ Music&amp; - tham chiếu đến đối tượng nhạc. </dd></dl>
 </div><div class="memdoc">
 
 <p>Phát hiệu ứng âm thanh khi xoay khối. </p>
-<p>Phát âm thanh khi xoay khối. </p>
 
-<p class="definition">Definition at line <a class="el" href="audio__service_8cpp_source.html#l00037">37</a> of file <a class="el" href="audio__service_8cpp_source.html">audio_service.cpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   37</span>                                   {</div>
-<div class="line"><span class="lineno">   38</span>    PlaySound(<a class="code hl_variable" href="#a4a7b577c487b2fded2849e444f7c9971">rotateSound</a>);</div>
-<div class="line"><span class="lineno">   39</span>}</div>
+<p class="definition">Definition at line <a class="el" href="_audio_service_8cpp_source.html#l00053">53</a> of file <a class="el" href="_audio_service_8cpp_source.html">AudioService.cpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   53</span>                                    {</div>
+<div class="line"><span class="lineno">   54</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="#a8a2ef6d002bf1b045b63d38b374f1c8f">is_initialized_</a>) {</div>
+<div class="line"><span class="lineno">   55</span>        PlaySound(<a class="code hl_variable" href="#a5243983ea2d640b7259238ca0141e642">rotate_sound_</a>);</div>
+<div class="line"><span class="lineno">   56</span>    }</div>
+<div class="line"><span class="lineno">   57</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="audio__service_8h_source.html#l00052">rotateSound</a>.</p>
+<p class="reference">References <a class="el" href="_audio_service_8h_source.html#l00061">is_initialized_</a>, and <a class="el" href="_audio_service_8h_source.html#l00057">rotate_sound_</a>.</p>
 
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a18eb3a24d3fee948e96194cb2a4ff5a7" name="a18eb3a24d3fee948e96194cb2a4ff5a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18eb3a24d3fee948e96194cb2a4ff5a7">&#9670;&#160;</a></span>clearSound</h2>
+<a id="a520dd8d72694f4f2c99d1ba63b2f649c" name="a520dd8d72694f4f2c99d1ba63b2f649c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a520dd8d72694f4f2c99d1ba63b2f649c">&#9670;&#160;</a></span>background_music_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -330,7 +382,7 @@ Music&amp; - tham chiếu đến đối tượng nhạc. </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Sound AudioService::clearSound</td>
+          <td class="memname">Music AudioService::background_music_ {}</td>
         </tr>
       </table>
   </td>
@@ -340,16 +392,17 @@ Music&amp; - tham chiếu đến đối tượng nhạc. </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Âm thanh khi xóa dòng. </p>
+<p>Nhạc nền của trò chơi. </p>
 
-<p class="definition">Definition at line <a class="el" href="audio__service_8h_source.html#l00057">57</a> of file <a class="el" href="audio__service_8h_source.html">audio_service.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="audio__service_8cpp_source.html#l00012">AudioService()</a>, <a class="el" href="audio__service_8cpp_source.html#l00044">PlayClearSound()</a>, and <a class="el" href="audio__service_8cpp_source.html#l00027">~AudioService()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_audio_service_8h_source.html#l00059">59</a> of file <a class="el" href="_audio_service_8h_source.html">AudioService.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   59</span>{};    </div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="_audio_service_8cpp_source.html#l00084">GetBackgroundMusic()</a>, <a class="el" href="_audio_service_8cpp_source.html#l00023">Init()</a>, <a class="el" href="_audio_service_8cpp_source.html#l00073">PlayBackgroundMusic()</a>, and <a class="el" href="_audio_service_8cpp_source.html#l00041">~AudioService()</a>.</p>
 
 </div>
 </div>
-<a id="a720f7ce36eb0e32ca19b78553b52b6aa" name="a720f7ce36eb0e32ca19b78553b52b6aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a720f7ce36eb0e32ca19b78553b52b6aa">&#9670;&#160;</a></span>music</h2>
+<a id="a2e6777e6569e4d4b419b0326c20e06bb" name="a2e6777e6569e4d4b419b0326c20e06bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e6777e6569e4d4b419b0326c20e06bb">&#9670;&#160;</a></span>clear_sound_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -358,7 +411,7 @@ Music&amp; - tham chiếu đến đối tượng nhạc. </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Music AudioService::music</td>
+          <td class="memname">Sound AudioService::clear_sound_ {}</td>
         </tr>
       </table>
   </td>
@@ -368,16 +421,17 @@ Music&amp; - tham chiếu đến đối tượng nhạc. </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Nhạc nền đang phát trong trò chơi. </p>
+<p>Âm thanh xóa dòng. </p>
 
-<p class="definition">Definition at line <a class="el" href="audio__service_8h_source.html#l00062">62</a> of file <a class="el" href="audio__service_8h_source.html">audio_service.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="audio__service_8cpp_source.html#l00012">AudioService()</a>, <a class="el" href="audio__service_8cpp_source.html#l00060">GetMusic()</a>, <a class="el" href="audio__service_8cpp_source.html#l00051">PlayMusic()</a>, and <a class="el" href="audio__service_8cpp_source.html#l00027">~AudioService()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_audio_service_8h_source.html#l00058">58</a> of file <a class="el" href="_audio_service_8h_source.html">AudioService.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   58</span>{};         </div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="_audio_service_8cpp_source.html#l00023">Init()</a>, <a class="el" href="_audio_service_8cpp_source.html#l00062">PlayClearEffect()</a>, and <a class="el" href="_audio_service_8cpp_source.html#l00041">~AudioService()</a>.</p>
 
 </div>
 </div>
-<a id="a4a7b577c487b2fded2849e444f7c9971" name="a4a7b577c487b2fded2849e444f7c9971"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a7b577c487b2fded2849e444f7c9971">&#9670;&#160;</a></span>rotateSound</h2>
+<a id="a8a2ef6d002bf1b045b63d38b374f1c8f" name="a8a2ef6d002bf1b045b63d38b374f1c8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a2ef6d002bf1b045b63d38b374f1c8f">&#9670;&#160;</a></span>is_initialized_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -386,7 +440,7 @@ Music&amp; - tham chiếu đến đối tượng nhạc. </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Sound AudioService::rotateSound</td>
+          <td class="memname">bool AudioService::is_initialized_ = false</td>
         </tr>
       </table>
   </td>
@@ -396,17 +450,46 @@ Music&amp; - tham chiếu đến đối tượng nhạc. </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Âm thanh khi xoay khối. </p>
+<p>Đảm bảo tránh giải phóng hai lần nếu Init thất bại. </p>
 
-<p class="definition">Definition at line <a class="el" href="audio__service_8h_source.html#l00052">52</a> of file <a class="el" href="audio__service_8h_source.html">audio_service.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_audio_service_8h_source.html#l00061">61</a> of file <a class="el" href="_audio_service_8h_source.html">AudioService.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="audio__service_8cpp_source.html#l00012">AudioService()</a>, <a class="el" href="audio__service_8cpp_source.html#l00037">PlayRotateSound()</a>, and <a class="el" href="audio__service_8cpp_source.html#l00027">~AudioService()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="_audio_service_8cpp_source.html#l00023">Init()</a>, <a class="el" href="_audio_service_8cpp_source.html#l00073">PlayBackgroundMusic()</a>, <a class="el" href="_audio_service_8cpp_source.html#l00062">PlayClearEffect()</a>, <a class="el" href="_audio_service_8cpp_source.html#l00053">PlayRotateEffect()</a>, and <a class="el" href="_audio_service_8cpp_source.html#l00041">~AudioService()</a>.</p>
+
+</div>
+</div>
+<a id="a5243983ea2d640b7259238ca0141e642" name="a5243983ea2d640b7259238ca0141e642"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5243983ea2d640b7259238ca0141e642">&#9670;&#160;</a></span>rotate_sound_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Sound AudioService::rotate_sound_ {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Âm thanh xoay khối. </p>
+
+<p class="definition">Definition at line <a class="el" href="_audio_service_8h_source.html#l00057">57</a> of file <a class="el" href="_audio_service_8h_source.html">AudioService.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   57</span>{};        </div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="_audio_service_8cpp_source.html#l00023">Init()</a>, <a class="el" href="_audio_service_8cpp_source.html#l00053">PlayRotateEffect()</a>, and <a class="el" href="_audio_service_8cpp_source.html#l00041">~AudioService()</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>audio/<a class="el" href="audio__service_8h_source.html">audio_service.h</a></li>
-<li>audio/<a class="el" href="audio__service_8cpp_source.html">audio_service.cpp</a></li>
+<li>Infrastructure/Audio/<a class="el" href="_audio_service_8h_source.html">AudioService.h</a></li>
+<li>Infrastructure/Audio/<a class="el" href="_audio_service_8cpp_source.html">AudioService.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -1,8 +1,20 @@
 var searchData=
 [
-  ['dẫn_20hiển_20thị_20gồm_3a_0',['Hướng dẫn hiển thị gồm:',['../guide_8cpp.html#autotoc_md0',1,'']]],
-  ['darkblue_1',['darkBlue',['../colors_8cpp.html#a475c619b2aa4c3377a3a62ce406ad53f',1,'darkBlue:&#160;colors.cpp'],['../colors_8h.html#a475c619b2aa4c3377a3a62ce406ad53f',1,'darkBlue:&#160;colors.cpp']]],
-  ['darkgrey_2',['darkGrey',['../colors_8cpp.html#ac745ea02ee7c667d37dbb70af4c9014f',1,'darkGrey:&#160;colors.cpp'],['../colors_8h.html#ac745ea02ee7c667d37dbb70af4c9014f',1,'darkGrey:&#160;colors.cpp']]],
-  ['draw_3',['Draw',['../class_grid.html#aa55979d0fc9087c65e497453e1e861bc',1,'Grid::Draw()'],['../class_block.html#aff9a876805127586734c4f39910cf9a2',1,'Block::Draw()'],['../class_game.html#aad2c20e2c5529244095c50c238911e30',1,'Game::Draw()']]],
-  ['drawguide_4',['DrawGuide',['../guide_8cpp.html#a1e4aac02a186e7d6d39f0f89f71fc326',1,'DrawGuide(Font &amp;font):&#160;guide.cpp'],['../guide_8h.html#a1e4aac02a186e7d6d39f0f89f71fc326',1,'DrawGuide(Font &amp;font):&#160;guide.cpp']]]
+  ['canredo_0',['CanRedo',['../class_block_history.html#a15022c3bd1d0184bb1ac833742baba9c',1,'BlockHistory']]],
+  ['canundo_1',['CanUndo',['../class_block_history.html#a921bc75656ce816fd93a278d99d87f43',1,'BlockHistory']]],
+  ['cellsize_2',['cellSize',['../class_block.html#a38fd7bd64af431ccd6fe2d22cb122443',1,'Block']]],
+  ['clear_3',['Clear',['../class_block_history.html#afff10347b277a319bcf63fdc5732e771',1,'BlockHistory']]],
+  ['clear_5fsound_5f_4',['clear_sound_',['../class_audio_service.html#a2e6777e6569e4d4b419b0326c20e06bb',1,'AudioService']]],
+  ['clear_5fsound_5fpath_5',['CLEAR_SOUND_PATH',['../_audio_service_8cpp.html#a8de609d278857e08fba0ee04727b5c84',1,'AudioService.cpp']]],
+  ['clearcell_6',['ClearCell',['../class_grid.html#aab7fc6e8a0b8a922c7035f4423cf2458',1,'Grid']]],
+  ['clearfulllines_7',['ClearFullLines',['../class_grid.html#a29d83e071468b70943613aa758f9476d',1,'Grid']]],
+  ['clearlines_8',['ClearLines',['../class_game_logic_service.html#a02349c36655df8040a1574f706255034',1,'GameLogicService']]],
+  ['clone_9',['Clone',['../class_block.html#a38d890966dfeaa3ec332899f9428555f',1,'Block::Clone()'],['../class_i_block.html#a39c6445ab3b91e120cbdd098e2867814',1,'IBlock::Clone()'],['../class_j_block.html#ad851644da3b1ce43e99d19447670ad57',1,'JBlock::Clone()'],['../class_l_block.html#aa6a0bade55865e762a3291a11a4ba6d3',1,'LBlock::Clone()'],['../class_o_block.html#a219c400a479a68171f73ed76a462fcb0',1,'OBlock::Clone()'],['../class_s_block.html#a23543416110b3da286545a34860ad4c6',1,'SBlock::Clone()'],['../class_t_block.html#a9aa05effb8abe032b96a9c4f765f07a8',1,'TBlock::Clone()'],['../class_z_block.html#afd5dc0689963eb16ea9f5e248786b2de',1,'ZBlock::Clone()']]],
+  ['color_2ecpp_10',['Color.cpp',['../_color_8cpp.html',1,'']]],
+  ['color_2eh_11',['Color.h',['../_color_8h.html',1,'']]],
+  ['column_12',['column',['../struct_position.html#a7bf46f67257b7fd5d6ced23095d15846',1,'Position']]],
+  ['createblock_13',['CreateBlock',['../class_block_factory.html#a762086ec7b4b74f8b6c29e6922cd183f',1,'BlockFactory']]],
+  ['createrandomblock_14',['CreateRandomBlock',['../class_block_factory.html#a7d7e410223727635f067b6c8550e3f00',1,'BlockFactory']]],
+  ['current_5fblock_5f_15',['current_block_',['../class_game_controller.html#a633f68f7d23df149d896f0b86f5f35ba',1,'GameController']]],
+  ['cyan_16',['cyan',['../_color_8cpp.html#ad60c49a5c154c88304b546e16e47ed4e',1,'cyan:&#160;Color.cpp'],['../_color_8h.html#ad60c49a5c154c88304b546e16e47ed4e',1,'cyan:&#160;Color.cpp']]]
 ];
