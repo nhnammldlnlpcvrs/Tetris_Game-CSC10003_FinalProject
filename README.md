@@ -83,16 +83,14 @@ git push origin --delete feature/your-feature-name
 
 ## How to Compile and Run
 
-- Install the *raylib* library  
+### Install the *raylib* library
+- **MacOS:** `brew install raylib`  
+- **Linux:** `sudo apt install libraylib-dev`  
+- **Windows (MSYS2):** `pacman -S mingw-w64-x86_64-raylib`  
 
-- Download the *resource* folder  
-- Open the *Makefile*  
-- Run the following command in your terminal:  
-
+### Build with Makefile
+Mở file **Makefile** từ thư mục gốc (cùng cấp với thư mục `resource`), sau đó chạy:  
 ```bash
-  make
-
-  ./tetris
-```
-
-- (Optional) Run file source.sln on Visual Studio
+make clean   # Nếu có file .o, cần clean trước
+make
+./tetris
