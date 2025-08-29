@@ -1,41 +1,6 @@
-# Ignore build results
-*.exe
-*.obj
-*.pdb
-*.ilk
-*.ipch
-*.aps
-*.pch
-*.log
-*.tlog
-*.sbr
-*.sdf
-*.db
-*.user
-*.suo
-*.cache
-*.tmp
-*.bak
-*.lastbuildstate
-
-# Visual Studio folders
-.vs/
+build/
+cmake-build/
 x64/
-Debug/
-Release/
-*.VC.db
-*.VC.opendb
-
-# Build intermediate folders
-ipch/
-*.tlog/
-*.idb
-*.ipdb
-
-# CMake
-CMakeFiles/
-CMakeCache.txt
-
-# Others
-*.sln.docstates
+*.exe
+main
 raylib/
