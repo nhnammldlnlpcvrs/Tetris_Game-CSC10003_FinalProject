@@ -87,7 +87,7 @@ Run Tetris (Raylib) using Docker and Docker Compose. Works on Windows, Linux, an
 **Note:** Run source.sln on Visual Studio to play demo game
 
 ```bash
-git clone https://github.com/nhnammldlnlpcvrs/CSC10003_FinalProject.git
+git clone https://github.com/nhnammldlnlpcvrs/Tetris_Game-CSC10003_FinalProject.git
 ```
 ## Prerequisites
 - Docker & Docker Compose installed
